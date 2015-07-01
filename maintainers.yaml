@@ -1,0 +1,439 @@
+# Maintainer data for the mer-core git repos at https://git.merproject.org/
+
+# This is a yaml file so be careful with the syntax.
+
+- team :
+    name: Application startup boosters
+    roles:
+      - owner : [jbrooks, thp]
+- package-group:
+    team : Application startup boosters
+    packages :
+     - name: mapplauncherd
+     - name: mapplauncherd-booster-qtcomponents
+     - name: mapplauncherd-qt
+
+- team :
+    name: Audio resources
+    roles:
+      - owner : [jhamalai]
+- package-group:
+    team : Audio resources
+    packages :
+     - name: libaudioresource
+     - name: libaudioresource-qt
+     - name: libdres-ohm
+     - name: libprolog
+     - name: libtrace-ohm
+     - name: ohm
+     - name: ohm-plugins-misc
+     - name: ohm-rule-engine
+     - name: policy-settings-common
+     - name: swi-prolog
+
+- team :
+    name: Bluez
+    roles:
+      - owner : [hmallat]
+- package-group:
+    team : Bluez
+    packages :
+     - name: bluez
+     - name: bluez-hcidump
+     - name: libbluez-qt
+     - name: obex-capability
+     - name: obexd
+     - name: openobex
+
+- team :
+    name: Calendar
+    roles:
+      - owner : [pgerdt, pvuorela]
+- package-group:
+    team : Calendar
+    packages :
+     - name: kcalcore
+     - name: mkcal
+
+- team :
+    name: Connectivity
+    roles:
+      - owner : [lpotter, tigeli, monich]
+      - master : [hmallat, amccarthy, martinjones]
+- package-group:
+    team : Connectivity
+    packages :
+     - name: connectionagent
+     - name: connman
+     - name: crda
+     - name: libconnman-qt
+     - name: mobile-broadband-provider-info
+     - name: wireless-regdb
+     - name: wpa_supplicant
+
+- team :
+    name: Contacts
+    roles:
+      - owner : [chriadam, mvogt, jbrooks]
+      - master : [monich, rbraakman, jpetrell, martinjones]
+- package-group:
+    team : Contacts
+    packages :
+     - name: commhistory-daemon
+     - name: contactsd
+     - name: libcommhistory
+
+- team :
+    name: Core-Statefs
+    roles:
+      - owner : [deztructor]
+- package-group:
+    team : Core-Statefs
+    packages :
+     - name: cor
+     - name: fuse
+     - name: statefs
+     - name: statefs-loader-qt
+     - name: statefs-providers
+     - name: statefs-qt
+
+- team :
+    name: Device state management
+    roles:
+      - owner : [spiiroin]
+      - master : [kjokinie, mkosola]
+- package-group:
+    team : Device state management
+    packages :
+     - name: dsme
+     - name: libdsme
+     - name: libiphb
+     - name: mce
+     - name: mce-dev
+     - name: nemo-keepalive
+
+- team :
+    name: Gecko based browser engine
+    roles:
+      - owner : [rozhkov]
+- package-group:
+    team : Gecko based browser engine
+    packages :
+     - name: embedlite-components
+     - name: gecko-dev
+     - name: qtmozembed
+     - name: yasm
+
+- team :
+    name: Keyboard input (Maliit)
+    roles:
+      - owner : [pvuorela]
+- package-group:
+    team : Keyboard input (Maliit)
+    packages :
+     - name: maliit-framework
+     - name: maliit-plugins
+
+- team :
+    name: Media indexing
+    roles:
+      - owner : [iamer]
+      - master : [martyone]
+- package-group:
+    team : Media indexing
+    packages :
+     - name: libqtsparql
+     - name: tracker
+     - name: tumbler
+
+- team :
+    name: Media playback and playlist
+    roles:
+      - owner : [tanty]
+- package-group:
+    team : Media playback and playlist
+    packages :
+     - name: grilo
+     - name: grilo-plugins
+     - name: qtgrilo
+     - name: taglib
+     - name: totem-pl-parser
+
+- team :
+    name: Middleware QML bindings
+    roles:
+      - owner : [w00t]
+      - master : [jbrooks, phdeswer, mvogt, martinjones, pgerdt, pvuorela, VDVsx, antseppa, spiiroin, adenexter]
+- package-group:
+    team : Middleware QML bindings
+    packages :
+     - name: mlite
+     - name: nemo-qml-plugin-accounts
+     - name: nemo-qml-plugin-calendar
+     - name: nemo-qml-plugin-configuration
+     - name: nemo-qml-plugin-connectivity
+     - name: nemo-qml-plugin-contacts
+     - name: nemo-qml-plugin-contextkit
+     - name: nemo-qml-plugin-dbus
+     - name: nemo-qml-plugin-email
+     - name: nemo-qml-plugin-messages
+     - name: nemo-qml-plugin-notifications
+     - name: nemo-qml-plugin-policy
+     - name: nemo-qml-plugin-signon
+     - name: nemo-qml-plugin-social
+     - name: nemo-qml-plugin-systemsettings
+     - name: nemo-qml-plugin-thumbnailer
+     - name: nemo-qml-plugin-time
+
+- team :
+    name: Non-graphical feedback
+    roles:
+      - owner : [jhamalai]
+- package-group:
+    team : Non-graphical feedback
+    packages :
+     - name: fftune
+     - name: libngf
+     - name: libngf-qt
+     - name: ngfd
+     - name: qt-mobility-haptics-ffmemless
+
+- team :
+    name: None
+    roles:
+      - owner : [lbt]
+- package-group:
+    team : None
+    packages :
+     - name: boardname
+     - name: build-compare
+     - name: busybox
+     - name: cairo
+     - name: gdb
+     - name: giflib
+     - name: glib2
+     - name: gst-plugins-bad-free
+     - name: gst-plugins-base
+     - name: libjpeg
+     - name: libyaml
+     - name: libzypp
+     - name: openssh
+     - name: pam
+     - name: pango
+     - name: pixman
+     - name: repomd-pattern-builder
+     - name: tzdata
+     - name: upower
+     - name: zlib
+
+- team :
+    name: Ofono
+    roles:
+      - owner : [monich, lpotter]
+      - master : [martinjones, martyone, jpetrell, tigeli, jhamalai]
+- package-group:
+    team : Ofono
+    packages :
+     - name: libqofono
+     - name: ofono
+     - name: tone-generator
+
+- team :
+    name: PackageKit
+    roles:
+      - owner : [thp]
+- package-group:
+    team : PackageKit
+    packages :
+     - name: PackageKit
+     - name: PackageKit-Qt
+     - name: Polkit
+     - name: polkit-qt-1
+
+- team :
+    name: Pulseaudio
+    roles:
+      - owner : [jhamalai]
+- package-group:
+    team : Pulseaudio
+    packages :
+     - name: libcanberra
+     - name: pulseaudio
+     - name: pulseaudio-modules-nemo
+     - name: pulseaudio-policy-enforcement
+     - name: sbc
+
+- team :
+    name: Python 3
+    roles:
+      - owner : [thp]
+- package-group:
+    team : Python 3
+    packages :
+     - name: pyotherside
+     - name: python3
+
+- team :
+    name: Qt
+    roles:
+      - owner : [w00t]
+      - master : [sletta, martinjones, mikkoh, giucam, lpotter]
+- package-group:
+    team : Qt
+    packages :
+     - name: qt
+     - name: qt5-qtdocgallery
+     - name: qtbase
+     - name: qtdeclarative
+     - name: qtfeedback
+     - name: qtjsbackend
+     - name: qtlocation
+     - name: qtmultimedia
+     - name: qtquick1
+     - name: qtscenegraph-adaptation
+     - name: qtsensors
+     - name: qtsvg
+     - name: qtsystems
+     - name: qttranslations
+     - name: qtwayland
+     - name: qtwebkit5
+     - name: qtxmlpatterns
+
+- team :
+    name: Resource framework
+    roles:
+      - owner : [jhamalai]
+- package-group:
+    team : Resource framework
+    packages :
+     - name: libresource
+     - name: libresourceqt
+
+- team :
+    name: SDL 2
+    roles:
+      - owner : [thp]
+- package-group:
+    team : SDL 2
+    packages :
+     - name: libsdl
+     - name: libsdl-gfx
+     - name: libsdl-image
+     - name: libsdl-mixer
+     - name: libsdl-net
+     - name: libsdl-sound
+     - name: libsdl-ttf
+
+- team :
+    name: Script and Backup
+    roles:
+      - owner : [deztructor]
+- package-group:
+    team : Script and Backup
+    packages :
+     - name: cutes-js
+     - name: cutes-qt
+     - name: the-vault
+
+- team :
+    name: Social media
+    roles:
+      - owner : [chriadam, antseppa]
+      - master : [sfietkonstantin]
+- package-group:
+    team : Social media
+    packages :
+     - name: libsailfishkeyprovider
+     - name: libsocialcache
+     - name: nemo-qml-plugin-signon
+
+- team :
+    name: Synchronization framework (Buteo)
+    roles:
+      - owner : [VDVsx, chriadam, monich]
+      - master : [antseppa, rbraakman, blam, sfietkonstantin, martyone]
+- package-group:
+    team : Synchronization framework (Buteo)
+    packages :
+     - name: buteo-mtp
+     - name: buteo-sync-plugin-caldav
+     - name: buteo-sync-plugin-carddav
+     - name: buteo-sync-plugins
+     - name: buteo-sync-plugins-social
+     - name: buteo-syncfw
+     - name: buteo-syncml
+
+- team :
+    name: Telepathy
+    roles:
+      - owner : [jbrooks]
+      - master : [chriadam]
+- package-group:
+    team : Telepathy
+    packages :
+     - name: telepathy-accounts-signon
+     - name: telepathy-farstream
+     - name: telepathy-gabble
+     - name: telepathy-glib
+     - name: telepathy-haze
+     - name: telepathy-mission-control
+     - name: telepathy-qt
+     - name: telepathy-rakia
+     - name: telepathy-ring
+
+- team :
+    name: Timed
+    roles:
+      - owner : [pgerdt]
+      - master : [monich]
+- package-group:
+    team : Timed
+    packages :
+     - name: timed
+     - name: tzdata-timed
+
+- team :
+    name: User management
+    roles:
+      - owner : [thp]
+- package-group:
+    team : User management
+    packages :
+     - name: libshadowutils
+     - name: password-manager
+
+- team :
+    name: Wayland Compositor
+    roles:
+      - owner : [w00t]
+      - master : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh]
+- package-group:
+    team : Wayland Compositor
+    packages :
+     - name: eventfeed
+     - name: libcontentaction
+     - name: lipstick
+
+- team :
+    name: Wayland related updates
+    roles:
+      - owner : [w00t, sletta]
+- package-group:
+    team : Wayland related updates
+    packages :
+     - name: libxkbcommon
+     - name: llvm
+     - name: mesa
+     - name: wayland
+     - name: xkeyboard-config
+
+- team :
+    name: systemd init system
+    roles:
+      - owner : [mkosola]
+- package-group:
+    team : systemd init system
+    packages :
+     - name: kmod
+     - name: systemd
+     - name: systemd-user-session-targets
