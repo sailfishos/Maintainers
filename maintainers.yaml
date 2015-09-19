@@ -5,7 +5,7 @@
 - team :
     name: Application startup boosters
     roles:
-      - owner : [jbrooks, thp]
+      - master : [jbrooks, thp]
 - package-group:
     team : Application startup boosters
     packages :
@@ -16,7 +16,7 @@
 - team :
     name: Audio resources
     roles:
-      - owner : [jhamalai]
+      - master : [jhamalai]
 - package-group:
     team : Audio resources
     packages :
@@ -34,7 +34,7 @@
 - team :
     name: Bluez
     roles:
-      - owner : [hmallat]
+      - master : [hmallat]
 - package-group:
     team : Bluez
     packages :
@@ -48,7 +48,7 @@
 - team :
     name: Calendar
     roles:
-      - owner : [pgerdt, pvuorela]
+      - master : [pgerdt, pvuorela]
 - package-group:
     team : Calendar
     packages :
@@ -58,8 +58,8 @@
 - team :
     name: Connectivity
     roles:
-      - owner : [lpotter, tigeli, monich]
-      - master : [hmallat, amccarthy, martinjones]
+      - master : [lpotter, tigeli, slava]
+      - developer : [hmallat, amccarthy, martinjones]
 - package-group:
     team : Connectivity
     packages :
@@ -74,8 +74,8 @@
 - team :
     name: Contacts
     roles:
-      - owner : [chriadam, mvogt, jbrooks]
-      - master : [monich, rbraakman, jpetrell, martinjones]
+      - master : [chriadam, mvogt, jbrooks]
+      - developer : [slava, rbraakman, jpetrell, martinjones]
 - package-group:
     team : Contacts
     packages :
@@ -86,7 +86,7 @@
 - team :
     name: Core-Statefs
     roles:
-      - owner : [deztructor]
+      - master : [deztructor]
 - package-group:
     team : Core-Statefs
     packages :
@@ -100,8 +100,8 @@
 - team :
     name: Device state management
     roles:
-      - owner : [spiiroin]
-      - master : [kjokinie, mkosola]
+      - master : [spiiroin]
+      - developer : [kjokinie, mkosola]
 - package-group:
     team : Device state management
     packages :
@@ -115,7 +115,7 @@
 - team :
     name: Gecko based browser engine
     roles:
-      - owner : [rozhkov]
+      - master : [rozhkov]
 - package-group:
     team : Gecko based browser engine
     packages :
@@ -127,7 +127,7 @@
 - team :
     name: Keyboard input (Maliit)
     roles:
-      - owner : [pvuorela]
+      - master : [pvuorela]
 - package-group:
     team : Keyboard input (Maliit)
     packages :
@@ -137,8 +137,8 @@
 - team :
     name: Media indexing
     roles:
-      - owner : [iamer]
-      - master : [martyone]
+      - master : [iamer]
+      - developer : [martyone]
 - package-group:
     team : Media indexing
     packages :
@@ -149,7 +149,7 @@
 - team :
     name: Media playback and playlist
     roles:
-      - owner : [tanty]
+      - master : [tanty]
 - package-group:
     team : Media playback and playlist
     packages :
@@ -162,8 +162,8 @@
 - team :
     name: Middleware QML bindings
     roles:
-      - owner : [w00t]
-      - master : [jbrooks, phdeswer, mvogt, martinjones, pgerdt, pvuorela, VDVsx, antseppa, spiiroin, adenexter]
+      - master : [w00t]
+      - developer : [jbrooks, phdeswer, mvogt, martinjones, pgerdt, pvuorela, VDVsx, antseppa, spiiroin, adenexter]
 - package-group:
     team : Middleware QML bindings
     packages :
@@ -188,7 +188,7 @@
 - team :
     name: Non-graphical feedback
     roles:
-      - owner : [jhamalai]
+      - master : [jhamalai]
 - package-group:
     team : Non-graphical feedback
     packages :
@@ -201,7 +201,7 @@
 - team :
     name: None
     roles:
-      - owner : [lbt]
+      - master : [lbt]
 - package-group:
     team : None
     packages :
@@ -229,8 +229,8 @@
 - team :
     name: Ofono
     roles:
-      - owner : [monich, lpotter]
-      - master : [martinjones, martyone, jpetrell, tigeli, jhamalai]
+      - master : [slava, lpotter]
+      - developer : [martinjones, martyone, jpetrell, tigeli, jhamalai]
 - package-group:
     team : Ofono
     packages :
@@ -241,7 +241,7 @@
 - team :
     name: PackageKit
     roles:
-      - owner : [thp]
+      - master : [thp]
 - package-group:
     team : PackageKit
     packages :
@@ -253,7 +253,7 @@
 - team :
     name: Pulseaudio
     roles:
-      - owner : [jhamalai]
+      - master : [jhamalai]
 - package-group:
     team : Pulseaudio
     packages :
@@ -266,7 +266,7 @@
 - team :
     name: Python 3
     roles:
-      - owner : [thp]
+      - master : [thp]
 - package-group:
     team : Python 3
     packages :
@@ -276,8 +276,8 @@
 - team :
     name: Qt
     roles:
-      - owner : [w00t]
-      - master : [sletta, martinjones, mikkoh, giucam, lpotter]
+      - master : [w00t]
+      - developer : [sletta, martinjones, mikkoh, giucam, lpotter]
 - package-group:
     team : Qt
     packages :
@@ -302,7 +302,7 @@
 - team :
     name: Resource framework
     roles:
-      - owner : [jhamalai]
+      - master : [jhamalai]
 - package-group:
     team : Resource framework
     packages :
@@ -312,7 +312,7 @@
 - team :
     name: SDL 2
     roles:
-      - owner : [thp]
+      - master : [thp]
 - package-group:
     team : SDL 2
     packages :
@@ -327,7 +327,7 @@
 - team :
     name: Script and Backup
     roles:
-      - owner : [deztructor]
+      - master : [deztructor]
 - package-group:
     team : Script and Backup
     packages :
@@ -338,8 +338,8 @@
 - team :
     name: Social media
     roles:
-      - owner : [chriadam, antseppa]
-      - master : [sfietkonstantin]
+      - master : [chriadam, antseppa]
+      - developer : [sfietkonstantin]
 - package-group:
     team : Social media
     packages :
@@ -350,8 +350,8 @@
 - team :
     name: Synchronization framework (Buteo)
     roles:
-      - owner : [VDVsx, chriadam, monich]
-      - master : [antseppa, rbraakman, blam, sfietkonstantin, martyone]
+      - master : [VDVsx, chriadam, slava]
+      - developer : [antseppa, rbraakman, blam, sfietkonstantin, martyone]
 - package-group:
     team : Synchronization framework (Buteo)
     packages :
@@ -366,8 +366,8 @@
 - team :
     name: Telepathy
     roles:
-      - owner : [jbrooks]
-      - master : [chriadam]
+      - master : [jbrooks]
+      - developer : [chriadam]
 - package-group:
     team : Telepathy
     packages :
@@ -384,8 +384,8 @@
 - team :
     name: Timed
     roles:
-      - owner : [pgerdt]
-      - master : [monich]
+      - master : [pgerdt]
+      - developer : [slava]
 - package-group:
     team : Timed
     packages :
@@ -395,7 +395,7 @@
 - team :
     name: User management
     roles:
-      - owner : [thp]
+      - master : [thp]
 - package-group:
     team : User management
     packages :
@@ -405,8 +405,8 @@
 - team :
     name: Wayland Compositor
     roles:
-      - owner : [w00t]
-      - master : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh]
+      - master : [w00t]
+      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh]
 - package-group:
     team : Wayland Compositor
     packages :
@@ -417,7 +417,7 @@
 - team :
     name: Wayland related updates
     roles:
-      - owner : [w00t, sletta]
+      - master : [w00t, sletta]
 - package-group:
     team : Wayland related updates
     packages :
@@ -430,10 +430,19 @@
 - team :
     name: systemd init system
     roles:
-      - owner : [mkosola]
+      - master : [mkosola]
 - package-group:
     team : systemd init system
     packages :
      - name: kmod
      - name: systemd
      - name: systemd-user-session-targets
+
+- team :
+    name: fs
+    roles:
+      - master : [mkosola]
+- package-group:
+    team : fs
+    packages :
+     - name: squashfs-tools
