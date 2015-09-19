@@ -226,12 +226,12 @@
      - name: zlib
 
 - team :
-    name: Ofono
+    name: Telephony
     roles:
       - master : [slava, lpotter]
       - developer : [martinjones, martyone, jpetrell, tigeli, jhamalai]
 - package-group:
-    team : Ofono
+    team : Telephony
     packages :
      - name: libqofono
      - name: ofono
