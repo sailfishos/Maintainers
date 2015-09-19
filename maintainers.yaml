@@ -67,7 +67,6 @@
      - name: connman
      - name: crda
      - name: libconnman-qt
-     - name: mobile-broadband-provider-info
      - name: wireless-regdb
      - name: wpa_supplicant
 
@@ -237,6 +236,10 @@
      - name: libqofono
      - name: ofono
      - name: tone-generator
+     - name: mobile-broadband-provider-info
+     - name: provisioning-service
+     - name: libwspcodec
+     - name: mms-engine
 
 - team :
     name: PackageKit
