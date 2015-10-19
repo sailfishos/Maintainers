@@ -54,6 +54,7 @@
     packages :
      - name: kcalcore
      - name: mkcal
+     - name: libical
 
 - team :
     name: Connectivity
