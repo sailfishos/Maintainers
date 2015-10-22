@@ -371,7 +371,7 @@
     name: Telepathy
     roles:
       - master : [jbrooks]
-      - developer : [chriadam]
+      - developer : [chriadam,mvogt]
 - package-group:
     team : Telepathy
     packages :
