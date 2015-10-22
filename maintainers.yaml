@@ -163,7 +163,7 @@
     name: Middleware QML bindings
     roles:
       - master : [w00t]
-      - developer : [jbrooks, phdeswer, mvogt, martinjones, pgerdt, pvuorela, VDVsx, antseppa, spiiroin, adenexter]
+      - developer : [jbrooks, phdeswer, mvogt, martinjones, pgerdt, pvuorela, VDVsx, antseppa, spiiroin, adenexter, chriadam]
 - package-group:
     team : Middleware QML bindings
     packages :
