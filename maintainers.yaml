@@ -115,7 +115,7 @@
 - team :
     name: Gecko based browser engine
     roles:
-      - master : [rozhkov]
+      - master : [rozhkov, rainemak]
 - package-group:
     team : Gecko based browser engine
     packages :
