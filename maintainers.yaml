@@ -234,7 +234,12 @@
 - package-group:
     team : Telephony
     packages :
+     - name: libglibutil
+     - name: libgofono
      - name: libqofono
+     - name: libgofonoext
+     - name: libqofonoext
+     - name: libgrilio
      - name: ofono
      - name: tone-generator
      - name: mobile-broadband-provider-info
