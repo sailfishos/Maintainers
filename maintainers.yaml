@@ -250,10 +250,11 @@
 - team :
     name: PackageKit
     roles:
-      - master : [thp]
+      - master : [thp, pycage]
 - package-group:
     team : PackageKit
     packages :
+     - name: libzypp
      - name: PackageKit
      - name: PackageKit-Qt
      - name: Polkit
