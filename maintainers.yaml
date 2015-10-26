@@ -86,10 +86,11 @@
 - team :
     name: Core-Statefs
     roles:
-      - master : [deztructor]
+      - master : [deztructor, martinjones]
 - package-group:
     team : Core-Statefs
     packages :
+     - name: tut
      - name: cor
      - name: fuse
      - name: statefs
@@ -163,7 +164,7 @@
     name: Middleware QML bindings
     roles:
       - master : [w00t]
-      - developer : [jbrooks, phdeswer, mvogt, martinjones, pgerdt, pvuorela, VDVsx, antseppa, spiiroin, adenexter, chriadam]
+      - developer : [jbrooks, phdeswer, mvogt, martinjones, pgerdt, pvuorela, VDVsx, antseppa, spiiroin, adenexter, chriadam, deztructor]
 - package-group:
     team : Middleware QML bindings
     packages :
@@ -336,13 +337,15 @@
 - team :
     name: Script and Backup
     roles:
-      - master : [deztructor]
+      - master : [deztructor, giucam]
 - package-group:
     team : Script and Backup
     packages :
      - name: cutes-js
      - name: cutes-qt
+     - name: qtaround
      - name: the-vault
+     - name: vault
 
 - team :
     name: Social media
