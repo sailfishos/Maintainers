@@ -164,7 +164,7 @@
     name: Middleware QML bindings
     roles:
       - master : [w00t]
-      - developer : [jbrooks, phdeswer, mvogt, martinjones, pgerdt, pvuorela, VDVsx, antseppa, spiiroin, adenexter, chriadam, deztructor, jpetrell]
+      - developer : [jbrooks, phdeswer, mvogt, martinjones, pvuorela, VDVsx, antseppa, spiiroin, adenexter, chriadam, deztructor, jpetrell]
 - package-group:
     team : Middleware QML bindings
     packages :
@@ -397,8 +397,8 @@
 - team :
     name: Timed
     roles:
-      - master : [pgerdt]
-      - developer : [slava]
+      - master : [slava]
+      - developer : [slava, giucam]
 - package-group:
     team : Timed
     packages :
