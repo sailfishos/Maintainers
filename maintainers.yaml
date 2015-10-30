@@ -185,6 +185,7 @@
      - name: nemo-qml-plugin-systemsettings
      - name: nemo-qml-plugin-thumbnailer
      - name: nemo-qml-plugin-time
+     - name: libcontacts
 
 - team :
     name: Non-graphical feedback
