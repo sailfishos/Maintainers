@@ -289,7 +289,7 @@
     name: Qt
     roles:
       - master : [w00t]
-      - developer : [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell]
+      - developer : [gsletta, martinjones, mikkoh, giucam, lpotter, jpetrell]
 - package-group:
     team : Qt
     packages :
@@ -420,7 +420,7 @@
     name: Wayland Compositor
     roles:
       - master : [w00t]
-      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh]
+      - developer : [gsletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh]
 - package-group:
     team : Wayland Compositor
     packages :
@@ -431,7 +431,7 @@
 - team :
     name: Wayland related updates
     roles:
-      - master : [w00t, sletta]
+      - master : [w00t, gsletta]
 - package-group:
     team : Wayland related updates
     packages :
