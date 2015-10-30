@@ -164,7 +164,7 @@
     name: Middleware QML bindings
     roles:
       - master : [w00t]
-      - developer : [jbrooks, phdeswer, mvogt, martinjones, pvuorela, VDVsx, antseppa, spiiroin, adenexter, chriadam, deztructor, jpetrell]
+      - developer : [jbrooks, phdeswer, mvogt, martinjones, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell]
 - package-group:
     team : Middleware QML bindings
     packages :
@@ -352,7 +352,7 @@
 - team :
     name: Social media
     roles:
-      - master : [chriadam, antseppa]
+      - master : [chriadam, aseppala]
       - developer : [sfietkonstantin]
 - package-group:
     team : Social media
@@ -365,7 +365,7 @@
     name: Synchronization framework (Buteo)
     roles:
       - master : [VDVsx, chriadam, slava]
-      - developer : [antseppa, rbraakman, blam, sfietkonstantin, martyone]
+      - developer : [aseppala, rbraakman, blam, sfietkonstantin, martyone]
 - package-group:
     team : Synchronization framework (Buteo)
     packages :
