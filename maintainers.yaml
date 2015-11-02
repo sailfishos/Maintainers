@@ -380,8 +380,8 @@
 - team :
     name: Telepathy
     roles:
-      - master : [jbrooks]
-      - developer : [chriadam,mvogt]
+      - master : [jbrooks, mvogt, slava]
+      - developer : [chriadam]
 - package-group:
     team : Telepathy
     packages :
