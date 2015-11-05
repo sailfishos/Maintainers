@@ -460,3 +460,13 @@
     team : fs
     packages :
      - name: squashfs-tools
+
+- team : 
+    name : usb
+    roles:
+      - master : [phdeswer]
+- package-group:
+    team : usb
+    packages :
+     - name: usb-moded
+
