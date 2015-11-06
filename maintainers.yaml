@@ -471,3 +471,12 @@
     packages :
      - name: usb-moded
 
+- team :
+    name: multimedia
+    roles:
+      - master : [msameer]
+      - developer : [giucam]
+- package-group:
+    team : multimedia
+    packages :
+     - name: nemo-qtmultimedia-plugins
