@@ -164,7 +164,8 @@
     name: Middleware QML bindings
     roles:
       - master : [w00t]
-      - developer : [jbrooks, phdeswer, mvogt, martinjones, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell]
+      - developer : [jbrooks, phdeswer, mvogt, martinjones, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja]
+
 - package-group:
     team : Middleware QML bindings
     packages :
@@ -420,7 +421,7 @@
     name: Wayland Compositor
     roles:
       - master : [w00t]
-      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh]
+      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja]
 - package-group:
     team : Wayland Compositor
     packages :
