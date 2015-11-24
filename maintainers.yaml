@@ -411,11 +411,13 @@
     name: User management
     roles:
       - master : [thp]
+      - developer : [jpetrell]
 - package-group:
     team : User management
     packages :
      - name: libshadowutils
      - name: password-manager
+     - name: ssu
 
 - team :
     name: Wayland Compositor
