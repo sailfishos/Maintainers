@@ -72,7 +72,7 @@
      - name: wpa_supplicant
 
 - team :
-    name: Contacts
+    name: Contacts and communication middleware
     roles:
       - master : [chriadam, mvogt, jbrooks]
       - developer : [slava, rbraakman, jpetrell, martinjones]
@@ -80,8 +80,10 @@
     team : Contacts
     packages :
      - name: commhistory-daemon
-     - name: contactsd
      - name: libcommhistory
+     - name: contactsd
+     - name: qtcontacts-sqlite
+     - name: libcontacts
 
 - team :
     name: Core-Statefs
@@ -186,7 +188,6 @@
      - name: nemo-qml-plugin-systemsettings
      - name: nemo-qml-plugin-thumbnailer
      - name: nemo-qml-plugin-time
-     - name: libcontacts
 
 - team :
     name: Non-graphical feedback
