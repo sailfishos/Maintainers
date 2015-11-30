@@ -77,7 +77,7 @@
       - master : [chriadam, mvogt, jbrooks]
       - developer : [slava, rbraakman, jpetrell, martinjones]
 - package-group:
-    team : Contacts
+    team : Contacts and communication middleware
     packages :
      - name: commhistory-daemon
      - name: libcommhistory
