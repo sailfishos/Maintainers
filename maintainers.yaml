@@ -16,7 +16,7 @@
 - team :
     name: Audio resources
     roles:
-      - master : [jhamalai]
+      - master : [jusa]
 - package-group:
     team : Audio resources
     packages :
@@ -193,7 +193,7 @@
 - team :
     name: Non-graphical feedback
     roles:
-      - master : [jhamalai]
+      - master : [jusa]
 - package-group:
     team : Non-graphical feedback
     packages :
@@ -235,7 +235,7 @@
     name: Telephony
     roles:
       - master : [slava, lpotter]
-      - developer : [martinjones, martyone, jpetrell, tigeli, jhamalai]
+      - developer : [martinjones, martyone, jpetrell, tigeli, jusa]
 - package-group:
     team : Telephony
     packages :
@@ -268,7 +268,7 @@
 - team :
     name: Pulseaudio
     roles:
-      - master : [jhamalai]
+      - master : [jusa]
 - package-group:
     team : Pulseaudio
     packages :
@@ -317,7 +317,7 @@
 - team :
     name: Resource framework
     roles:
-      - master : [jhamalai]
+      - master : [jusa]
 - package-group:
     team : Resource framework
     packages :
