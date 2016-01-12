@@ -230,6 +230,7 @@
      - name: tzdata
      - name: upower
      - name: zlib
+     - name: mer-qdoc-template
 
 - team :
     name: Telephony
@@ -484,3 +485,6 @@
     team : multimedia
     packages :
      - name: nemo-qtmultimedia-plugins
+     - name: gst-plugins-bad
+     - name: gst-plugins-good
+     - name: opus
