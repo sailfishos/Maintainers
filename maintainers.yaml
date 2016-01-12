@@ -89,6 +89,7 @@
     name: Core-Statefs
     roles:
       - master : [deztructor, martinjones]
+      - developer : [slava, jusa]
 - package-group:
     team : Core-Statefs
     packages :
