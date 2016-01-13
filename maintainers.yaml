@@ -208,6 +208,7 @@
     name: None
     roles:
       - master : [lbt]
+      - developer: [kjokinie]
 - package-group:
     team : None
     packages :
@@ -226,6 +227,7 @@
      - name: openssh
      - name: pam
      - name: pango
+     - name: pigz
      - name: pixman
      - name: repomd-pattern-builder
      - name: tzdata
