@@ -66,6 +66,7 @@
     packages :
      - name: connectionagent
      - name: connman
+     - name: pacrunner
      - name: crda
      - name: libconnman-qt
      - name: wireless-regdb
