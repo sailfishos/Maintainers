@@ -235,6 +235,8 @@
      - name: upower
      - name: zlib
      - name: mer-qdoc-template
+     - name: fontconfig
+     - name: freetype
 
 - team :
     name: Telephony
