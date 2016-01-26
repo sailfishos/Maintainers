@@ -209,7 +209,7 @@
     name: None
     roles:
       - master : [lbt]
-      - developer: [kjokinie]
+      - developer: [kjokinie, pvuorela]
 - package-group:
     team : None
     packages :
@@ -235,6 +235,8 @@
      - name: upower
      - name: zlib
      - name: mer-qdoc-template
+     - name: fontconfig
+     - name: freetype
 
 - team :
     name: Telephony
@@ -430,7 +432,7 @@
     name: Wayland Compositor
     roles:
       - master : [w00t]
-      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak]
+      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela]
 - package-group:
     team : Wayland Compositor
     packages :
@@ -442,6 +444,7 @@
     name: Wayland related updates
     roles:
       - master : [w00t, sletta]
+      - developer: [pvuorela]
 - package-group:
     team : Wayland related updates
     packages :
