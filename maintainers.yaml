@@ -76,7 +76,7 @@
     name: Contacts and communication middleware
     roles:
       - master : [chriadam, mvogt, jbrooks]
-      - developer : [slava, rbraakman, jpetrell, martinjones]
+      - developer : [slava, rbraakman, jpetrell, martinjones, rainemak]
 - package-group:
     team : Contacts and communication middleware
     packages :
