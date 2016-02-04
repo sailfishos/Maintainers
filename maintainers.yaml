@@ -76,10 +76,11 @@
     name: Contacts and communication middleware
     roles:
       - master : [chriadam, mvogt, jbrooks]
-      - developer : [slava, rbraakman, jpetrell, martinjones, rainemak]
+      - developer : [slava, rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa]
 - package-group:
     team : Contacts and communication middleware
     packages :
+     - name: voicecall
      - name: commhistory-daemon
      - name: libcommhistory
      - name: contactsd
@@ -241,7 +242,7 @@
 - team :
     name: Telephony
     roles:
-      - master : [slava, lpotter]
+      - master : [slava, lpotter, jpoutiai]
       - developer : [martinjones, martyone, jpetrell, tigeli, jusa]
 - package-group:
     team : Telephony
@@ -391,7 +392,7 @@
     name: Telepathy
     roles:
       - master : [jbrooks, mvogt, slava]
-      - developer : [chriadam]
+      - developer : [chriadam, jpoutiai, jusa]
 - package-group:
     team : Telepathy
     packages :
