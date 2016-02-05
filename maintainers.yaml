@@ -410,7 +410,7 @@
     name: Timed
     roles:
       - master : [slava]
-      - developer : [slava, giucam]
+      - developer : [slava, giucam, chriadam]
 - package-group:
     team : Timed
     packages :
