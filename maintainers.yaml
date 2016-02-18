@@ -35,6 +35,7 @@
     name: Bluez
     roles:
       - master : [hmallat]
+      - developer : [jpoutiai, jusa, slava]
 - package-group:
     team : Bluez
     packages :
