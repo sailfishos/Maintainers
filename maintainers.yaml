@@ -49,7 +49,7 @@
 - team :
     name: Calendar
     roles:
-      - master : [pgerdt, pvuorela]
+      - master : [pgerdt, pvuorela, chriadam]
 - package-group:
     team : Calendar
     packages :
