@@ -411,7 +411,7 @@
     name: Timed
     roles:
       - master : [slava]
-      - developer : [slava, giucam, chriadam]
+      - developer : [slava, giucam, chriadam, spiiroin]
 - package-group:
     team : Timed
     packages :
