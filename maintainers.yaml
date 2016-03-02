@@ -87,6 +87,7 @@
      - name: contactsd
      - name: qtcontacts-sqlite
      - name: libcontacts
+     - name: messagingframework
 
 - team :
     name: Core-Statefs
