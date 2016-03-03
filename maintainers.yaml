@@ -304,7 +304,7 @@
     name: Qt
     roles:
       - master : [w00t]
-      - developer : [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak]
+      - developer : [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt]
 - package-group:
     team : Qt
     packages :
