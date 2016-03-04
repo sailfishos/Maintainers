@@ -89,6 +89,7 @@
      - name: libcontacts
      - name: messagingframework
      - name: transfer-engine
+     - name: qtpim
 
 - team :
     name: Core-Statefs
@@ -148,7 +149,7 @@
     name: Media indexing
     roles:
       - master : [iamer]
-      - developer : [martyone]
+      - developer : [martyone, mvogt]
 - package-group:
     team : Media indexing
     packages :
@@ -303,7 +304,7 @@
     name: Qt
     roles:
       - master : [w00t]
-      - developer : [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak]
+      - developer : [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt]
 - package-group:
     team : Qt
     packages :
