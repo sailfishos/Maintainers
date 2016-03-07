@@ -380,7 +380,7 @@
     name: Synchronization framework (Buteo)
     roles:
       - master : [VDVsx, chriadam, slava]
-      - developer : [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin]
+      - developer : [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela]
 - package-group:
     team : Synchronization framework (Buteo)
     packages :
