@@ -484,6 +484,7 @@
     name : usb
     roles:
       - master : [phdeswer]
+      - developer : [mkosola]
 - package-group:
     team : usb
     packages :
