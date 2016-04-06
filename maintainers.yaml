@@ -483,12 +483,13 @@
 - team : 
     name : usb
     roles:
-      - master : [phdeswer]
-      - developer : [mkosola]
+      - master : [phdeswer, jpoutiai]
+      - developer : [mkosola, martinjones]
 - package-group:
     team : usb
     packages :
      - name: usb-moded
+     - name: libusb-moded-qt
 
 - team :
     name: multimedia
