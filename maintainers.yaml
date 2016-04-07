@@ -6,6 +6,7 @@
     name: Application startup boosters
     roles:
       - master : [jbrooks, thp]
+      - developer : [martinjones]
 - package-group:
     team : Application startup boosters
     packages :
