@@ -162,6 +162,7 @@
     name: Media playback and playlist
     roles:
       - master : [tanty]
+      - developer : [pvuorela]
 - package-group:
     team : Media playback and playlist
     packages :
