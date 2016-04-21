@@ -217,7 +217,7 @@
     name: None
     roles:
       - master : [lbt]
-      - developer: [kjokinie, pvuorela]
+      - developer: [kjokinie, pvuorela, rainemak]
 - package-group:
     team : None
     packages :
@@ -240,6 +240,7 @@
      - name: pixman
      - name: repomd-pattern-builder
      - name: tzdata
+     - name: sqlite
      - name: upower
      - name: zlib
      - name: mer-qdoc-template
