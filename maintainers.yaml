@@ -447,6 +447,7 @@
     packages :
      - name: eventfeed
      - name: libcontentaction
+     - name: xdg-utils
      - name: lipstick
 
 - team :
