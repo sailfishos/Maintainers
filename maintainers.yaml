@@ -488,7 +488,7 @@
     name : usb
     roles:
       - master : [phdeswer, jpoutiai]
-      - developer : [mkosola, martinjones]
+      - developer : [mkosola, martinjones, spiiroin]
 - package-group:
     team : usb
     packages :
