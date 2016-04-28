@@ -313,7 +313,7 @@
     team : Qt
     packages :
      - name: qt
-     - name: qt5-qtdocgallery
+     - name: qtdocgallery
      - name: qtbase
      - name: qtdeclarative
      - name: qtfeedback
