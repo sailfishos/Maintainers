@@ -413,6 +413,8 @@
      - name: telepathy-qt
      - name: telepathy-rakia
      - name: telepathy-ring
+     - name: libnice
+     - name: farstream
 
 - team :
     name: Timed
