@@ -507,3 +507,12 @@
      - name: gst-plugins-bad
      - name: gst-plugins-good
      - name: opus
+
+- team :
+    name: applications
+    roles:
+     - master: [pvuorela]
+- package-group:
+    packages :
+     - name: fingerterm
+
