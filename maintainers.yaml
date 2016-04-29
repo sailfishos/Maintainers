@@ -150,7 +150,7 @@
     name: Media indexing
     roles:
       - master : [iamer]
-      - developer : [martyone, mvogt]
+      - developer : [martyone, mvogt, pvuorela]
 - package-group:
     team : Media indexing
     packages :
