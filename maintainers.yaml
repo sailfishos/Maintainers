@@ -132,6 +132,7 @@
     team : Gecko based browser engine
     packages :
      - name: embedlite-components
+     - name: embedlite-components-search-engines
      - name: gecko-dev
      - name: qtmozembed
      - name: yasm
