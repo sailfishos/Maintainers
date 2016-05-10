@@ -443,7 +443,7 @@
     name: Wayland Compositor
     roles:
       - master : [w00t]
-      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela]
+      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa]
 - package-group:
     team : Wayland Compositor
     packages :
