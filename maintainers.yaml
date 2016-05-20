@@ -77,8 +77,8 @@
 - team :
     name: Contacts and communication middleware
     roles:
-      - master : [chriadam, mvogt, jbrooks]
-      - developer : [slava, rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam]
+      - master : [chriadam, mvogt, slava, jbrooks]
+      - developer : [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam]
 - package-group:
     team : Contacts and communication middleware
     packages :
@@ -87,6 +87,7 @@
      - name: libcommhistory
      - name: contactsd
      - name: qtcontacts-sqlite
+     - name: libaccounts-glib
      - name: libcontacts
      - name: messagingframework
      - name: transfer-engine
@@ -218,7 +219,7 @@
     name: None
     roles:
       - master : [lbt]
-      - developer: [kjokinie, pvuorela, rainemak]
+      - developer: [kjokinie, pvuorela, rainemak, slava]
 - package-group:
     team : None
     packages :
@@ -229,9 +230,11 @@
      - name: gdb
      - name: giflib
      - name: glib2
+     - name: glib-networking
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
      - name: libjpeg
+     - name: libsoup
      - name: libyaml
      - name: libzypp
      - name: openssh
