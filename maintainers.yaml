@@ -233,6 +233,7 @@
      - name: glib-networking
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
+     - name: libgsf
      - name: libjpeg
      - name: libsoup
      - name: libyaml
