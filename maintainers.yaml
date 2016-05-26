@@ -227,6 +227,7 @@
      - name: build-compare
      - name: busybox
      - name: cairo
+     - name: dconf
      - name: gdb
      - name: giflib
      - name: glib2
