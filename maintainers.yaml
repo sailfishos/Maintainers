@@ -261,6 +261,7 @@
 - package-group:
     team : Telephony
     packages :
+     - name: libdbuslog
      - name: libglibutil
      - name: libgofono
      - name: libqofono
