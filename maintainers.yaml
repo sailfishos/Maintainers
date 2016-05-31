@@ -232,6 +232,7 @@
      - name: giflib
      - name: glib2
      - name: glib-networking
+     - name: gnome-common
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
      - name: libgsf
