@@ -336,6 +336,10 @@
      - name: qtwayland
      - name: qtwebkit5
      - name: qtxmlpatterns
+     - name: qt3d
+     - name: qtconnectivity
+     - name: qtquickcontrols
+     - name: qttools
 
 - team :
     name: Resource framework
