@@ -340,6 +340,7 @@
      - name: qtconnectivity
      - name: qtquickcontrols
      - name: qttools
+     - name: qtscript
 
 - team :
     name: Resource framework
