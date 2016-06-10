@@ -51,6 +51,7 @@
     name: Calendar
     roles:
       - master : [pgerdt, pvuorela, chriadam]
+      - developer : [martinjones]
 - package-group:
     team : Calendar
     packages :
@@ -279,6 +280,7 @@
     name: PackageKit
     roles:
       - master : [thp, pycage]
+      - developer : [martinjones]
 - package-group:
     team : PackageKit
     packages :
@@ -384,19 +386,20 @@
     name: Social media
     roles:
       - master : [chriadam, aseppala]
-      - developer : [sfietkonstantin]
+      - developer : [sfietkonstantin, martinjones]
 - package-group:
     team : Social media
     packages :
      - name: libsailfishkeyprovider
      - name: libsocialcache
      - name: nemo-qml-plugin-signon
+     - name: libsignon
 
 - team :
     name: Synchronization framework (Buteo)
     roles:
       - master : [VDVsx, chriadam, slava]
-      - developer : [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak]
+      - developer : [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones]
 - package-group:
     team : Synchronization framework (Buteo)
     packages :
