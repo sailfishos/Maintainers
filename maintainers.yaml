@@ -238,6 +238,7 @@
      - name: gst-plugins-base
      - name: libgsf
      - name: libjpeg
+     - name: libmng
      - name: libsoup
      - name: libyaml
      - name: libzypp
