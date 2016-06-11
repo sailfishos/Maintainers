@@ -368,6 +368,7 @@
     name: Script and Backup
     roles:
       - master : [deztructor, giucam]
+      - developer : [martinjones]
 - package-group:
     team : Script and Backup
     packages :
@@ -376,6 +377,7 @@
      - name: qtaround
      - name: the-vault
      - name: vault
+     - name: gittin
 
 - team :
     name: Social media
