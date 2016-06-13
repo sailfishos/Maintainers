@@ -233,6 +233,7 @@
      - name: giflib
      - name: glib2
      - name: glib-networking
+     - name: gmp
      - name: gnome-common
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
@@ -242,11 +243,15 @@
      - name: libsoup
      - name: libyaml
      - name: libzypp
+     - name: mpc
+     - name: mpfr
      - name: openssh
      - name: pam
      - name: pango
      - name: pigz
      - name: pixman
+     - name: poppler
+     - name: python-imaging
      - name: repomd-pattern-builder
      - name: tzdata
      - name: sqlite
