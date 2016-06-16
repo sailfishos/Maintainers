@@ -153,11 +153,12 @@
     name: Media indexing
     roles:
       - master : [iamer]
-      - developer : [martyone, mvogt, pvuorela]
+      - developer : [martyone, mvogt, pvuorela, adenexter]
 - package-group:
     team : Media indexing
     packages :
      - name: libqtsparql
+     - name: thumbnaild
      - name: tracker
      - name: tumbler
 
