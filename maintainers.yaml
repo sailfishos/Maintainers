@@ -291,7 +291,7 @@
     name: Package management
     roles:
       - master : [thp, pycage]
-      - developer : [martinjones]
+      - developer : [martinjones, pvuorela]
 - package-group:
     team : Package management
     packages :
