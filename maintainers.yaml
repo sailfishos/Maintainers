@@ -238,6 +238,7 @@
      - name: gnome-common
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
+     - name: libgcrypt
      - name: libgsf
      - name: libjpeg
      - name: libmng
@@ -249,9 +250,11 @@
      - name: openssh
      - name: pam
      - name: pango
+     - name: pcre
      - name: pigz
      - name: pixman
      - name: poppler
+     - name: pygobject2
      - name: python-imaging
      - name: repomd-pattern-builder
      - name: tzdata
