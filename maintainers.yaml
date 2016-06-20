@@ -288,18 +288,19 @@
      - name: mms-engine
 
 - team :
-    name: PackageKit
+    name: Package management
     roles:
       - master : [thp, pycage]
       - developer : [martinjones]
 - package-group:
-    team : PackageKit
+    team : Package management
     packages :
      - name: libzypp
      - name: PackageKit
      - name: PackageKit-Qt
      - name: Polkit
      - name: polkit-qt-1
+     - name: rpm
 
 - team :
     name: Pulseaudio
