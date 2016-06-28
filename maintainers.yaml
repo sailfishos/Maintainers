@@ -15,6 +15,15 @@
      - name: mapplauncherd-qt
 
 - team :
+    name: applications
+    roles:
+     - master: [pvuorela]
+- package-group:
+    team: applications
+    packages :
+     - name: fingerterm
+
+- team :
     name: Audio resources
     roles:
       - master : [jusa]
@@ -126,6 +135,15 @@
      - name: nemo-keepalive
 
 - team :
+    name: fs
+    roles:
+      - master : [mkosola]
+- package-group:
+    team : fs
+    packages :
+     - name: squashfs-tools
+
+- team :
     name: Gecko based browser engine
     roles:
       - master : [rozhkov, rainemak]
@@ -181,7 +199,6 @@
     roles:
       - master : [w00t]
       - developer : [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak]
-
 - package-group:
     team : Middleware QML bindings
     packages :
@@ -203,6 +220,19 @@
      - name: nemo-qml-plugin-thumbnailer
      - name: nemo-qml-plugin-time
      - name: nemo-qml-plugin-filemanager
+
+- team :
+    name: multimedia
+    roles:
+      - master : [msameer]
+      - developer : [giucam]
+- package-group:
+    team : multimedia
+    packages :
+     - name: nemo-qtmultimedia-plugins
+     - name: gst-plugins-bad
+     - name: gst-plugins-good
+     - name: opus
 
 - team :
     name: Non-graphical feedback
@@ -264,28 +294,6 @@
      - name: mer-qdoc-template
      - name: fontconfig
      - name: freetype
-
-- team :
-    name: Telephony
-    roles:
-      - master : [slava, lpotter, jpoutiai]
-      - developer : [martinjones, martyone, jpetrell, tigeli, jusa]
-- package-group:
-    team : Telephony
-    packages :
-     - name: libdbuslog
-     - name: libglibutil
-     - name: libgofono
-     - name: libqofono
-     - name: libgofonoext
-     - name: libqofonoext
-     - name: libgrilio
-     - name: ofono
-     - name: tone-generator
-     - name: mobile-broadband-provider-info
-     - name: provisioning-service
-     - name: libwspcodec
-     - name: mms-engine
 
 - team :
     name: Package management
@@ -367,21 +375,6 @@
      - name: libresourceqt
 
 - team :
-    name: SDL 2
-    roles:
-      - master : [thp]
-- package-group:
-    team : SDL 2
-    packages :
-     - name: libsdl
-     - name: libsdl-gfx
-     - name: libsdl-image
-     - name: libsdl-mixer
-     - name: libsdl-net
-     - name: libsdl-sound
-     - name: libsdl-ttf
-
-- team :
     name: Script and Backup
     roles:
       - master : [deztructor, giucam]
@@ -395,6 +388,21 @@
      - name: the-vault
      - name: vault
      - name: gittin
+
+- team :
+    name: SDL 2
+    roles:
+      - master : [thp]
+- package-group:
+    team : SDL 2
+    packages :
+     - name: libsdl
+     - name: libsdl-gfx
+     - name: libsdl-image
+     - name: libsdl-mixer
+     - name: libsdl-net
+     - name: libsdl-sound
+     - name: libsdl-ttf
 
 - team :
     name: Social media
@@ -426,6 +434,17 @@
      - name: buteo-syncml
 
 - team :
+    name: systemd init system
+    roles:
+      - master : [mkosola]
+- package-group:
+    team : systemd init system
+    packages :
+     - name: kmod
+     - name: systemd
+     - name: systemd-user-session-targets
+
+- team :
     name: Telepathy
     roles:
       - master : [jbrooks, mvogt, slava]
@@ -446,6 +465,28 @@
      - name: farstream
 
 - team :
+    name: Telephony
+    roles:
+      - master : [slava, lpotter, jpoutiai]
+      - developer : [martinjones, martyone, jpetrell, tigeli, jusa]
+- package-group:
+    team : Telephony
+    packages :
+     - name: libdbuslog
+     - name: libglibutil
+     - name: libgofono
+     - name: libqofono
+     - name: libgofonoext
+     - name: libqofonoext
+     - name: libgrilio
+     - name: ofono
+     - name: tone-generator
+     - name: mobile-broadband-provider-info
+     - name: provisioning-service
+     - name: libwspcodec
+     - name: mms-engine
+
+- team :
     name: Timed
     roles:
       - master : [slava]
@@ -455,6 +496,17 @@
     packages :
      - name: timed
      - name: tzdata-timed
+
+- team :
+    name : usb
+    roles:
+      - master : [phdeswer, jpoutiai, mkosola]
+      - developer : [martinjones, spiiroin]
+- package-group:
+    team : usb
+    packages :
+     - name: usb-moded
+     - name: libusb-moded-qt
 
 - team :
     name: User management
@@ -494,57 +546,3 @@
      - name: mesa
      - name: wayland
      - name: xkeyboard-config
-
-- team :
-    name: systemd init system
-    roles:
-      - master : [mkosola]
-- package-group:
-    team : systemd init system
-    packages :
-     - name: kmod
-     - name: systemd
-     - name: systemd-user-session-targets
-
-- team :
-    name: fs
-    roles:
-      - master : [mkosola]
-- package-group:
-    team : fs
-    packages :
-     - name: squashfs-tools
-
-- team : 
-    name : usb
-    roles:
-      - master : [phdeswer, jpoutiai, mkosola]
-      - developer : [martinjones, spiiroin]
-- package-group:
-    team : usb
-    packages :
-     - name: usb-moded
-     - name: libusb-moded-qt
-
-- team :
-    name: multimedia
-    roles:
-      - master : [msameer]
-      - developer : [giucam]
-- package-group:
-    team : multimedia
-    packages :
-     - name: nemo-qtmultimedia-plugins
-     - name: gst-plugins-bad
-     - name: gst-plugins-good
-     - name: opus
-
-- team :
-    name: applications
-    roles:
-     - master: [pvuorela]
-- package-group:
-    team: applications
-    packages :
-     - name: fingerterm
-
