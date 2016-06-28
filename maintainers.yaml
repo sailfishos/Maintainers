@@ -251,7 +251,7 @@
     name: None
     roles:
       - master: [lbt]
-      - developer: [kjokinie, pvuorela, rainemak, slava]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh]
 - package-group:
     team: None
     packages:
@@ -270,6 +270,7 @@
      - name: gnome-common
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
+     - name: help2man
      - name: libgcrypt
      - name: libgsf
      - name: libjpeg
@@ -437,6 +438,7 @@
     name: systemd init system
     roles:
       - master: [mkosola]
+      - developer: [IZh]
 - package-group:
     team: systemd init system
     packages:
