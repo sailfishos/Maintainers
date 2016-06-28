@@ -65,8 +65,8 @@
     team: Calendar
     packages:
      - name: kcalcore
-     - name: mkcal
      - name: libical
+     - name: mkcal
 
 - team:
     name: Connectivity
@@ -78,9 +78,9 @@
     packages:
      - name: connectionagent
      - name: connman
-     - name: pacrunner
      - name: crda
      - name: libconnman-qt
+     - name: pacrunner
      - name: wireless-regdb
      - name: wpa_supplicant
 
@@ -92,16 +92,16 @@
 - package-group:
     team: Contacts and communication middleware
     packages:
-     - name: voicecall
      - name: commhistory-daemon
-     - name: libcommhistory
      - name: contactsd
-     - name: qtcontacts-sqlite
      - name: libaccounts-glib
+     - name: libcommhistory
      - name: libcontacts
      - name: messagingframework
-     - name: transfer-engine
+     - name: qtcontacts-sqlite
      - name: qtpim
+     - name: transfer-engine
+     - name: voicecall
 
 - team:
     name: Core-Statefs
@@ -111,13 +111,13 @@
 - package-group:
     team: Core-Statefs
     packages:
-     - name: tut
      - name: cor
      - name: fuse
      - name: statefs
      - name: statefs-loader-qt
      - name: statefs-providers
      - name: statefs-qt
+     - name: tut
 
 - team:
     name: Device state management
@@ -211,6 +211,7 @@
      - name: nemo-qml-plugin-contextkit
      - name: nemo-qml-plugin-dbus
      - name: nemo-qml-plugin-email
+     - name: nemo-qml-plugin-filemanager
      - name: nemo-qml-plugin-messages
      - name: nemo-qml-plugin-notifications
      - name: nemo-qml-plugin-policy
@@ -219,7 +220,6 @@
      - name: nemo-qml-plugin-systemsettings
      - name: nemo-qml-plugin-thumbnailer
      - name: nemo-qml-plugin-time
-     - name: nemo-qml-plugin-filemanager
 
 - team:
     name: multimedia
@@ -229,9 +229,9 @@
 - package-group:
     team: multimedia
     packages:
-     - name: nemo-qtmultimedia-plugins
      - name: gst-plugins-bad
      - name: gst-plugins-good
+     - name: nemo-qtmultimedia-plugins
      - name: opus
 
 - team:
@@ -260,6 +260,8 @@
      - name: busybox
      - name: cairo
      - name: dconf
+     - name: fontconfig
+     - name: freetype
      - name: gdb
      - name: giflib
      - name: glib2
@@ -275,6 +277,7 @@
      - name: libsoup
      - name: libyaml
      - name: libzypp
+     - name: mer-qdoc-template
      - name: mpc
      - name: mpfr
      - name: openssh
@@ -287,13 +290,10 @@
      - name: pygobject2
      - name: python-imaging
      - name: repomd-pattern-builder
-     - name: tzdata
      - name: sqlite
+     - name: tzdata
      - name: upower
      - name: zlib
-     - name: mer-qdoc-template
-     - name: fontconfig
-     - name: freetype
 
 - team:
     name: Package management
@@ -342,27 +342,27 @@
     team: Qt
     packages:
      - name: qt
-     - name: qtdocgallery
+     - name: qt3d
      - name: qtbase
+     - name: qtconnectivity
      - name: qtdeclarative
+     - name: qtdocgallery
      - name: qtfeedback
      - name: qtjsbackend
      - name: qtlocation
      - name: qtmultimedia
      - name: qtquick1
+     - name: qtquickcontrols
      - name: qtscenegraph-adaptation
+     - name: qtscript
      - name: qtsensors
      - name: qtsvg
      - name: qtsystems
+     - name: qttools
      - name: qttranslations
      - name: qtwayland
      - name: qtwebkit5
      - name: qtxmlpatterns
-     - name: qt3d
-     - name: qtconnectivity
-     - name: qtquickcontrols
-     - name: qttools
-     - name: qtscript
 
 - team:
     name: Resource framework
@@ -384,10 +384,10 @@
     packages:
      - name: cutes-js
      - name: cutes-qt
+     - name: gittin
      - name: qtaround
      - name: the-vault
      - name: vault
-     - name: gittin
 
 - team:
     name: SDL 2
@@ -413,9 +413,9 @@
     team: Social media
     packages:
      - name: libsailfishkeyprovider
+     - name: libsignon
      - name: libsocialcache
      - name: nemo-qml-plugin-signon
-     - name: libsignon
 
 - team:
     name: Synchronization framework (Buteo)
@@ -426,12 +426,12 @@
     team: Synchronization framework (Buteo)
     packages:
      - name: buteo-mtp
+     - name: buteo-syncfw
+     - name: buteo-syncml
      - name: buteo-sync-plugin-caldav
      - name: buteo-sync-plugin-carddav
      - name: buteo-sync-plugins
      - name: buteo-sync-plugins-social
-     - name: buteo-syncfw
-     - name: buteo-syncml
 
 - team:
     name: systemd init system
@@ -452,6 +452,8 @@
 - package-group:
     team: Telepathy
     packages:
+     - name: farstream
+     - name: libnice
      - name: telepathy-accounts-signon
      - name: telepathy-farstream
      - name: telepathy-gabble
@@ -461,8 +463,6 @@
      - name: telepathy-qt
      - name: telepathy-rakia
      - name: telepathy-ring
-     - name: libnice
-     - name: farstream
 
 - team:
     name: Telephony
@@ -475,16 +475,16 @@
      - name: libdbuslog
      - name: libglibutil
      - name: libgofono
-     - name: libqofono
      - name: libgofonoext
-     - name: libqofonoext
      - name: libgrilio
-     - name: ofono
-     - name: tone-generator
-     - name: mobile-broadband-provider-info
-     - name: provisioning-service
+     - name: libqofono
+     - name: libqofonoext
      - name: libwspcodec
      - name: mms-engine
+     - name: mobile-broadband-provider-info
+     - name: ofono
+     - name: provisioning-service
+     - name: tone-generator
 
 - team:
     name: Timed
@@ -505,8 +505,8 @@
 - package-group:
     team: usb
     packages:
-     - name: usb-moded
      - name: libusb-moded-qt
+     - name: usb-moded
 
 - team:
     name: User management
@@ -530,8 +530,8 @@
     packages:
      - name: eventfeed
      - name: libcontentaction
-     - name: xdg-utils
      - name: lipstick
+     - name: xdg-utils
 
 - team:
     name: Wayland related updates
