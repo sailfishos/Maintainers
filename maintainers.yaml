@@ -2,34 +2,34 @@
 
 # This is a yaml file so be careful with the syntax.
 
-- team :
+- team:
     name: Application startup boosters
     roles:
-      - master : [jbrooks, thp]
-      - developer : [martinjones]
+      - master: [jbrooks, thp]
+      - developer: [martinjones]
 - package-group:
-    team : Application startup boosters
-    packages :
+    team: Application startup boosters
+    packages:
      - name: mapplauncherd
      - name: mapplauncherd-booster-qtcomponents
      - name: mapplauncherd-qt
 
-- team :
+- team:
     name: applications
     roles:
      - master: [pvuorela]
 - package-group:
     team: applications
-    packages :
+    packages:
      - name: fingerterm
 
-- team :
+- team:
     name: Audio resources
     roles:
-      - master : [jusa]
+      - master: [jusa]
 - package-group:
-    team : Audio resources
-    packages :
+    team: Audio resources
+    packages:
      - name: libaudioresource
      - name: libaudioresource-qt
      - name: libdres-ohm
@@ -41,14 +41,14 @@
      - name: policy-settings-common
      - name: swi-prolog
 
-- team :
+- team:
     name: Bluez
     roles:
-      - master : [hmallat]
-      - developer : [jpoutiai, jusa, slava, blam]
+      - master: [hmallat]
+      - developer: [jpoutiai, jusa, slava, blam]
 - package-group:
-    team : Bluez
-    packages :
+    team: Bluez
+    packages:
      - name: bluez
      - name: bluez-hcidump
      - name: libbluez-qt
@@ -56,26 +56,26 @@
      - name: obexd
      - name: openobex
 
-- team :
+- team:
     name: Calendar
     roles:
-      - master : [pgerdt, pvuorela, chriadam]
-      - developer : [martinjones]
+      - master: [pgerdt, pvuorela, chriadam]
+      - developer: [martinjones]
 - package-group:
-    team : Calendar
-    packages :
+    team: Calendar
+    packages:
      - name: kcalcore
      - name: mkcal
      - name: libical
 
-- team :
+- team:
     name: Connectivity
     roles:
-      - master : [lpotter, tigeli, slava]
-      - developer : [hmallat, amccarthy, martinjones]
+      - master: [lpotter, tigeli, slava]
+      - developer: [hmallat, amccarthy, martinjones]
 - package-group:
-    team : Connectivity
-    packages :
+    team: Connectivity
+    packages:
      - name: connectionagent
      - name: connman
      - name: pacrunner
@@ -84,14 +84,14 @@
      - name: wireless-regdb
      - name: wpa_supplicant
 
-- team :
+- team:
     name: Contacts and communication middleware
     roles:
-      - master : [chriadam, mvogt, slava, jbrooks]
-      - developer : [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam]
+      - master: [chriadam, mvogt, slava, jbrooks]
+      - developer: [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam]
 - package-group:
-    team : Contacts and communication middleware
-    packages :
+    team: Contacts and communication middleware
+    packages:
      - name: voicecall
      - name: commhistory-daemon
      - name: libcommhistory
@@ -103,14 +103,14 @@
      - name: transfer-engine
      - name: qtpim
 
-- team :
+- team:
     name: Core-Statefs
     roles:
-      - master : [deztructor, martinjones]
-      - developer : [slava, jusa, mvogt]
+      - master: [deztructor, martinjones]
+      - developer: [slava, jusa, mvogt]
 - package-group:
-    team : Core-Statefs
-    packages :
+    team: Core-Statefs
+    packages:
      - name: tut
      - name: cor
      - name: fuse
@@ -119,14 +119,14 @@
      - name: statefs-providers
      - name: statefs-qt
 
-- team :
+- team:
     name: Device state management
     roles:
-      - master : [spiiroin]
-      - developer : [kjokinie, mkosola]
+      - master: [spiiroin]
+      - developer: [kjokinie, mkosola]
 - package-group:
-    team : Device state management
-    packages :
+    team: Device state management
+    packages:
      - name: dsme
      - name: libdsme
      - name: libiphb
@@ -134,74 +134,74 @@
      - name: mce-dev
      - name: nemo-keepalive
 
-- team :
+- team:
     name: fs
     roles:
-      - master : [mkosola]
+      - master: [mkosola]
 - package-group:
-    team : fs
-    packages :
+    team: fs
+    packages:
      - name: squashfs-tools
 
-- team :
+- team:
     name: Gecko based browser engine
     roles:
-      - master : [rozhkov, rainemak]
-      - developer : [jpetrell]
+      - master: [rozhkov, rainemak]
+      - developer: [jpetrell]
 - package-group:
-    team : Gecko based browser engine
-    packages :
+    team: Gecko based browser engine
+    packages:
      - name: embedlite-components
      - name: embedlite-components-search-engines
      - name: gecko-dev
      - name: qtmozembed
      - name: yasm
 
-- team :
+- team:
     name: Keyboard input (Maliit)
     roles:
-      - master : [pvuorela]
+      - master: [pvuorela]
 - package-group:
-    team : Keyboard input (Maliit)
-    packages :
+    team: Keyboard input (Maliit)
+    packages:
      - name: maliit-framework
      - name: maliit-plugins
 
-- team :
+- team:
     name: Media indexing
     roles:
-      - master : [iamer]
-      - developer : [martyone, mvogt, pvuorela, adenexter]
+      - master: [iamer]
+      - developer: [martyone, mvogt, pvuorela, adenexter]
 - package-group:
-    team : Media indexing
-    packages :
+    team: Media indexing
+    packages:
      - name: libqtsparql
      - name: thumbnaild
      - name: tracker
      - name: tumbler
 
-- team :
+- team:
     name: Media playback and playlist
     roles:
-      - master : [tanty]
-      - developer : [pvuorela]
+      - master: [tanty]
+      - developer: [pvuorela]
 - package-group:
-    team : Media playback and playlist
-    packages :
+    team: Media playback and playlist
+    packages:
      - name: grilo
      - name: grilo-plugins
      - name: qtgrilo
      - name: taglib
      - name: totem-pl-parser
 
-- team :
+- team:
     name: Middleware QML bindings
     roles:
-      - master : [w00t]
-      - developer : [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak]
+      - master: [w00t]
+      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak]
 - package-group:
-    team : Middleware QML bindings
-    packages :
+    team: Middleware QML bindings
+    packages:
      - name: mlite
      - name: nemo-qml-plugin-accounts
      - name: nemo-qml-plugin-calendar
@@ -221,40 +221,40 @@
      - name: nemo-qml-plugin-time
      - name: nemo-qml-plugin-filemanager
 
-- team :
+- team:
     name: multimedia
     roles:
-      - master : [msameer]
-      - developer : [giucam]
+      - master: [msameer]
+      - developer: [giucam]
 - package-group:
-    team : multimedia
-    packages :
+    team: multimedia
+    packages:
      - name: nemo-qtmultimedia-plugins
      - name: gst-plugins-bad
      - name: gst-plugins-good
      - name: opus
 
-- team :
+- team:
     name: Non-graphical feedback
     roles:
-      - master : [jusa]
+      - master: [jusa]
 - package-group:
-    team : Non-graphical feedback
-    packages :
+    team: Non-graphical feedback
+    packages:
      - name: fftune
      - name: libngf
      - name: libngf-qt
      - name: ngfd
      - name: qt-mobility-haptics-ffmemless
 
-- team :
+- team:
     name: None
     roles:
-      - master : [lbt]
+      - master: [lbt]
       - developer: [kjokinie, pvuorela, rainemak, slava]
 - package-group:
-    team : None
-    packages :
+    team: None
+    packages:
      - name: boardname
      - name: build-compare
      - name: busybox
@@ -295,14 +295,14 @@
      - name: fontconfig
      - name: freetype
 
-- team :
+- team:
     name: Package management
     roles:
-      - master : [thp, pycage]
-      - developer : [martinjones, pvuorela]
+      - master: [thp, pycage]
+      - developer: [martinjones, pvuorela]
 - package-group:
-    team : Package management
-    packages :
+    team: Package management
+    packages:
      - name: libzypp
      - name: PackageKit
      - name: PackageKit-Qt
@@ -310,37 +310,37 @@
      - name: polkit-qt-1
      - name: rpm
 
-- team :
+- team:
     name: Pulseaudio
     roles:
-      - master : [jusa]
+      - master: [jusa]
 - package-group:
-    team : Pulseaudio
-    packages :
+    team: Pulseaudio
+    packages:
      - name: libcanberra
      - name: pulseaudio
      - name: pulseaudio-modules-nemo
      - name: pulseaudio-policy-enforcement
      - name: sbc
 
-- team :
+- team:
     name: Python 3
     roles:
-      - master : [thp]
+      - master: [thp]
 - package-group:
-    team : Python 3
-    packages :
+    team: Python 3
+    packages:
      - name: pyotherside
      - name: python3
 
-- team :
+- team:
     name: Qt
     roles:
-      - master : [w00t]
-      - developer : [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam]
+      - master: [w00t]
+      - developer: [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam]
 - package-group:
-    team : Qt
-    packages :
+    team: Qt
+    packages:
      - name: qt
      - name: qtdocgallery
      - name: qtbase
@@ -364,24 +364,24 @@
      - name: qttools
      - name: qtscript
 
-- team :
+- team:
     name: Resource framework
     roles:
-      - master : [jusa]
+      - master: [jusa]
 - package-group:
-    team : Resource framework
-    packages :
+    team: Resource framework
+    packages:
      - name: libresource
      - name: libresourceqt
 
-- team :
+- team:
     name: Script and Backup
     roles:
-      - master : [deztructor, giucam]
-      - developer : [martinjones]
+      - master: [deztructor, giucam]
+      - developer: [martinjones]
 - package-group:
-    team : Script and Backup
-    packages :
+    team: Script and Backup
+    packages:
      - name: cutes-js
      - name: cutes-qt
      - name: qtaround
@@ -389,13 +389,13 @@
      - name: vault
      - name: gittin
 
-- team :
+- team:
     name: SDL 2
     roles:
-      - master : [thp]
+      - master: [thp]
 - package-group:
-    team : SDL 2
-    packages :
+    team: SDL 2
+    packages:
      - name: libsdl
      - name: libsdl-gfx
      - name: libsdl-image
@@ -404,27 +404,27 @@
      - name: libsdl-sound
      - name: libsdl-ttf
 
-- team :
+- team:
     name: Social media
     roles:
-      - master : [chriadam, aseppala]
-      - developer : [sfietkonstantin, martinjones]
+      - master: [chriadam, aseppala]
+      - developer: [sfietkonstantin, martinjones]
 - package-group:
-    team : Social media
-    packages :
+    team: Social media
+    packages:
      - name: libsailfishkeyprovider
      - name: libsocialcache
      - name: nemo-qml-plugin-signon
      - name: libsignon
 
-- team :
+- team:
     name: Synchronization framework (Buteo)
     roles:
-      - master : [VDVsx, chriadam, slava]
-      - developer : [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt]
+      - master: [VDVsx, chriadam, slava]
+      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt]
 - package-group:
-    team : Synchronization framework (Buteo)
-    packages :
+    team: Synchronization framework (Buteo)
+    packages:
      - name: buteo-mtp
      - name: buteo-sync-plugin-caldav
      - name: buteo-sync-plugin-carddav
@@ -433,25 +433,25 @@
      - name: buteo-syncfw
      - name: buteo-syncml
 
-- team :
+- team:
     name: systemd init system
     roles:
-      - master : [mkosola]
+      - master: [mkosola]
 - package-group:
-    team : systemd init system
-    packages :
+    team: systemd init system
+    packages:
      - name: kmod
      - name: systemd
      - name: systemd-user-session-targets
 
-- team :
+- team:
     name: Telepathy
     roles:
-      - master : [jbrooks, mvogt, slava]
-      - developer : [chriadam, jpoutiai, jusa, pvuorela]
+      - master: [jbrooks, mvogt, slava]
+      - developer: [chriadam, jpoutiai, jusa, pvuorela]
 - package-group:
-    team : Telepathy
-    packages :
+    team: Telepathy
+    packages:
      - name: telepathy-accounts-signon
      - name: telepathy-farstream
      - name: telepathy-gabble
@@ -464,14 +464,14 @@
      - name: libnice
      - name: farstream
 
-- team :
+- team:
     name: Telephony
     roles:
-      - master : [slava, lpotter, jpoutiai]
-      - developer : [martinjones, martyone, jpetrell, tigeli, jusa]
+      - master: [slava, lpotter, jpoutiai]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa]
 - package-group:
-    team : Telephony
-    packages :
+    team: Telephony
+    packages:
      - name: libdbuslog
      - name: libglibutil
      - name: libgofono
@@ -486,61 +486,61 @@
      - name: libwspcodec
      - name: mms-engine
 
-- team :
+- team:
     name: Timed
     roles:
-      - master : [slava]
-      - developer : [slava, giucam, chriadam, spiiroin]
+      - master: [slava]
+      - developer: [slava, giucam, chriadam, spiiroin]
 - package-group:
-    team : Timed
-    packages :
+    team: Timed
+    packages:
      - name: timed
      - name: tzdata-timed
 
-- team :
-    name : usb
+- team:
+    name: usb
     roles:
-      - master : [phdeswer, jpoutiai, mkosola]
-      - developer : [martinjones, spiiroin]
+      - master: [phdeswer, jpoutiai, mkosola]
+      - developer: [martinjones, spiiroin]
 - package-group:
-    team : usb
-    packages :
+    team: usb
+    packages:
      - name: usb-moded
      - name: libusb-moded-qt
 
-- team :
+- team:
     name: User management
     roles:
-      - master : [thp]
-      - developer : [jpetrell]
+      - master: [thp]
+      - developer: [jpetrell]
 - package-group:
-    team : User management
-    packages :
+    team: User management
+    packages:
      - name: libshadowutils
      - name: password-manager
      - name: ssu
 
-- team :
+- team:
     name: Wayland Compositor
     roles:
-      - master : [w00t]
-      - developer : [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa]
+      - master: [w00t]
+      - developer: [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa]
 - package-group:
-    team : Wayland Compositor
-    packages :
+    team: Wayland Compositor
+    packages:
      - name: eventfeed
      - name: libcontentaction
      - name: xdg-utils
      - name: lipstick
 
-- team :
+- team:
     name: Wayland related updates
     roles:
-      - master : [w00t, sletta]
+      - master: [w00t, sletta]
       - developer: [pvuorela]
 - package-group:
-    team : Wayland related updates
-    packages :
+    team: Wayland related updates
+    packages:
      - name: libxkbcommon
      - name: llvm
      - name: mesa
