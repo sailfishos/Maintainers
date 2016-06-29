@@ -161,6 +161,7 @@
     name: Keyboard input (Maliit)
     roles:
       - master: [pvuorela]
+      - developer: [martinjones]
 - package-group:
     team: Keyboard input (Maliit)
     packages:
