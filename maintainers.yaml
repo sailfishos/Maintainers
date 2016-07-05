@@ -1,6 +1,7 @@
 # Maintainer data for the mer-core git repos at https://git.merproject.org/
 
 # This is a yaml file so be careful with the syntax.
+# Also, use alphabetical ordering for groups and packages.
 
 - team:
     name: Application startup boosters
@@ -51,6 +52,7 @@
     packages:
      - name: bluez
      - name: bluez-hcidump
+     - name: kf5bluezqt
      - name: libbluez-qt
      - name: obex-capability
      - name: obexd
@@ -380,10 +382,11 @@
     name: Script and Backup
     roles:
       - master: [deztructor, giucam]
-      - developer: [martinjones]
+      - developer: [martinjones, blam]
 - package-group:
     team: Script and Backup
     packages:
+     - name: archivemount
      - name: cutes-js
      - name: cutes-qt
      - name: gittin
