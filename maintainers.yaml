@@ -272,6 +272,7 @@
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
      - name: help2man
+     - name: lcms
      - name: libgcrypt
      - name: libgsf
      - name: libjpeg
