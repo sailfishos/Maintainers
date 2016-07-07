@@ -278,6 +278,7 @@
      - name: libjpeg
      - name: libmng
      - name: libsoup
+     - name: libxslt
      - name: libyaml
      - name: libzypp
      - name: mer-qdoc-template
