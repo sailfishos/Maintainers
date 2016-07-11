@@ -195,6 +195,7 @@
      - name: grilo
      - name: grilo-plugins
      - name: qtgrilo
+     - name: rygel
      - name: taglib
      - name: totem-pl-parser
 
