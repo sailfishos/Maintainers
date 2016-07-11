@@ -252,7 +252,7 @@
     name: None
     roles:
       - master: [lbt]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage]
 - package-group:
     team: None
     packages:
