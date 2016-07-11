@@ -147,7 +147,7 @@
     name: Gecko based browser engine
     roles:
       - master: [rozhkov, rainemak]
-      - developer: [jpetrell]
+      - developer: [jpetrell, chriadam]
 - package-group:
     team: Gecko based browser engine
     packages:
