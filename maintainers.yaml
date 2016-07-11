@@ -176,6 +176,7 @@
 - package-group:
     team: Media indexing
     packages:
+     - name: libmediaart
      - name: libqtsparql
      - name: thumbnaild
      - name: tracker
