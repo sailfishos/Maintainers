@@ -295,6 +295,7 @@
      - name: python-imaging
      - name: repomd-pattern-builder
      - name: sqlite
+     - name: sd-utils
      - name: tzdata
      - name: upower
      - name: zlib
