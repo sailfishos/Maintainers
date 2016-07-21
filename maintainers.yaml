@@ -203,7 +203,7 @@
     name: Middleware QML bindings
     roles:
       - master: [w00t]
-      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak]
+      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson]
 - package-group:
     team: Middleware QML bindings
     packages:
