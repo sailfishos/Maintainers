@@ -271,6 +271,7 @@
      - name: giflib
      - name: glib2
      - name: glib-networking
+     - name: gmime
      - name: gmp
      - name: gnome-common
      - name: gst-plugins-bad-free
