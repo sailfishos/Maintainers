@@ -218,6 +218,7 @@
      - name: nemo-qml-plugin-email
      - name: nemo-qml-plugin-filemanager
      - name: nemo-qml-plugin-messages
+     - name: nemo-qml-plugin-models
      - name: nemo-qml-plugin-notifications
      - name: nemo-qml-plugin-policy
      - name: nemo-qml-plugin-signon
