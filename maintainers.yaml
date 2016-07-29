@@ -417,6 +417,16 @@
      - name: libsdl-ttf
 
 - team:
+    name: Sensors
+    roles:
+      - master: [lpotter]
+      - developer: [slava]
+- package-group:
+    team: Sensors
+    packages:
+     - name: sensorfw-qt5
+
+- team:
     name: Social media
     roles:
       - master: [chriadam, aseppala]
