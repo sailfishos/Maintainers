@@ -81,6 +81,7 @@
      - name: connectionagent
      - name: connman
      - name: crda
+     - name: iw
      - name: libconnman-qt
      - name: pacrunner
      - name: wireless-regdb
