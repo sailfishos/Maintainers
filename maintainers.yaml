@@ -522,6 +522,17 @@
      - name: tzdata-timed
 
 - team:
+    name: Toolchain
+    roles:
+      - master: [sage]
+      - developer: [IZh]
+- package-group:
+    team: Toolchain
+    packages:
+     - name: automake
+     - name: libtool
+
+- team:
     name: usb
     roles:
       - master: [phdeswer, jpoutiai, mkosola]
