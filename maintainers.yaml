@@ -464,6 +464,7 @@
 - package-group:
     team: systemd init system
     packages:
+     - name: dbus
      - name: kmod
      - name: systemd
      - name: systemd-user-session-targets
