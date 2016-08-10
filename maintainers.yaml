@@ -238,6 +238,7 @@
     team: multimedia
     packages:
      - name: gst-plugins-bad
+     - name: gst-plugins-base
      - name: gst-plugins-good
      - name: nemo-qtmultimedia-plugins
      - name: opus
