@@ -175,7 +175,7 @@
     name: Media indexing
     roles:
       - master: [iamer]
-      - developer: [martyone, mvogt, pvuorela, adenexter]
+      - developer: [martyone, mvogt, pvuorela, adenexter, abranson]
 - package-group:
     team: Media indexing
     packages:
