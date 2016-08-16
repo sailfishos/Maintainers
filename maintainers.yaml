@@ -475,7 +475,7 @@
     name: Telepathy
     roles:
       - master: [jbrooks, mvogt, slava]
-      - developer: [chriadam, jpoutiai, jusa, pvuorela]
+      - developer: [chriadam, jpoutiai, jusa, pvuorela, martinjones]
 - package-group:
     team: Telepathy
     packages:
