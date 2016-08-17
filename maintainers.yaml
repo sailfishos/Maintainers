@@ -280,6 +280,7 @@
      - name: gnome-common
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
+     - name: harfbuzz
      - name: help2man
      - name: lcms
      - name: libgcrypt
@@ -302,6 +303,7 @@
      - name: poppler
      - name: pygobject2
      - name: python-imaging
+     - name: ragel
      - name: repomd-pattern-builder
      - name: sqlite
      - name: sd-utils
