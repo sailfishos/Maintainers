@@ -269,6 +269,7 @@
      - name: busybox
      - name: cairo
      - name: dconf
+     - name: e2fsprogs
      - name: fontconfig
      - name: freetype
      - name: gdb
@@ -309,13 +310,14 @@
      - name: sd-utils
      - name: tzdata
      - name: upower
+     - name: util-linux
      - name: zlib
 
 - team:
     name: Package management
     roles:
       - master: [thp, pycage]
-      - developer: [martinjones, pvuorela]
+      - developer: [martinjones, pvuorela, abranson]
 - package-group:
     team: Package management
     packages:
