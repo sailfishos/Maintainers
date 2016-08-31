@@ -431,7 +431,7 @@
 - package-group:
     team: Sensors
     packages:
-     - name: sensorfw-qt5
+     - name: sensorfw
 
 - team:
     name: Social media
