@@ -59,6 +59,18 @@
      - name: openobex
 
 - team:
+    name: Bluez5
+    roles:
+      - master: [jpoutiai]
+      - developer: [jusa, slava, blam]
+- package-group:
+    team: Bluez5
+    packages:
+     - name: bluez
+     - name: kf5bluezqt
+     - name: bluez-obexd
+
+- team:
     name: Calendar
     roles:
       - master: [pgerdt, pvuorela, chriadam]
