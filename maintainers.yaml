@@ -66,8 +66,7 @@
 - package-group:
     team: Bluez5
     packages:
-     - name: bluez
-     - name: bluez-obexd
+     - name: bluez5
      - name: kf5bluezqt
 
 - team:
