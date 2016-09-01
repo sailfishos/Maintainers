@@ -67,8 +67,8 @@
     team: Bluez5
     packages:
      - name: bluez
-     - name: kf5bluezqt
      - name: bluez-obexd
+     - name: kf5bluezqt
 
 - team:
     name: Calendar
