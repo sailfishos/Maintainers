@@ -438,7 +438,7 @@
     name: Sensors
     roles:
       - master: [lpotter]
-      - developer: [slava]
+      - developer: [slava, martinjones]
 - package-group:
     team: Sensors
     packages:
