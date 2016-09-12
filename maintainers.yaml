@@ -298,6 +298,7 @@
      - name: libgcrypt
      - name: libgsf
      - name: libjpeg
+     - name: libmlocale
      - name: libmng
      - name: libsoup
      - name: libxslt
