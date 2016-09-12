@@ -303,6 +303,7 @@
      - name: libxslt
      - name: libyaml
      - name: libzypp
+     - name: lzo
      - name: mer-qdoc-template
      - name: mpc
      - name: mpfr
