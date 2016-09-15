@@ -43,6 +43,52 @@
      - name: swi-prolog
 
 - team:
+    name: Base Packages
+    annotation: These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context.
+    roles:
+      - master: [lbt]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson]
+- package-group:
+    team: Base Packages
+    packages:
+     - name: boost
+     - name: cairo
+     - name: dconf
+     - name: e2fsprogs
+     - name: fontconfig
+     - name: freetype
+     - name: giflib
+     - name: glib2
+     - name: glib-networking
+     - name: gmime
+     - name: gmp
+     - name: gnome-common
+     - name: harfbuzz
+     - name: lcms
+     - name: libgcrypt
+     - name: libgsf
+     - name: libjpeg
+     - name: libmlocale
+     - name: libmng
+     - name: libsoup
+     - name: libxslt
+     - name: libyaml
+     - name: libzypp
+     - name: lzo
+     - name: mpc
+     - name: mpfr
+     - name: pam
+     - name: pango
+     - name: pcre
+     - name: pixman
+     - name: poppler
+     - name: pygobject2
+     - name: python-imaging
+     - name: ragel
+     - name: sqlite
+     - name: zlib
+
+- team:
     name: Bluez
     roles:
       - master: [hmallat]
@@ -275,57 +321,21 @@
 - package-group:
     team: None
     packages:
-     - name: boardname
      - name: boost
      - name: build-compare
      - name: busybox
-     - name: cairo
-     - name: dconf
-     - name: e2fsprogs
-     - name: fontconfig
-     - name: freetype
      - name: gdb
-     - name: giflib
-     - name: glib2
-     - name: glib-networking
-     - name: gmime
-     - name: gmp
-     - name: gnome-common
      - name: gst-plugins-bad-free
      - name: gst-plugins-base
-     - name: harfbuzz
      - name: help2man
-     - name: lcms
-     - name: libgcrypt
-     - name: libgsf
-     - name: libjpeg
-     - name: libmlocale
-     - name: libmng
-     - name: libsoup
-     - name: libxslt
-     - name: libyaml
-     - name: libzypp
-     - name: lzo
      - name: mer-qdoc-template
-     - name: mpc
-     - name: mpfr
      - name: openssh
-     - name: pam
-     - name: pango
-     - name: pcre
      - name: pigz
-     - name: pixman
-     - name: poppler
-     - name: pygobject2
-     - name: python-imaging
-     - name: ragel
      - name: repomd-pattern-builder
-     - name: sqlite
      - name: sd-utils
      - name: tzdata
      - name: upower
      - name: util-linux
-     - name: zlib
 
 - team:
     name: Package management
