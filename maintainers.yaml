@@ -276,6 +276,7 @@
     team: None
     packages:
      - name: boardname
+     - name: boost
      - name: build-compare
      - name: busybox
      - name: cairo
