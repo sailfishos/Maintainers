@@ -419,8 +419,8 @@
 - team:
     name: Script and Backup
     roles:
-      - master: [deztructor, giucam]
-      - developer: [martinjones, blam]
+      - master: [blam, deztructor, giucam]
+      - developer: [martinjones]
 - package-group:
     team: Script and Backup
     packages:
