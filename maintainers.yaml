@@ -51,6 +51,7 @@
 - package-group:
     team: Base Packages
     packages:
+     - name: augeas
      - name: boost
      - name: cairo
      - name: dconf
