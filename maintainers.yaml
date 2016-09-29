@@ -580,7 +580,7 @@
     name: User management
     roles:
       - master: [thp]
-      - developer: [jpetrell]
+      - developer: [jpetrell, pvuorela]
 - package-group:
     team: User management
     packages:
