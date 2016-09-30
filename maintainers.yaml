@@ -365,6 +365,8 @@
      - name: pulseaudio-modules-nemo
      - name: pulseaudio-policy-enforcement
      - name: sbc
+     - name: libogg
+     - name: speex
 
 - team:
     name: Python 3
