@@ -184,13 +184,14 @@
     name: Device state management
     roles:
       - master: [spiiroin]
-      - developer: [kjokinie, mkosola]
+      - developer: [kjokinie, mkosola, slava]
 - package-group:
     team: Device state management
     packages:
      - name: dsme
      - name: libdsme
      - name: libiphb
+     - name: libmce-glib
      - name: mce
      - name: mce-dev
      - name: nemo-keepalive
