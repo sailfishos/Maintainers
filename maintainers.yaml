@@ -92,8 +92,8 @@
 - team:
     name: Bluez
     roles:
-      - master: [hmallat]
-      - developer: [jpoutiai, jusa, slava, blam]
+      - master: [blam, jpoutiai]
+      - developer: [jusa, slava]
 - package-group:
     team: Bluez
     packages:
@@ -108,8 +108,8 @@
 - team:
     name: Bluez5
     roles:
-      - master: [jpoutiai]
-      - developer: [jusa, slava, blam]
+      - master: [blam, jpoutiai]
+      - developer: [jusa, slava]
 - package-group:
     team: Bluez5
     packages:
@@ -168,7 +168,7 @@
     name: Core-Statefs
     roles:
       - master: [deztructor, martinjones]
-      - developer: [slava, jusa, mvogt]
+      - developer: [blam, jusa, mvogt, slava]
 - package-group:
     team: Core-Statefs
     packages:
