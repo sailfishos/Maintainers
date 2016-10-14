@@ -132,7 +132,7 @@
     name: Connectivity
     roles:
       - master: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak]
 - package-group:
     team: Connectivity
     packages:
@@ -269,6 +269,7 @@
     team: Middleware QML bindings
     packages:
      - name: mlite
+     - name: nemo-qml-plugin-alarms
      - name: nemo-qml-plugin-accounts
      - name: nemo-qml-plugin-calendar
      - name: nemo-qml-plugin-configuration
