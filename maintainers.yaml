@@ -132,7 +132,7 @@
     name: Connectivity
     roles:
       - master: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak]
 - package-group:
     team: Connectivity
     packages:
