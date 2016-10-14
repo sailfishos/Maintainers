@@ -269,6 +269,7 @@
     team: Middleware QML bindings
     packages:
      - name: mlite
+     - name: nemo-qml-plugin-alarms
      - name: nemo-qml-plugin-accounts
      - name: nemo-qml-plugin-calendar
      - name: nemo-qml-plugin-configuration
