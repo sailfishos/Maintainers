@@ -396,6 +396,8 @@
      - name: qtdeclarative
      - name: qtdocgallery
      - name: qtfeedback
+     - name: qtgraphicaleffects
+     - name: qtimageformats
      - name: qtjsbackend
      - name: qtlocation
      - name: qtmultimedia
