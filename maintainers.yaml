@@ -168,7 +168,7 @@
     name: Core-Statefs
     roles:
       - master: [deztructor, martinjones]
-      - developer: [blam, jusa, mvogt, slava, pvuorela]
+      - developer: [blam, jusa, mvogt, slava, pvuorela, spiiroin]
 - package-group:
     team: Core-Statefs
     packages:
