@@ -629,7 +629,7 @@
         - developer: [xfade, lbt, sage, jusa, rainemak]
 - package-group:
     team: Aarch64 Migration
-    package:
+    packages:
      - name: gcc
      - name: meego-rpm-config
      - name: gdb
