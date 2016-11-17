@@ -650,3 +650,5 @@
      - name: kernel-headers
      - name: libav
      - name: qtdeclarative
+     - name: qt3d
+     - name: qtpim
