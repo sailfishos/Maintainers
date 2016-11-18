@@ -587,13 +587,14 @@
     name: User management
     roles:
       - master: [thp]
-      - developer: [jpetrell, pvuorela]
+      - developer: [jpetrell, pvuorela, spiiroin]
 - package-group:
     team: User management
     packages:
      - name: libshadowutils
      - name: password-manager
      - name: ssu
+     - name: ssu-sysinfo
 
 - team:
     name: Wayland Compositor
