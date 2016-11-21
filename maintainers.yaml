@@ -141,7 +141,10 @@
      - name: crda
      - name: iw
      - name: libconnman-qt
+     - name: openconnect
+     - name: openvpn
      - name: pacrunner
+     - name: vpnc
      - name: wireless-regdb
      - name: wpa_supplicant
 
