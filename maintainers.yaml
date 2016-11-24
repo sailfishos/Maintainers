@@ -447,6 +447,7 @@
     name: SDL 2
     roles:
       - master: [thp]
+      - developer: [adenexter, pvuorela]
 - package-group:
     team: SDL 2
     packages:
