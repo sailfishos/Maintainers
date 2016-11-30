@@ -143,10 +143,13 @@
      - name: libconnman-qt
      - name: openconnect
      - name: openvpn
+     - name: ppp
+     - name: pptp
      - name: pacrunner
      - name: vpnc
      - name: wireless-regdb
      - name: wpa_supplicant
+     - name: xl2tpd
 
 - team:
     name: Contacts and communication middleware
