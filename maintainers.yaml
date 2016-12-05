@@ -78,6 +78,8 @@
      - name: lzo
      - name: mpc
      - name: mpfr
+     - name: nspr
+     - name: nss
      - name: pam
      - name: pango
      - name: pcre
