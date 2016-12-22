@@ -167,6 +167,7 @@
      - name: libcommhistory
      - name: libcontacts
      - name: messagingframework
+     - name: qmf-notifications-plugin
      - name: qtcontacts-sqlite
      - name: qtpim
      - name: transfer-engine
