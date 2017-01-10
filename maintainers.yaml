@@ -303,10 +303,11 @@
     name: multimedia
     roles:
       - master: [msameer]
-      - developer: [giucam]
+      - developer: [giucam, abranson]
 - package-group:
     team: multimedia
     packages:
+     - name: gstreamer
      - name: gst-plugins-bad
      - name: gst-plugins-base
      - name: gst-plugins-good
@@ -338,8 +339,6 @@
      - name: build-compare
      - name: busybox
      - name: gdb
-     - name: gst-plugins-bad-free
-     - name: gst-plugins-base
      - name: help2man
      - name: mer-qdoc-template
      - name: openssh
