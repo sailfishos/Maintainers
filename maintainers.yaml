@@ -65,6 +65,7 @@
      - name: gmp
      - name: gnome-common
      - name: harfbuzz
+     - name: icu
      - name: lcms
      - name: libgcrypt
      - name: libgsf
