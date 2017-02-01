@@ -202,6 +202,7 @@
      - name: libdsme
      - name: libiphb
      - name: libmce-glib
+     - name: libmce-qt
      - name: mce
      - name: mce-dev
      - name: nemo-keepalive
