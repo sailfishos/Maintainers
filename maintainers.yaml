@@ -470,7 +470,7 @@
     name: Sensors
     roles:
       - master: [lpotter]
-      - developer: [slava, martinjones]
+      - developer: [slava, martinjones, spiiroin]
 - package-group:
     team: Sensors
     packages:
