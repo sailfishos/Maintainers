@@ -465,6 +465,7 @@
     team: systemd init system
     packages:
      - name: kmod
+     - name: lvm2
      - name: systemd
      - name: systemd-user-session-targets
 
