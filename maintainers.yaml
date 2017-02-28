@@ -144,6 +144,7 @@
      - name: crda
      - name: iw
      - name: libconnman-qt
+     - name: libgsupplicant
      - name: openconnect
      - name: openvpn
      - name: ppp
