@@ -160,7 +160,7 @@
     name: Contacts and communication middleware
     roles:
       - master: [chriadam, mvogt, slava, jbrooks]
-      - developer: [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam]
+      - developer: [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam, adenexter]
 - package-group:
     team: Contacts and communication middleware
     packages:
@@ -322,6 +322,7 @@
     name: Non-graphical feedback
     roles:
       - master: [jusa]
+      - developer: [adenexter]
 - package-group:
     team: Non-graphical feedback
     packages:
