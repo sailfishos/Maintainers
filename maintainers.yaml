@@ -425,6 +425,7 @@
      - name: qttranslations
      - name: qtwayland
      - name: qtwebkit5
+     - name: qtwebsockets
      - name: qtxmlpatterns
 
 - team:
