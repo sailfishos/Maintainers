@@ -96,7 +96,7 @@
     name: Bluez
     roles:
       - master: [blam, jpoutiai]
-      - developer: [jusa, slava]
+      - developer: [jusa, slava, chriadam]
 - package-group:
     team: Bluez
     packages:
@@ -112,7 +112,7 @@
     name: Bluez5
     roles:
       - master: [blam, jpoutiai]
-      - developer: [jusa, slava]
+      - developer: [jusa, slava, chriadam]
 - package-group:
     team: Bluez5
     packages:
