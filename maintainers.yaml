@@ -246,7 +246,7 @@
 - team:
     name: Media indexing
     roles:
-      - master: [iamer]
+      - master: [abranson]
       - developer: [martyone, mvogt, pvuorela, adenexter, abranson]
 - package-group:
     team: Media indexing
@@ -353,6 +353,7 @@
      - name: tzdata
      - name: upower
      - name: util-linux
+     - name: libcontentaction
 
 - team:
     name: Package management
@@ -622,7 +623,6 @@
     team: Wayland Compositor
     packages:
      - name: eventfeed
-     - name: libcontentaction
      - name: lipstick
      - name: xdg-utils
 
@@ -640,33 +640,3 @@
      - name: wayland
      - name: xkeyboard-config
 
-- team:
-    name: Aarch64 Migration
-    roles:
-        - master: [abranson]
-        - developer: [xfade, lbt, sage, jusa, rainemak]
-- package-group:
-    team: Aarch64 Migration
-    packages:
-     - name: gcc
-     - name: meego-rpm-config
-     - name: gdb
-     - name: qtbase
-     - name: qtcontacts-sqlite
-     - name: qtpim
-     - name: byacc
-     - name: chrpath
-     - name: fakeroot
-     - name: gnupg2
-     - name: libtalloc
-     - name: libvorbis
-     - name: ncurses
-     - name: popt
-     - name: flac
-     - name: gettext
-     - name: libatomic_ops
-     - name: kernel-headers
-     - name: libav
-     - name: qtdeclarative
-     - name: qt3d
-     - name: qtpim
