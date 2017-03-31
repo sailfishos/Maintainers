@@ -617,7 +617,7 @@
     name: Wayland Compositor
     roles:
       - master: [w00t]
-      - developer: [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa]
+      - developer: [sletta, Vesuri, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa, spiiroin]
 - package-group:
     team: Wayland Compositor
     packages:
