@@ -392,8 +392,16 @@
 - package-group:
     team: Python 3
     packages:
-     - name: pyotherside
      - name: python3
+
+- team:
+    name: PyOtherSide
+    roles:
+      - master: [larstiq]
+- package-group:
+    team: PyOtherSide
+    packages:
+     - name: pyotherside
 
 - team:
     name: Qt
