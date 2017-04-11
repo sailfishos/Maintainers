@@ -396,6 +396,15 @@
      - name: python3
 
 - team:
+    name: PyOtherSide
+    roles:
+      - master: [larstiq]
+- package-group:
+    team: PyOtherSide
+    packages:
+     - name: pyotherside
+
+- team:
     name: Qt
     roles:
       - master: [w00t]
