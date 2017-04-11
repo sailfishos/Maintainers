@@ -392,6 +392,7 @@
 - package-group:
     team: Python 3
     packages:
+     - name: pyotherside
      - name: python3
 
 - team:
