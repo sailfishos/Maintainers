@@ -514,7 +514,7 @@
     name: systemd init system
     roles:
       - master: [mkosola]
-      - developer: [IZh]
+      - developer: [IZh, slava]
 - package-group:
     team: systemd init system
     packages:
