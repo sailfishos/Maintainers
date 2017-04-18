@@ -523,7 +523,7 @@
     name: systemd init system
     roles:
       - master: [mkosola]
-      - developer: [IZh, slava]
+      - developer: [IZh, slava, spiiroin]
 - package-group:
     team: systemd init system
     packages:
