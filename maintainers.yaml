@@ -613,7 +613,7 @@
     name: User management
     roles:
       - master: [thp]
-      - developer: [jpetrell, pvuorela, spiiroin, IZh]
+      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh]
 - package-group:
     team: User management
     packages:
