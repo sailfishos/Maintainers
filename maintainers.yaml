@@ -233,6 +233,15 @@
      - name: yasm
 
 - team:
+    name: Hardware adaptation
+    roles:
+      - master: [abranson, sledge]
+- package-group:
+    team: Hardware adaptation
+    packages:
+     - name: qtscenegraph-adaptation
+      
+- team:
     name: Keyboard input (Maliit)
     roles:
       - master: [pvuorela]
