@@ -196,7 +196,7 @@
     name: Device state management
     roles:
       - master: [spiiroin]
-      - developer: [kjokinie, mkosola, slava]
+      - developer: [kjokinie, mkosola, slava, pvuorela]
 - package-group:
     team: Device state management
     packages:
