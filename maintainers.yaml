@@ -54,6 +54,7 @@
      - name: augeas
      - name: boost
      - name: cairo
+     - name: curl
      - name: dconf
      - name: e2fsprogs
      - name: fontconfig
