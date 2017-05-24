@@ -331,7 +331,7 @@
     name: Non-graphical feedback
     roles:
       - master: [jusa]
-      - developer: [adenexter]
+      - developer: [adenexter, pvuorela]
 - package-group:
     team: Non-graphical feedback
     packages:
