@@ -590,7 +590,7 @@
     name: Timed
     roles:
       - master: [slava]
-      - developer: [slava, giucam, chriadam, spiiroin]
+      - developer: [slava, giucam, chriadam, spiiroin, pvuorela]
 - package-group:
     team: Timed
     packages:
