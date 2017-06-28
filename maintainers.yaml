@@ -380,6 +380,8 @@
      - name: Polkit
      - name: polkit-qt-1
      - name: rpm
+     - name: rpmlint
+     - name: libsolv
 
 - team:
     name: Pulseaudio
