@@ -161,7 +161,7 @@
     name: Contacts and communication middleware
     roles:
       - master: [chriadam, mvogt, slava, jbrooks]
-      - developer: [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam, adenexter]
+      - developer: [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam, adenexter, abranson]
 - package-group:
     team: Contacts and communication middleware
     packages:
