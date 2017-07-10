@@ -370,11 +370,12 @@
     name: Package management
     roles:
       - master: [thp, pycage]
-      - developer: [martinjones, pvuorela, abranson]
+      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell]
 - package-group:
     team: Package management
     packages:
      - name: libzypp
+     - name: nemo-osupdate
      - name: PackageKit
      - name: PackageKit-Qt
      - name: Polkit
