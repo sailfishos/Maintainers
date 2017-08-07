@@ -572,7 +572,7 @@
     name: Telephony
     roles:
       - master: [slava, lpotter, jpoutiai]
-      - developer: [martinjones, martyone, jpetrell, tigeli, jusa]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam]
 - package-group:
     team: Telephony
     packages:
