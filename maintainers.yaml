@@ -56,6 +56,7 @@
      - name: cairo
      - name: curl
      - name: dconf
+     - name: diffutils
      - name: e2fsprogs
      - name: fontconfig
      - name: freetype
