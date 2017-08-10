@@ -114,7 +114,7 @@
     name: Bluez5
     roles:
       - master: [blam, jpoutiai]
-      - developer: [jusa, slava, chriadam]
+      - developer: [jusa, slava, chriadam, pvuorela]
 - package-group:
     team: Bluez5
     packages:
