@@ -510,7 +510,7 @@
     name: Social media
     roles:
       - master: [chriadam, aseppala]
-      - developer: [sfietkonstantin, martinjones]
+      - developer: [sfietkonstantin, martinjones, pvuorela]
 - package-group:
     team: Social media
     packages:
