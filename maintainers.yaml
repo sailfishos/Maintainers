@@ -137,7 +137,7 @@
     name: Connectivity
     roles:
       - master: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter]
 - package-group:
     team: Connectivity
     packages:
@@ -618,7 +618,7 @@
     name: usb
     roles:
       - master: [phdeswer, jpoutiai, mkosola]
-      - developer: [martinjones, spiiroin]
+      - developer: [martinjones, spiiroin, adenexter]
 - package-group:
     team: usb
     packages:
