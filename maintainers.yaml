@@ -371,7 +371,7 @@
     name: Package management
     roles:
       - master: [thp, pycage]
-      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell]
+      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone]
 - package-group:
     team: Package management
     packages:
@@ -380,6 +380,7 @@
      - name: Polkit
      - name: libsolv
      - name: libzypp
+     - name: meego-rpm-config
      - name: nemo-osupdate
      - name: polkit-qt-1
      - name: rpm
