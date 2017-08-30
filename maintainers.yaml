@@ -380,6 +380,7 @@
      - name: Polkit
      - name: libsolv
      - name: libzypp
+     - name: meego-rpm-config
      - name: nemo-osupdate
      - name: polkit-qt-1
      - name: rpm
