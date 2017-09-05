@@ -383,6 +383,7 @@
      - name: meego-rpm-config
      - name: nemo-osupdate
      - name: polkit-qt-1
+     - name: qml-rpm-macros
      - name: rpm
      - name: rpmlint
 
