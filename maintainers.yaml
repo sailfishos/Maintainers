@@ -620,7 +620,7 @@
     name: usb
     roles:
       - master: [phdeswer, jpoutiai, mkosola]
-      - developer: [martinjones, spiiroin, adenexter]
+      - developer: [martinjones, spiiroin, adenexter, rainemak, pvuorela]
 - package-group:
     team: usb
     packages:
