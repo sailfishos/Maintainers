@@ -386,6 +386,8 @@
      - name: qml-rpm-macros
      - name: rpm
      - name: rpmlint
+     - name: rpmlint-mini
+     - name: rpmlint-MeeGo
 
 - team:
     name: Pulseaudio
