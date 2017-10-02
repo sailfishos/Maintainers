@@ -55,12 +55,14 @@
      - name: boost
      - name: cairo
      - name: curl
+     - name: db4
      - name: dconf
      - name: diffutils
      - name: e2fsprogs
      - name: fontconfig
      - name: freetype
      - name: giflib
+     - name: glibc
      - name: glib-networking
      - name: glib2
      - name: gmime
