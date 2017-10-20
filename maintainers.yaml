@@ -68,10 +68,12 @@
      - name: gmime
      - name: gmp
      - name: gnome-common
+     - name: gobject-introspection
      - name: harfbuzz
      - name: icu
      - name: lcms
      - name: libgcrypt
+     - name: libgee
      - name: libgsf
      - name: libjpeg
      - name: libmlocale
@@ -94,6 +96,7 @@
      - name: python-imaging
      - name: ragel
      - name: sqlite
+     - name: vala
      - name: zlib
 
 - team:
@@ -271,7 +274,6 @@
      - name: thumbnaild
      - name: tracker
      - name: tumbler
-     - name: vala
 
 - team:
     name: Media playback and playlist
