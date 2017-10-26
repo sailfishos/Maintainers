@@ -241,6 +241,30 @@
      - name: yasm
 
 - team:
+    name: Gnome
+    annotation: GNOME shared dependencies: libraries, frameworks and build tools, primarily used by media components such as tracker, gstreamer etc
+    roles:
+      - master: [lbt, abranson, pvuorela]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson]
+- package-group:
+    team: Gnome
+    packages:
+     - name: dconf
+     - name: glib
+     - name: glib-networking
+     - name: gnome-common
+     - name: gobject-introspection
+     - name: libgdata
+     - name: libgee
+     - name: libgsf
+     - name: libmediaart
+     - name: libsoup
+     - name: libxslt
+     - name: pango
+     - name: pygobject2
+     - name: vala
+
+- team:
     name: Hardware adaptation
     roles:
       - master: [abranson, sledge]
