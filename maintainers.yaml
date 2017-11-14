@@ -491,6 +491,7 @@
     name: Resource framework
     roles:
       - master: [jusa]
+      - developer: [pvuorela]
 - package-group:
     team: Resource framework
     packages:
