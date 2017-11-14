@@ -1,6 +1,7 @@
 # Maintainer data for the mer-core git repos at https://git.merproject.org/
 
 # This is a yaml file so be careful with the syntax.
+# (When using ':' ensure quotation marks are used)
 # Also, use alphabetical ordering for groups and packages.
 
 - team:
@@ -44,7 +45,7 @@
 
 - team:
     name: Base Packages
-    annotation: These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context.
+    annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
       - master: [lbt]
       - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson]
@@ -242,7 +243,7 @@
 
 - team:
     name: Gnome
-    annotation: GNOME shared dependencies: libraries, frameworks and build tools, primarily used by media components such as tracker, gstreamer etc
+    annotation: "GNOME shared dependencies: libraries, frameworks and build tools, primarily used by media components such as tracker, gstreamer etc"
     roles:
       - master: [lbt, abranson, pvuorela]
       - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson]
