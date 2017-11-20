@@ -93,6 +93,7 @@
      - name: pcre
      - name: pixman
      - name: poppler
+     - name: psmisc
      - name: pygobject2
      - name: python-imaging
      - name: ragel
