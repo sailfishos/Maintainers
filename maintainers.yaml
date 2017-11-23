@@ -77,6 +77,7 @@
      - name: lcms
      - name: libgcrypt
      - name: libgee
+     - name: libgpg-error
      - name: libgsf
      - name: libjpeg
      - name: libmlocale
