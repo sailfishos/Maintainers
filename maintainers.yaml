@@ -53,6 +53,7 @@
     team: Base Packages
     packages:
      - name: augeas
+     - name: binutils
      - name: boost
      - name: cairo
      - name: curl
