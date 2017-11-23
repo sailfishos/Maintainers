@@ -95,6 +95,7 @@
      - name: poppler
      - name: psmisc
      - name: pygobject2
+     - name: python-distro
      - name: python-imaging
      - name: ragel
      - name: sqlite
