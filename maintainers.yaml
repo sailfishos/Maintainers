@@ -79,6 +79,7 @@
      - name: libgee
      - name: libgpg-error
      - name: libgsf
+     - name: libgudev
      - name: libjpeg
      - name: libmlocale
      - name: libmng
