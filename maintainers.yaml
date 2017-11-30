@@ -72,6 +72,7 @@
      - name: gmp
      - name: gnome-common
      - name: gobject-introspection
+     - name: gpgme
      - name: harfbuzz
      - name: icu
      - name: lcms
