@@ -76,6 +76,7 @@
      - name: harfbuzz
      - name: icu
      - name: lcms
+     - name: libblockdev
      - name: libgcrypt
      - name: libgee
      - name: libgpg-error
@@ -104,7 +105,9 @@
      - name: python-imaging
      - name: ragel
      - name: sqlite
+     - name: udisks2
      - name: vala
+     - name: volume_key
      - name: zlib
 
 - team:
