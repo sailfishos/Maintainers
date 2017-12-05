@@ -551,8 +551,8 @@
 - team:
     name: Social media
     roles:
-      - master: [chriadam, aseppala]
-      - developer: [sfietkonstantin, martinjones, pvuorela]
+      - master: [chriadam, rainemak, pvuorela, jpetrell]
+      - developer: [sfietkonstantin, martinjones]
 - package-group:
     team: Social media
     packages:
@@ -560,7 +560,6 @@
      - name: libsignon
      - name: libsocialcache
      - name: nemo-qml-plugin-signon
-     - name: signon-qt5
 
 - team:
     name: Synchronization framework (Buteo)
