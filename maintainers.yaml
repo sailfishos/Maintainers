@@ -60,6 +60,7 @@
      - name: cryptsetup
      - name: db4
      - name: dconf
+     - name: desktop-file-utils
      - name: diffutils
      - name: e2fsprogs
      - name: fontconfig
