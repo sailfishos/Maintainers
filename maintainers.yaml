@@ -56,12 +56,14 @@
      - name: binutils
      - name: boost
      - name: cairo
+     - name: cmake
      - name: curl
      - name: cryptsetup
      - name: db4
      - name: dconf
      - name: desktop-file-utils
      - name: diffutils
+     - name: extra-cmake-modules
      - name: e2fsprogs
      - name: fontconfig
      - name: freetype
