@@ -472,6 +472,7 @@
 - package-group:
     team: Qt
     packages:
+     - name: karchive
      - name: qt
      - name: qt3d
      - name: qtbase
