@@ -89,6 +89,7 @@
      - name: libmlocale
      - name: libmng
      - name: libsoup
+     - name: libwebp
      - name: libxslt
      - name: libyaml
      - name: libzypp
