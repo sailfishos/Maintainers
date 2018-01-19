@@ -88,6 +88,7 @@
      - name: libjpeg
      - name: libmlocale
      - name: libmng
+     - name: libpng
      - name: libsoup
      - name: libwebp
      - name: libxslt
