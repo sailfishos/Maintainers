@@ -393,7 +393,7 @@
     name: None
     roles:
       - master: [lbt]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone]
 - package-group:
     team: None
     packages:
@@ -407,6 +407,7 @@
      - name: openssh
      - name: pigz
      - name: repomd-pattern-builder
+     - name: scratchbox2
      - name: sd-utils
      - name: tzdata
      - name: upower
