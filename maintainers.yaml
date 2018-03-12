@@ -407,6 +407,7 @@
      - name: openssh
      - name: pigz
      - name: repomd-pattern-builder
+     - name: scratchbox2
      - name: sd-utils
      - name: tzdata
      - name: upower
