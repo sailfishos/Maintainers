@@ -255,6 +255,7 @@
      - name: gecko-dev
      - name: qtmozembed
      - name: yasm
+     - name: hunspell
 
 - team:
     name: Gnome
