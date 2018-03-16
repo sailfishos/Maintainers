@@ -277,8 +277,11 @@
      - name: libmediaart
      - name: libsoup
      - name: libxslt
+     - name: meson
+     - name: ninja
      - name: pango
      - name: pygobject2
+     - name: re2c
      - name: vala
 
 - team:
