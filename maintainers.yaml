@@ -102,6 +102,7 @@
      - name: pam
      - name: pango
      - name: pcre
+     - name: perl
      - name: pixman
      - name: poppler
      - name: psmisc
