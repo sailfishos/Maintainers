@@ -8,7 +8,7 @@
     name: Application startup boosters
     roles:
       - master: [jbrooks, thp, chriadam, rainemak]
-      - developer: [martinjones, slava, pvuorela, adenexter]
+      - developer: [martinjones, slava, pvuorela, adenexter, jpetrell]
 - package-group:
     team: Application startup boosters
     packages:
