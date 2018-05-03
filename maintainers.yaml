@@ -455,6 +455,7 @@
      - name: pulseaudio-policy-enforcement
      - name: sbc
      - name: speex
+     - name: libsndfile
 
 - team:
     name: Python 3
