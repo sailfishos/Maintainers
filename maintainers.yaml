@@ -460,6 +460,7 @@
     name: Python 3
     roles:
       - master: [thp]
+      - developer: [pvuorela]
 - package-group:
     team: Python 3
     packages:
