@@ -106,6 +106,7 @@
      - name: pixman
      - name: poppler
      - name: psmisc
+     - name: pycairo
      - name: pygobject2
      - name: python-distro
      - name: python-imaging
@@ -464,6 +465,8 @@
     packages:
      - name: pyotherside
      - name: python3
+     - name: python3-cairo
+     - name: python3-gobject
 
 - team:
     name: PyOtherSide
