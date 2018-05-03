@@ -42,6 +42,7 @@
      - name: ohm-rule-engine
      - name: policy-settings-common
      - name: swi-prolog
+     - name: swipl
 
 - team:
     name: Base Packages
