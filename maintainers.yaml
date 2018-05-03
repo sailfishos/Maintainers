@@ -107,8 +107,8 @@
      - name: pixman
      - name: poppler
      - name: psmisc
-     - name: pycairo
      - name: pygobject2
+     - name: python-cairo
      - name: python-distro
      - name: python-imaging
      - name: ragel
