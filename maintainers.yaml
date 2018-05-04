@@ -29,6 +29,7 @@
     name: Audio resources
     roles:
       - master: [jusa]
+      - developer: [pvuorela]
 - package-group:
     team: Audio resources
     packages:
