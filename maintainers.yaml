@@ -162,7 +162,7 @@
     name: Connectivity
     roles:
       - master: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson]
 - package-group:
     team: Connectivity
     packages:
@@ -174,6 +174,8 @@
      - name: libdbusaccess
      - name: libgsupplicant
      - name: openconnect
+     - name: openssh
+     - name: openssl
      - name: openvpn
      - name: pacrunner
      - name: ppp
@@ -412,7 +414,6 @@
      - name: help2man
      - name: libcontentaction
      - name: mer-qdoc-template
-     - name: openssh
      - name: pigz
      - name: repomd-pattern-builder
      - name: scratchbox2
