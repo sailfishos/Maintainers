@@ -43,7 +43,6 @@
      - name: ohm-rule-engine
      - name: policy-settings-common
      - name: swi-prolog
-     - name: swipl
 
 - team:
     name: Base Packages
@@ -539,7 +538,6 @@
     packages:
      - name: archivemount
      - name: cutes-js
-     - name: cutes-qt
      - name: gittin
      - name: qtaround
      - name: the-vault
