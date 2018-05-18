@@ -149,7 +149,7 @@
 - team:
     name: Calendar
     roles:
-      - master: [pgerdt, pvuorela, chriadam]
+      - master: [pvuorela, chriadam]
       - developer: [martinjones]
 - package-group:
     team: Calendar
