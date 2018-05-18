@@ -272,7 +272,7 @@
     team: Gnome
     packages:
      - name: dconf
-     - name: glib
+     - name: glib2
      - name: glib-networking
      - name: gnome-common
      - name: gobject-introspection
