@@ -92,6 +92,7 @@
      - name: libpng
      - name: libsoup
      - name: libwebp
+     - name: libxml2
      - name: libxslt
      - name: libyaml
      - name: libzypp
