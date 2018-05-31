@@ -313,6 +313,15 @@
      - name: maliit-plugins
 
 - team:
+    name: Location
+    roles:
+      - master: [pvuorela, chriadam]
+- package-group:
+    team: Location
+    packages:
+     - name: geoclue
+
+- team:
     name: Media indexing
     roles:
       - master: [abranson]
