@@ -113,6 +113,7 @@
      - name: python-distro
      - name: python-imaging
      - name: ragel
+     - name: sgml-common
      - name: sqlite
      - name: udisks2
      - name: vala
