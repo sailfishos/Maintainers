@@ -101,6 +101,7 @@
      - name: mpfr
      - name: nspr
      - name: nss
+     - name: openjpeg
      - name: pam
      - name: pango
      - name: pcre
