@@ -168,6 +168,7 @@
 - package-group:
     team: Connectivity
     packages:
+     - name: ca-certificates
      - name: connectionagent
      - name: connman
      - name: crda
@@ -180,6 +181,7 @@
      - name: openssh
      - name: openssl
      - name: openvpn
+     - name: p11-kit
      - name: pacrunner
      - name: ppp
      - name: pptp
