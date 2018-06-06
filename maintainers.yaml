@@ -384,8 +384,8 @@
 - team:
     name: multimedia
     roles:
-      - master: [msameer]
-      - developer: [giucam, abranson]
+      - master: [abranson]
+      - developer: [pvuorela]
 - package-group:
     team: multimedia
     packages:
@@ -395,6 +395,9 @@
      - name: gstreamer
      - name: nemo-qtmultimedia-plugins
      - name: opus
+     - name: libsrtp
+     - name: libvpx
+     - name: mpg123
 
 - team:
     name: Non-graphical feedback
