@@ -177,6 +177,7 @@
      - name: libdbusaccess
      - name: libgsupplicant
      - name: libnl
+     - name: libtasn1
      - name: openconnect
      - name: openssh
      - name: openssl
