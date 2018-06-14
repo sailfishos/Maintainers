@@ -480,8 +480,8 @@
 - team:
     name: Python 3
     roles:
-      - master: [thp]
-      - developer: [pvuorela]
+      - master: [pvuorela]
+      - developer: [MartinK]
 - package-group:
     team: Python 3
     packages:
@@ -489,15 +489,6 @@
      - name: python3
      - name: python3-cairo
      - name: python3-gobject
-
-- team:
-    name: PyOtherSide
-    roles:
-      - master: [larstiq]
-- package-group:
-    team: PyOtherSide
-    packages:
-     - name: pyotherside
 
 - team:
     name: Qt
