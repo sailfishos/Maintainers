@@ -86,7 +86,7 @@
      - name: libgpg-error
      - name: libgsf
      - name: libgudev
-     - name: libjpeg
+     - name: libjpeg-turbo
      - name: libmlocale
      - name: libmng
      - name: libpng
