@@ -475,6 +475,7 @@
      - name: pulseaudio-policy-enforcement
      - name: sbc
      - name: speex
+     - name: speexdsp
      - name: libsndfile
 
 - team:
