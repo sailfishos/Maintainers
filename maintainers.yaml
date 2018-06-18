@@ -589,6 +589,8 @@
     packages:
      - name: libsailfishkeyprovider
      - name: libsignon
+     - name: libsignon-qt5
+     - name: libaccounts-qt5
      - name: libsocialcache
      - name: nemo-qml-plugin-signon
 
