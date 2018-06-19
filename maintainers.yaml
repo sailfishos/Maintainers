@@ -477,7 +477,7 @@
 - package-group:
     team: Pulseaudio
     packages:
-    -  name: flac
+     - name: flac
      - name: libcanberra
      - name: libogg
      - name: libsndfile
