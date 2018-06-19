@@ -471,14 +471,15 @@
     -  name: flac
      - name: libcanberra
      - name: libogg
+     - name: libsndfile
+     - name: libvorbis
      - name: pulseaudio
      - name: pulseaudio-modules-nemo
      - name: pulseaudio-policy-enforcement
      - name: sbc
      - name: speex
      - name: speexdsp
-     - name: libsndfile
-     - name: libvorbis
+
 
 - team:
     name: Python 3
