@@ -468,6 +468,7 @@
 - package-group:
     team: Pulseaudio
     packages:
+    -  name: flac
      - name: libcanberra
      - name: libogg
      - name: pulseaudio
@@ -477,6 +478,7 @@
      - name: speex
      - name: speexdsp
      - name: libsndfile
+     - name: libvorbis
 
 - team:
     name: Python 3
