@@ -74,6 +74,7 @@
      - name: gmime
      - name: gmp
      - name: gnome-common
+     - name: gnupg2
      - name: gobject-introspection
      - name: gpgme
      - name: harfbuzz
