@@ -56,7 +56,6 @@
      - name: augeas
      - name: binutils
      - name: boost
-     - name: cairo
      - name: cmake
      - name: curl
      - name: cryptsetup
@@ -86,12 +85,8 @@
      - name: libgpg-error
      - name: libgsf
      - name: libgudev
-     - name: libjpeg-turbo
      - name: libmlocale
-     - name: libmng
-     - name: libpng
      - name: libsoup
-     - name: libwebp
      - name: libxml2
      - name: libxslt
      - name: libyaml
@@ -101,7 +96,6 @@
      - name: mpfr
      - name: nspr
      - name: nss
-     - name: openjpeg
      - name: pam
      - name: pango
      - name: pcre
@@ -334,6 +328,7 @@
     team: Media indexing
     packages:
      - name: exempi
+     - name: libexif
      - name: libmediaart
      - name: libqtsparql
      - name: thumbnaild
@@ -385,22 +380,34 @@
      - name: nemo-qml-plugin-time
 
 - team:
-    name: multimedia
+    name: Multimedia
+    annotation: "GStreamer and associated packages. Codec libraries should appear in here if they are detected and used during the configure phase of a build of Gstreamer or one of its plugins. Note that package here may overlap with pulseaudio's domain, so changes should be verified with that too."
     roles:
       - master: [abranson]
-      - developer: [pvuorela]
+      - developer: [pvuorela, r0kk3rz]
 - package-group:
-    team: multimedia
+    team: Multimedia
     packages:
+     - name: cairo
+     - name: flac
      - name: gst-plugins-bad
      - name: gst-plugins-base
      - name: gst-plugins-good
      - name: gstreamer
      - name: nemo-qtmultimedia-plugins
      - name: opus
+     - name: libjpeg-turbo
+     - name: libmng
+     - name: libogg
+     - name: libpng
      - name: libsrtp
+     - name: libtheora
+     - name: libvorbis
      - name: libvpx
+     - name: libwebp
      - name: mpg123
+     - name: openjpeg
+     - name: speex
 
 - team:
     name: Non-graphical feedback
@@ -463,6 +470,7 @@
 
 - team:
     name: Pulseaudio
+    annotation: "Pulseaudio and related packages, including codecs it uses directly. Note that package here may overlap with Gstreamer's domain, so changes should be verified with other Multimedia packages too."
     roles:
       - master: [jusa]
 - package-group:
