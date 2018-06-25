@@ -448,6 +448,16 @@
      - name: util-linux
 
 - team:
+    name: Office
+    roles:
+      - master: [pvuorela, chriadam, rainemak]
+      - developer: [abranson, adenexter, blam, jpetrell]
+- package-group:
+    team: Office
+    packages:
+     - name: calligra
+
+- team:
     name: Package management
     roles:
       - master: [thp, pycage]
