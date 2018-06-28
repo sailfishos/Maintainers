@@ -760,5 +760,6 @@
      - name: llvm
      - name: mesa
      - name: wayland
+     - name: wayland-protocols
      - name: xkeyboard-config
 
