@@ -111,6 +111,7 @@
      - name: ragel
      - name: sgml-common
      - name: sqlite
+     - name: swig
      - name: udisks2
      - name: vala
      - name: volume_key
@@ -470,6 +471,7 @@
      - name: Polkit
      - name: libsolv
      - name: libzypp
+     - name: libzypp-bindings
      - name: meego-rpm-config
      - name: nemo-osupdate
      - name: polkit-qt-1
@@ -513,6 +515,8 @@
      - name: python3
      - name: python3-cairo
      - name: python3-gobject
+     - name: libzypp-bindings
+     - name: swig
 
 - team:
     name: Qt
