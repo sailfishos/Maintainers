@@ -731,7 +731,7 @@
     name: User management
     roles:
       - master: [thp]
-      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone]
+      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava]
 - package-group:
     team: User management
     packages:
