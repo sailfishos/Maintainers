@@ -295,10 +295,11 @@
 - team:
     name: Hardware adaptation
     roles:
-      - master: [abranson, sledge]
+      - master: [abranson, sledge, slava]
 - package-group:
     team: Hardware adaptation
     packages:
+     - name: libgbinder
      - name: qtscenegraph-adaptation
       
 - team:
