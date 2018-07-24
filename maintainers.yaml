@@ -299,7 +299,6 @@
 - package-group:
     team: Hardware adaptation
     packages:
-     - name: libgbinder
      - name: qtscenegraph-adaptation
       
 - team:
