@@ -67,6 +67,7 @@
      - name: e2fsprogs
      - name: fontconfig
      - name: freetype
+     - name: fribidi
      - name: giflib
      - name: glibc
      - name: glib-networking
