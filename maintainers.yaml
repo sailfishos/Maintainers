@@ -492,6 +492,7 @@
     team: Pulseaudio
     packages:
      - name: flac
+     - name: json-c
      - name: libcanberra
      - name: libogg
      - name: libsndfile
