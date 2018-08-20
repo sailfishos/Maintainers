@@ -635,6 +635,7 @@
      - name: buteo-sync-plugin-caldav
      - name: buteo-sync-plugin-carddav
      - name: buteo-sync-plugins
+     - name: buteo-sync-plugins-email
      - name: buteo-sync-plugins-social
      - name: buteo-syncfw
      - name: buteo-syncml
