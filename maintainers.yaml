@@ -255,7 +255,7 @@
     name: Gecko based browser engine
     roles:
       - master: [rozhkov, rainemak]
-      - developer: [jpetrell, chriadam, pvuorela]
+      - developer: [jpetrell, chriadam, pvuorela, adenexter]
 - package-group:
     team: Gecko based browser engine
     packages:
@@ -306,7 +306,7 @@
     name: Keyboard input (Maliit)
     roles:
       - master: [pvuorela]
-      - developer: [martinjones]
+      - developer: [martinjones, adenexter]
 - package-group:
     team: Keyboard input (Maliit)
     packages:
