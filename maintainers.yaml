@@ -49,7 +49,7 @@
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
       - master: [lbt]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, martyone, jusa]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, martyone, jusa, chriadam]
 - package-group:
     team: Base Packages
     packages:
