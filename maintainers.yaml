@@ -53,6 +53,7 @@
 - package-group:
     team: Base Packages
     packages:
+     - name: acl
      - name: augeas
      - name: binutils
      - name: boost
