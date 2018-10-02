@@ -599,7 +599,7 @@
      - name: libsdl-sound
      - name: libsdl-ttf
 
- - team:
+- team:
     name: SELinux
     annotation: "SELinux tools and required package management"
     roles:
