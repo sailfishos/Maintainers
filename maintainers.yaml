@@ -599,6 +599,23 @@
      - name: libsdl-sound
      - name: libsdl-ttf
 
+ - team:
+    name: SELinux
+    annotation: "SELinux tools and required package management"
+    roles:
+      - master: [jusa, jlaakkonen]
+      - developer: [frajo]
+- package-group:
+    team: SELinux
+    packages:
+      - name: audit
+      - name: libcgroup
+      - name: libcap-ng
+      - name: python-ipy
+      - name: selinux
+      - name: setools
+      - name: ustr
+
 - team:
     name: Sensors
     roles:
@@ -771,21 +788,3 @@
      - name: wayland
      - name: wayland-protocols
      - name: xkeyboard-config
-
-- team:
-    name: SELinux
-    annotation: "SELinux tools and required package management"
-    roles:
-      - master: [jusa, jlaakkonen]
-      - developer: [frajo]
-- package-group:
-    team: SELinux
-    packages:
-      - name: audit
-      - name: libcgroup
-      - name: libcap-ng
-      - name: python-IPy
-      - name: selinux
-      - name: setools
-      - name: ustr
-
