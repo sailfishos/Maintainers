@@ -609,9 +609,16 @@
     team: SELinux
     packages:
       - name: audit
-      - name: libcgroup
+      - name: checkpolicy
       - name: libcap-ng
+      - name: libcgroup
+      - name: libselinux
+      - name: libsemanage
+      - name: libsepol
+      - name: policycoreutils
+      - name: python-cython
       - name: python-ipy
+      - name: secilc
       - name: selinux
       - name: setools
       - name: ustr
