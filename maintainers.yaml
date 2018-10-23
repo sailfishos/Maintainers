@@ -637,7 +637,7 @@
     name: Social media
     roles:
       - master: [chriadam, rainemak, pvuorela, jpetrell]
-      - developer: [sfietkonstantin, martinjones]
+      - developer: [sfietkonstantin, martinjones, kende]
 - package-group:
     team: Social media
     packages:
