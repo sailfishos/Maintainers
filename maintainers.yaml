@@ -302,7 +302,7 @@
     team: Hardware adaptation
     packages:
      - name: qtscenegraph-adaptation
-      
+
 - team:
     name: Keyboard input (Maliit)
     roles:
@@ -669,7 +669,7 @@
     name: systemd init system
     roles:
       - master: [mkosola]
-      - developer: [IZh, slava, spiiroin, martyone]
+      - developer: [IZh, slava, spiiroin, martyone, kende]
 - package-group:
     team: systemd init system
     packages:
