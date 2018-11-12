@@ -398,6 +398,7 @@
      - name: gst-plugins-base
      - name: gst-plugins-good
      - name: gstreamer
+     - name: qtmultimedia
      - name: nemo-qtmultimedia-plugins
      - name: opus
      - name: libjpeg-turbo
