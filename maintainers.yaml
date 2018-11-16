@@ -83,6 +83,7 @@
      - name: harfbuzz
      - name: icu
      - name: lcms
+     - name: libarchive
      - name: libblockdev
      - name: libgcrypt
      - name: libgee
