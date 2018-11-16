@@ -82,6 +82,7 @@
      - name: harfbuzz
      - name: icu
      - name: lcms
+     - name: libarchive
      - name: libblockdev
      - name: libgcrypt
      - name: libgee
@@ -302,7 +303,7 @@
     team: Hardware adaptation
     packages:
      - name: qtscenegraph-adaptation
-      
+
 - team:
     name: Keyboard input (Maliit)
     roles:
