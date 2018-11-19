@@ -149,16 +149,6 @@
      - name: kf5bluezqt
 
 - team:
-    name: NFC
-    roles:
-      - master: [slava]
-      - developer: [pvuorela]
-- package-group:
-    team: NFC
-    packages:
-     - name: nfcd
-
-- team:
     name: Calendar
     roles:
       - master: [pvuorela, chriadam]
@@ -425,6 +415,16 @@
      - name: mpg123
      - name: openjpeg
      - name: speex
+
+- team:
+    name: NFC
+    roles:
+      - master: [slava]
+      - developer: [pvuorela]
+- package-group:
+    team: NFC
+    packages:
+     - name: nfcd
 
 - team:
     name: Non-graphical feedback
