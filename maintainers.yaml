@@ -434,7 +434,7 @@
     name: None
     roles:
       - master: [lbt]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone, kende]
 - package-group:
     team: None
     packages:
