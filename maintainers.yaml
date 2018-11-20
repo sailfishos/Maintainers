@@ -523,7 +523,7 @@
     name: Python 3
     roles:
       - master: [pvuorela]
-      - developer: [MartinK]
+      - developer: [MartinK, kende]
 - package-group:
     team: Python 3
     packages:
