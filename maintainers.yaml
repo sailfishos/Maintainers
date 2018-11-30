@@ -473,6 +473,7 @@
     team: Office
     packages:
      - name: calligra
+     - name: eigen3
 
 - team:
     name: Package management
