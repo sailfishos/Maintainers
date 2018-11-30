@@ -677,6 +677,7 @@
      - name: buteo-sync-plugins-social
      - name: buteo-syncfw
      - name: buteo-syncml
+     - name: libwbxml2
 
 - team:
     name: systemd init system
