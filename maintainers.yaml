@@ -164,7 +164,7 @@
     name: Connectivity
     roles:
       - master: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin]
 - package-group:
     team: Connectivity
     packages:
@@ -172,6 +172,7 @@
      - name: connectionagent
      - name: connman
      - name: crda
+     - name: iproute
      - name: iw
      - name: libconnman-qt
      - name: libdbusaccess
