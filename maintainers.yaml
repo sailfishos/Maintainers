@@ -202,6 +202,7 @@
     packages:
      - name: commhistory-daemon
      - name: contactsd
+     - nema: dirmngr
      - name: libaccounts-glib
      - name: libcommhistory
      - name: libcontacts
