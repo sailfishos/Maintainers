@@ -92,6 +92,7 @@
      - name: libgudev
      - name: libmlocale
      - name: libsoup
+     - name: libtiff
      - name: libxml2
      - name: libxslt
      - name: libyaml
