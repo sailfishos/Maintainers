@@ -449,7 +449,7 @@
     name: None
     roles:
       - master: [lbt]
-      - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone, kende, tomin]
+      - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone, kende, tomin, adenexter]
 - package-group:
     team: None
     packages:
@@ -671,7 +671,7 @@
     name: Synchronization framework (Buteo)
     roles:
       - master: [VDVsx, chriadam, slava]
-      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo]
+      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter]
 - package-group:
     team: Synchronization framework (Buteo)
     packages:
