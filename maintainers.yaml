@@ -623,7 +623,7 @@
     annotation: "SELinux tools and required package management"
     roles:
       - master: [jusa, jlaakkonen]
-      - developer: [frajo]
+      - developer: [frajo, tomin]
 - package-group:
     team: SELinux
     packages:
