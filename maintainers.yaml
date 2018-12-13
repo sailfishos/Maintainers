@@ -49,7 +49,7 @@
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
       - master: [lbt]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, martyone, jusa, chriadam, kende, tomin]
+      - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, martyone, jusa, chriadam, kende, tomin]
 - package-group:
     team: Base Packages
     packages:
@@ -332,7 +332,7 @@
     name: Media indexing
     roles:
       - master: [abranson]
-      - developer: [martyone, mvogt, pvuorela, adenexter, abranson]
+      - developer: [blam, martyone, mvogt, pvuorela, adenexter, abranson]
 - package-group:
     team: Media indexing
     packages:
@@ -340,6 +340,8 @@
      - name: libexif
      - name: libmediaart
      - name: libqtsparql
+     - name: quillimagefilters
+     - name: quillmetadata
      - name: thumbnaild
      - name: tracker
      - name: tumbler
@@ -447,7 +449,7 @@
     name: None
     roles:
       - master: [lbt]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone, kende, tomin]
+      - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone, kende, tomin]
 - package-group:
     team: None
     packages:
@@ -578,7 +580,7 @@
     name: Resource framework
     roles:
       - master: [jusa]
-      - developer: [pvuorela]
+      - developer: [blam, pvuorela]
 - package-group:
     team: Resource framework
     packages:
@@ -654,7 +656,7 @@
     name: Social media
     roles:
       - master: [chriadam, rainemak, pvuorela, jpetrell]
-      - developer: [sfietkonstantin, martinjones, kende]
+      - developer: [blam, sfietkonstantin, martinjones, kende]
 - package-group:
     team: Social media
     packages:
