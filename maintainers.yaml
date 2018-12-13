@@ -340,6 +340,8 @@
      - name: libexif
      - name: libmediaart
      - name: libqtsparql
+     - name: quillimagefilters
+     - name: quillmetadata
      - name: thumbnaild
      - name: tracker
      - name: tumbler
