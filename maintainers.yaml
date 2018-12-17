@@ -110,6 +110,7 @@
      - name: poppler
      - name: psmisc
      - name: pygobject2
+     - name: python
      - name: python-cairo
      - name: python-distro
      - name: python-imaging
