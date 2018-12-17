@@ -166,7 +166,7 @@
     name: Connectivity
     roles:
       - master: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende]
 - package-group:
     team: Connectivity
     packages:
