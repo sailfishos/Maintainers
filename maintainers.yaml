@@ -57,6 +57,7 @@
      - name: augeas
      - name: binutils
      - name: boost
+     - name: bzip2
      - name: cmake
      - name: curl
      - name: cryptsetup
@@ -80,6 +81,7 @@
      - name: gnupg2
      - name: gobject-introspection
      - name: gpgme
+     - name: gzip
      - name: harfbuzz
      - name: icu
      - name: lcms
@@ -119,8 +121,11 @@
      - name: sqlite
      - name: swig
      - name: udisks2
+     - name: unzip
      - name: vala
      - name: volume_key
+     - name: xz
+     - name: zip
      - name: zlib
 
 - team:
