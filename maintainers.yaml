@@ -84,6 +84,7 @@
      - name: gzip
      - name: harfbuzz
      - name: icu
+     - name: kbd
      - name: lcms
      - name: libarchive
      - name: libblockdev
@@ -172,7 +173,7 @@
     name: Connectivity
     roles:
       - master: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, tomin]
 - package-group:
     team: Connectivity
     packages:
@@ -710,7 +711,7 @@
     name: Telepathy
     roles:
       - master: [jbrooks, mvogt, slava]
-      - developer: [chriadam, jpoutiai, jusa, pvuorela, martinjones]
+      - developer: [chriadam, jpoutiai, jusa, pvuorela, martinjones, tomin]
 - package-group:
     team: Telepathy
     packages:
