@@ -491,7 +491,7 @@
     name: Package management
     roles:
       - master: [thp, pycage]
-      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin]
+      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende]
 - package-group:
     team: Package management
     packages:
