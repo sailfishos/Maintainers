@@ -63,8 +63,9 @@
      - name: bzip2
      - name: coreutils
      - name: cmake
-     - name: curl
+     - name: cpio
      - name: cryptsetup
+     - name: curl
      - name: db4
      - name: dconf
      - name: desktop-file-utils
