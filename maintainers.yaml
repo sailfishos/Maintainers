@@ -54,10 +54,14 @@
     team: Base Packages
     packages:
      - name: acl
+     - name: attr
      - name: augeas
+     - name: bash
      - name: binutils
      - name: boost
+     - name: btrfs-progs
      - name: bzip2
+     - name: coreutils
      - name: cmake
      - name: curl
      - name: cryptsetup
@@ -71,6 +75,8 @@
      - name: fontconfig
      - name: freetype
      - name: fribidi
+     - name: gawk
+     - name: gdbm
      - name: giflib
      - name: glibc
      - name: glib-networking
@@ -81,6 +87,7 @@
      - name: gnupg2
      - name: gobject-introspection
      - name: gpgme
+     - name: grep
      - name: gzip
      - name: harfbuzz
      - name: icu
@@ -93,16 +100,20 @@
      - name: libgpg-error
      - name: libgsf
      - name: libgudev
+     - name: libidn
      - name: libmlocale
+     - name: libsndfile
      - name: libsoup
      - name: libtiff
      - name: libxml2
      - name: libxslt
      - name: libyaml
      - name: libzypp
+     - name: lsof
      - name: lzo
      - name: mpc
      - name: mpfr
+     - name: ncurses
      - name: nspr
      - name: nss
      - name: pam
@@ -111,6 +122,7 @@
      - name: perl
      - name: pixman
      - name: poppler
+     - name: prelink
      - name: procps
      - name: psmisc
      - name: pygobject2
@@ -119,9 +131,16 @@
      - name: python-distro
      - name: python-imaging
      - name: ragel
+     - name: readline
+     - name: scons
+     - name: screen
+     - name: sed
      - name: sgml-common
+     - name: shared-mime-info
      - name: sqlite
      - name: swig
+     - name: tar
+     - name: time
      - name: udisks2
      - name: unzip
      - name: vala
@@ -188,6 +207,7 @@
      - name: libgsupplicant
      - name: libnl
      - name: libtasn1
+     - name: net-tools
      - name: openconnect
      - name: openssh
      - name: openssl
@@ -532,7 +552,6 @@
      - name: sbc
      - name: speex
      - name: speexdsp
-
 
 - team:
     name: Python 3
