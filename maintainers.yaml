@@ -485,15 +485,8 @@
     team: None
     packages:
      - name: boost
-     - name: build-compare
-     - name: busybox
-     - name: gdb
-     - name: help2man
      - name: libcontentaction
-     - name: mer-qdoc-template
      - name: pigz
-     - name: repomd-pattern-builder
-     - name: scratchbox2
      - name: sd-utils
      - name: tzdata
      - name: upower
@@ -792,7 +785,14 @@
     packages:
      - name: automake
      - name: build
+     - name: build-compare
+     - name: busybox
+     - name: gdb
+     - name: help2man
      - name: libtool
+     - name: mer-qdoc-template
+     - name: repomd-pattern-builder
+     - name: scratchbox2
 
 - team:
     name: usb
