@@ -57,12 +57,10 @@
      - name: attr
      - name: augeas
      - name: bash
-     - name: binutils
      - name: boost
      - name: btrfs-progs
      - name: bzip2
      - name: coreutils
-     - name: cmake
      - name: cpio
      - name: cryptsetup
      - name: curl
@@ -70,7 +68,6 @@
      - name: dconf
      - name: desktop-file-utils
      - name: diffutils
-     - name: extra-cmake-modules
      - name: e2fsprogs
      - name: file
      - name: findutils
@@ -136,7 +133,6 @@
      - name: python-imaging
      - name: ragel
      - name: readline
-     - name: scons
      - name: screen
      - name: sd-utils
      - name: sed
@@ -151,7 +147,6 @@
      - name: unzip
      - name: upower
      - name: util-linux
-     - name: vala
      - name: volume_key
      - name: xz
      - name: zip
@@ -774,15 +769,20 @@
     team: Toolchain
     packages:
      - name: automake
+     - name: binutils
      - name: build
      - name: build-compare
      - name: busybox
+     - name: cmake
+     - name: extra-cmake-modules
      - name: gdb
      - name: help2man
      - name: libtool
      - name: mer-qdoc-template
      - name: repomd-pattern-builder
      - name: scratchbox2
+     - name: scons
+     - name: vala
 
 - team:
     name: usb
