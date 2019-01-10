@@ -558,7 +558,7 @@
     name: Python 3
     roles:
       - master: [pvuorela]
-      - developer: [MartinK, kende]
+      - developer: [MartinK, kende, tomin]
 - package-group:
     team: Python 3
     packages:
@@ -718,7 +718,7 @@
     name: systemd init system
     roles:
       - master: [mkosola]
-      - developer: [IZh, slava, spiiroin, martyone, kende]
+      - developer: [IZh, slava, spiiroin, martyone, kende, tomin]
 - package-group:
     team: systemd init system
     packages:
@@ -752,7 +752,7 @@
     name: Telephony
     roles:
       - master: [slava, lpotter, jpoutiai]
-      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin]
 - package-group:
     team: Telephony
     packages:
@@ -808,7 +808,7 @@
     name: User management
     roles:
       - master: [thp]
-      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende]
+      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin]
 - package-group:
     team: User management
     packages:
