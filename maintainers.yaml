@@ -786,13 +786,14 @@
     name: Toolchain
     roles:
       - master: [sage]
-      - developer: [IZh, abranson]
+      - developer: [IZh, abranson, kende]
 - package-group:
     team: Toolchain
     packages:
      - name: automake
      - name: build
      - name: libtool
+     - name: qemu-usermode
 
 - team:
     name: usb
