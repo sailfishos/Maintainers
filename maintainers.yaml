@@ -57,12 +57,10 @@
      - name: attr
      - name: augeas
      - name: bash
-     - name: binutils
      - name: boost
      - name: btrfs-progs
      - name: bzip2
      - name: coreutils
-     - name: cmake
      - name: cpio
      - name: cryptsetup
      - name: curl
@@ -70,7 +68,6 @@
      - name: dconf
      - name: desktop-file-utils
      - name: diffutils
-     - name: extra-cmake-modules
      - name: e2fsprogs
      - name: file
      - name: findutils
@@ -97,6 +94,7 @@
      - name: lcms
      - name: libarchive
      - name: libblockdev
+     - name: libcontentaction
      - name: libgcrypt
      - name: libgee
      - name: libgpg-error
@@ -122,6 +120,7 @@
      - name: pango
      - name: pcre
      - name: perl
+     - name: pigz
      - name: pixman
      - name: poppler
      - name: prelink
@@ -134,8 +133,8 @@
      - name: python-imaging
      - name: ragel
      - name: readline
-     - name: scons
      - name: screen
+     - name: sd-utils
      - name: sed
      - name: sgml-common
      - name: shared-mime-info
@@ -143,9 +142,11 @@
      - name: swig
      - name: tar
      - name: time
+     - name: tzdata
      - name: udisks2
      - name: unzip
-     - name: vala
+     - name: upower
+     - name: util-linux
      - name: volume_key
      - name: xz
      - name: zip
@@ -477,29 +478,6 @@
      - name: qt-mobility-haptics-ffmemless
 
 - team:
-    name: None
-    roles:
-      - master: [lbt]
-      - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone, kende, tomin, adenexter]
-- package-group:
-    team: None
-    packages:
-     - name: boost
-     - name: build-compare
-     - name: busybox
-     - name: gdb
-     - name: help2man
-     - name: libcontentaction
-     - name: mer-qdoc-template
-     - name: pigz
-     - name: repomd-pattern-builder
-     - name: scratchbox2
-     - name: sd-utils
-     - name: tzdata
-     - name: upower
-     - name: util-linux
-
-- team:
     name: Office
     roles:
       - master: [pvuorela, chriadam, rainemak]
@@ -791,9 +769,21 @@
     team: Toolchain
     packages:
      - name: automake
+     - name: binutils
      - name: build
+     - name: build-compare
+     - name: busybox
+     - name: cmake
+     - name: extra-cmake-modules
+     - name: gdb
+     - name: help2man
      - name: libtool
+     - name: mer-qdoc-template
      - name: qemu-usermode
+     - name: repomd-pattern-builder
+     - name: scratchbox2
+     - name: scons
+     - name: vala
 
 - team:
     name: usb
