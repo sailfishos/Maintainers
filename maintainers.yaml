@@ -97,6 +97,7 @@
      - name: lcms
      - name: libarchive
      - name: libblockdev
+     - name: libcontentaction
      - name: libgcrypt
      - name: libgee
      - name: libgpg-error
@@ -122,6 +123,7 @@
      - name: pango
      - name: pcre
      - name: perl
+     - name: pigz
      - name: pixman
      - name: poppler
      - name: prelink
@@ -136,6 +138,7 @@
      - name: readline
      - name: scons
      - name: screen
+     - name: sd-utils
      - name: sed
      - name: sgml-common
      - name: shared-mime-info
@@ -143,8 +146,11 @@
      - name: swig
      - name: tar
      - name: time
+     - name: tzdata
      - name: udisks2
      - name: unzip
+     - name: upower
+     - name: util-linux
      - name: vala
      - name: volume_key
      - name: xz
@@ -475,22 +481,6 @@
      - name: libngf-qt
      - name: ngfd
      - name: qt-mobility-haptics-ffmemless
-
-- team:
-    name: None
-    roles:
-      - master: [lbt]
-      - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, chriadam, martyone, kende, tomin, adenexter]
-- package-group:
-    team: None
-    packages:
-     - name: boost
-     - name: libcontentaction
-     - name: pigz
-     - name: sd-utils
-     - name: tzdata
-     - name: upower
-     - name: util-linux
 
 - team:
     name: Office
