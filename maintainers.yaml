@@ -764,7 +764,7 @@
     name: Toolchain
     roles:
       - master: [sage]
-      - developer: [IZh, abranson]
+      - developer: [IZh, abranson, kende]
 - package-group:
     team: Toolchain
     packages:
@@ -779,6 +779,7 @@
      - name: help2man
      - name: libtool
      - name: mer-qdoc-template
+     - name: qemu-usermode
      - name: repomd-pattern-builder
      - name: scratchbox2
      - name: scons
