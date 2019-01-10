@@ -73,6 +73,7 @@
      - name: extra-cmake-modules
      - name: e2fsprogs
      - name: file
+     - name: findutils
      - name: fontconfig
      - name: freetype
      - name: fribidi
