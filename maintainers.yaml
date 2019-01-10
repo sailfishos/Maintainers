@@ -59,6 +59,7 @@
      - name: bash
      - name: boost
      - name: btrfs-progs
+     - name: busybox
      - name: bzip2
      - name: coreutils
      - name: cpio
@@ -772,7 +773,6 @@
      - name: binutils
      - name: build
      - name: build-compare
-     - name: busybox
      - name: cmake
      - name: extra-cmake-modules
      - name: gdb
