@@ -48,8 +48,8 @@
     name: Base Packages
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
-      - master: [lbt]
-      - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, martyone, jusa, chriadam, kende, tomin]
+      - master: []
+      - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin]
 - package-group:
     team: Base Packages
     packages:
@@ -314,8 +314,8 @@
     name: Gnome
     annotation: "GNOME shared dependencies: libraries, frameworks and build tools, primarily used by media components such as tracker, gstreamer etc"
     roles:
-      - master: [lbt, abranson, pvuorela]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, sage, abranson, tomin]
+      - master: [abranson, pvuorela]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, tomin]
 - package-group:
     team: Gnome
     packages:
@@ -773,8 +773,8 @@
 - team:
     name: Toolchain
     roles:
-      - master: [sage]
-      - developer: [IZh, abranson, kende, tomin]
+      - master: [abranson]
+      - developer: [IZh, kende, tomin]
 - package-group:
     team: Toolchain
     packages:
