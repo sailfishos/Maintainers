@@ -7,7 +7,7 @@
 - team:
     name: Application startup boosters
     roles:
-      - master: [jbrooks, thp, chriadam, rainemak]
+      - maintainer: [jbrooks, thp, chriadam, rainemak]
       - developer: [martinjones, slava, pvuorela, adenexter, jpetrell]
 - package-group:
     team: Application startup boosters
@@ -19,7 +19,7 @@
 - team:
     name: applications
     roles:
-     - master: [pvuorela]
+     - maintainer: [pvuorela]
 - package-group:
     team: applications
     packages:
@@ -28,7 +28,7 @@
 - team:
     name: Audio resources
     roles:
-      - master: [jusa]
+      - maintainer: [jusa]
       - developer: [pvuorela]
 - package-group:
     team: Audio resources
@@ -48,7 +48,7 @@
     name: Base Packages
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
-      - master: []
+      - maintainer: []
       - developer: [blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin]
 - package-group:
     team: Base Packages
@@ -160,7 +160,7 @@
 - team:
     name: Bluez
     roles:
-      - master: [blam, jpoutiai]
+      - maintainer: [blam, jpoutiai]
       - developer: [jusa, slava, chriadam]
 - package-group:
     team: Bluez
@@ -176,7 +176,7 @@
 - team:
     name: Bluez5
     roles:
-      - master: [blam, jpoutiai]
+      - maintainer: [blam, jpoutiai]
       - developer: [jusa, slava, chriadam, pvuorela]
 - package-group:
     team: Bluez5
@@ -187,7 +187,7 @@
 - team:
     name: Calendar
     roles:
-      - master: [pvuorela, chriadam]
+      - maintainer: [pvuorela, chriadam]
       - developer: [martinjones]
 - package-group:
     team: Calendar
@@ -199,7 +199,7 @@
 - team:
     name: Connectivity
     roles:
-      - master: [lpotter, tigeli, slava]
+      - maintainer: [lpotter, tigeli, slava]
       - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, tomin]
 - package-group:
     team: Connectivity
@@ -234,7 +234,7 @@
 - team:
     name: Contacts and communication middleware
     roles:
-      - master: [chriadam, mvogt, slava, jbrooks]
+      - maintainer: [chriadam, mvogt, slava, jbrooks]
       - developer: [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende]
 - package-group:
     team: Contacts and communication middleware
@@ -255,7 +255,7 @@
 - team:
     name: Core-Statefs
     roles:
-      - master: [deztructor, martinjones]
+      - maintainer: [deztructor, martinjones]
       - developer: [blam, jusa, mvogt, slava, pvuorela, spiiroin, tomin]
 - package-group:
     team: Core-Statefs
@@ -271,7 +271,7 @@
 - team:
     name: Device state management
     roles:
-      - master: [spiiroin]
+      - maintainer: [spiiroin]
       - developer: [kjokinie, mkosola, slava, pvuorela]
 - package-group:
     team: Device state management
@@ -289,7 +289,7 @@
 - team:
     name: fs
     roles:
-      - master: [mkosola]
+      - maintainer: [mkosola]
 - package-group:
     team: fs
     packages:
@@ -298,7 +298,7 @@
 - team:
     name: Gecko based browser engine
     roles:
-      - master: [rozhkov, rainemak]
+      - maintainer: [rozhkov, rainemak]
       - developer: [jpetrell, chriadam, pvuorela, adenexter, kende]
 - package-group:
     team: Gecko based browser engine
@@ -314,7 +314,7 @@
     name: Gnome
     annotation: "GNOME shared dependencies: libraries, frameworks and build tools, primarily used by media components such as tracker, gstreamer etc"
     roles:
-      - master: [abranson, pvuorela]
+      - maintainer: [abranson, pvuorela]
       - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, tomin]
 - package-group:
     team: Gnome
@@ -340,7 +340,7 @@
 - team:
     name: Hardware adaptation
     roles:
-      - master: [abranson, sledge, slava]
+      - maintainer: [abranson, sledge, slava]
 - package-group:
     team: Hardware adaptation
     packages:
@@ -349,7 +349,7 @@
 - team:
     name: Keyboard input (Maliit)
     roles:
-      - master: [pvuorela]
+      - maintainer: [pvuorela]
       - developer: [martinjones, adenexter]
 - package-group:
     team: Keyboard input (Maliit)
@@ -360,7 +360,7 @@
 - team:
     name: Location
     roles:
-      - master: [pvuorela, chriadam]
+      - maintainer: [pvuorela, chriadam]
 - package-group:
     team: Location
     packages:
@@ -369,7 +369,7 @@
 - team:
     name: Media indexing
     roles:
-      - master: [abranson]
+      - maintainer: [abranson]
       - developer: [blam, martyone, mvogt, pvuorela, adenexter, abranson, tomin]
 - package-group:
     team: Media indexing
@@ -387,7 +387,7 @@
 - team:
     name: Media playback and playlist
     roles:
-      - master: [tanty]
+      - maintainer: [tanty]
       - developer: [pvuorela]
 - package-group:
     team: Media playback and playlist
@@ -402,7 +402,7 @@
 - team:
     name: Middleware QML bindings
     roles:
-      - master: [w00t]
+      - maintainer: [w00t]
       - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo]
 - package-group:
     team: Middleware QML bindings
@@ -432,7 +432,7 @@
     name: Multimedia
     annotation: "GStreamer and associated packages. Codec libraries should appear in here if they are detected and used during the configure phase of a build of Gstreamer or one of its plugins. Note that package here may overlap with pulseaudio's domain, so changes should be verified with that too."
     roles:
-      - master: [abranson]
+      - maintainer: [abranson]
       - developer: [pvuorela, r0kk3rz, tomin]
 - package-group:
     team: Multimedia
@@ -462,7 +462,7 @@
 - team:
     name: NFC
     roles:
-      - master: [slava]
+      - maintainer: [slava]
       - developer: [pvuorela]
 - package-group:
     team: NFC
@@ -472,7 +472,7 @@
 - team:
     name: Non-graphical feedback
     roles:
-      - master: [jusa]
+      - maintainer: [jusa]
       - developer: [adenexter, pvuorela]
 - package-group:
     team: Non-graphical feedback
@@ -486,7 +486,7 @@
 - team:
     name: Office
     roles:
-      - master: [pvuorela, chriadam, rainemak]
+      - maintainer: [pvuorela, chriadam, rainemak]
       - developer: [abranson, adenexter, blam, jpetrell]
 - package-group:
     team: Office
@@ -497,7 +497,7 @@
 - team:
     name: Package management
     roles:
-      - master: [thp, pycage]
+      - maintainer: [thp, pycage]
       - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende]
 - package-group:
     team: Package management
@@ -524,7 +524,7 @@
     name: Pulseaudio
     annotation: "Pulseaudio and related packages, including codecs it uses directly. Note that package here may overlap with Gstreamer's domain, so changes should be verified with other Multimedia packages too."
     roles:
-      - master: [jusa]
+      - maintainer: [jusa]
       - developer: [tomin]
 - package-group:
     team: Pulseaudio
@@ -546,7 +546,7 @@
 - team:
     name: Python 3
     roles:
-      - master: [pvuorela]
+      - maintainer: [pvuorela]
       - developer: [MartinK, kende, tomin]
 - package-group:
     team: Python 3
@@ -561,7 +561,7 @@
 - team:
     name: Qt
     roles:
-      - master: [w00t, rainemak, pvuorela, jpetrell]
+      - maintainer: [w00t, rainemak, pvuorela, jpetrell]
       - developer: [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam, jusa, slava, Kopo, kende]
 - package-group:
     team: Qt
@@ -597,7 +597,7 @@
 - team:
     name: Resource framework
     roles:
-      - master: [jusa]
+      - maintainer: [jusa]
       - developer: [blam, pvuorela]
 - package-group:
     team: Resource framework
@@ -608,7 +608,7 @@
 - team:
     name: Script and Backup
     roles:
-      - master: [blam, deztructor, giucam]
+      - maintainer: [blam, deztructor, giucam]
       - developer: [martinjones, tomin]
 - package-group:
     team: Script and Backup
@@ -623,7 +623,7 @@
 - team:
     name: SDL 2
     roles:
-      - master: [thp]
+      - maintainer: [thp]
       - developer: [adenexter, pvuorela]
 - package-group:
     team: SDL 2
@@ -640,7 +640,7 @@
     name: SELinux
     annotation: "SELinux tools and required package management"
     roles:
-      - master: [jusa, jlaakkonen]
+      - maintainer: [jusa, jlaakkonen]
       - developer: [frajo, tomin]
 - package-group:
     team: SELinux
@@ -663,7 +663,7 @@
 - team:
     name: Sensors
     roles:
-      - master: [lpotter]
+      - maintainer: [lpotter]
       - developer: [slava, martinjones, spiiroin]
 - package-group:
     team: Sensors
@@ -673,7 +673,7 @@
 - team:
     name: Social media
     roles:
-      - master: [chriadam, rainemak, pvuorela, jpetrell]
+      - maintainer: [chriadam, rainemak, pvuorela, jpetrell]
       - developer: [blam, sfietkonstantin, martinjones, kende]
 - package-group:
     team: Social media
@@ -688,7 +688,7 @@
 - team:
     name: Synchronization framework (Buteo)
     roles:
-      - master: [VDVsx, chriadam, slava]
+      - maintainer: [VDVsx, chriadam, slava]
       - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter]
 - package-group:
     team: Synchronization framework (Buteo)
@@ -706,7 +706,7 @@
 - team:
     name: systemd init system
     roles:
-      - master: [mkosola]
+      - maintainer: [mkosola]
       - developer: [IZh, slava, spiiroin, martyone, kende, tomin]
 - package-group:
     team: systemd init system
@@ -720,7 +720,7 @@
 - team:
     name: Telepathy
     roles:
-      - master: [jbrooks, mvogt, slava]
+      - maintainer: [jbrooks, mvogt, slava]
       - developer: [chriadam, jpoutiai, jusa, pvuorela, martinjones, tomin]
 - package-group:
     team: Telepathy
@@ -740,7 +740,7 @@
 - team:
     name: Telephony
     roles:
-      - master: [slava, lpotter, jpoutiai]
+      - maintainer: [slava, lpotter, jpoutiai]
       - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin]
 - package-group:
     team: Telephony
@@ -762,7 +762,7 @@
 - team:
     name: Timed
     roles:
-      - master: [slava]
+      - maintainer: [slava]
       - developer: [slava, giucam, chriadam, spiiroin, pvuorela]
 - package-group:
     team: Timed
@@ -773,7 +773,7 @@
 - team:
     name: Toolchain
     roles:
-      - master: [abranson]
+      - maintainer: [abranson]
       - developer: [IZh, kende, tomin]
 - package-group:
     team: Toolchain
@@ -797,7 +797,7 @@
 - team:
     name: usb
     roles:
-      - master: [phdeswer, jpoutiai, mkosola]
+      - maintainer: [phdeswer, jpoutiai, mkosola]
       - developer: [martinjones, spiiroin, adenexter, rainemak, pvuorela, tomin]
 - package-group:
     team: usb
@@ -808,7 +808,7 @@
 - team:
     name: User management
     roles:
-      - master: [thp]
+      - maintainer: [thp]
       - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin]
 - package-group:
     team: User management
@@ -822,7 +822,7 @@
 - team:
     name: Wayland Compositor
     roles:
-      - master: [w00t]
+      - maintainer: [w00t]
       - developer: [sletta, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa, spiiroin, chriadam]
 - package-group:
     team: Wayland Compositor
@@ -834,7 +834,7 @@
 - team:
     name: Wayland related updates
     roles:
-      - master: [w00t, sletta]
+      - maintainer: [w00t, sletta]
       - developer: [pvuorela]
 - package-group:
     team: Wayland related updates
