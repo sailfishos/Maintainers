@@ -290,9 +290,11 @@
     name: fs
     roles:
       - maintainer: [mkosola]
+      - developer: [frajo]
 - package-group:
     team: fs
     packages:
+     - name: bindfs
      - name: squashfs-tools
 
 - team:
