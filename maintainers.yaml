@@ -29,7 +29,7 @@
     name: Audio resources
     roles:
       - maintainer: [jusa]
-      - developer: [pvuorela]
+      - developer: [pvuorela, tomin]
 - package-group:
     team: Audio resources
     packages:
@@ -66,6 +66,7 @@
      - name: cryptsetup
      - name: curl
      - name: cutes
+     - name: dbus-glib
      - name: db4
      - name: dconf
      - name: desktop-file-utils
@@ -86,6 +87,7 @@
      - name: gmp
      - name: gnome-common
      - name: gnupg2
+     - name: gnutls
      - name: gobject-introspection
      - name: gpgme
      - name: grep
@@ -104,10 +106,13 @@
      - name: libgsf
      - name: libgudev
      - name: libidn
+     - name: libiptcdata
+     - name: libksba
      - name: libmlocale
      - name: libsndfile
      - name: libsoup
      - name: libtiff
+     - name: libusb
      - name: libuser
      - name: libxml2
      - name: libxslt
@@ -141,11 +146,13 @@
      - name: screen
      - name: sd-utils
      - name: sed
+     - name: setup
      - name: sgml-common
      - name: shared-mime-info
      - name: sqlite
      - name: swig
      - name: tar
+     - name: texinfo
      - name: time
      - name: tzdata
      - name: udisks2
@@ -272,7 +279,7 @@
     name: Device state management
     roles:
       - maintainer: [spiiroin]
-      - developer: [kjokinie, mkosola, slava, pvuorela]
+      - developer: [kjokinie, mkosola, slava, pvuorela, tomin]
 - package-group:
     team: Device state management
     packages:
@@ -390,7 +397,7 @@
     name: Media playback and playlist
     roles:
       - maintainer: [tanty]
-      - developer: [pvuorela]
+      - developer: [pvuorela, tomin]
 - package-group:
     team: Media playback and playlist
     packages:
@@ -564,7 +571,7 @@
     name: Qt
     roles:
       - maintainer: [w00t, rainemak, pvuorela, jpetrell]
-      - developer: [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam, jusa, slava, Kopo, kende]
+      - developer: [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam, jusa, slava, Kopo, kende, tomin]
 - package-group:
     team: Qt
     packages:
@@ -600,7 +607,7 @@
     name: Resource framework
     roles:
       - maintainer: [jusa]
-      - developer: [blam, pvuorela]
+      - developer: [blam, pvuorela, tomin]
 - package-group:
     team: Resource framework
     packages:
@@ -626,7 +633,7 @@
     name: SDL 2
     roles:
       - maintainer: [thp]
-      - developer: [adenexter, pvuorela]
+      - developer: [adenexter, pvuorela, tomin]
 - package-group:
     team: SDL 2
     packages:
@@ -691,7 +698,7 @@
     name: Synchronization framework (Buteo)
     roles:
       - maintainer: [VDVsx, chriadam, slava]
-      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter]
+      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter, tomin]
 - package-group:
     team: Synchronization framework (Buteo)
     packages:
@@ -765,7 +772,7 @@
     name: Timed
     roles:
       - maintainer: [slava]
-      - developer: [slava, giucam, chriadam, spiiroin, pvuorela]
+      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin]
 - package-group:
     team: Timed
     packages:
@@ -785,6 +792,7 @@
      - name: build
      - name: build-compare
      - name: cmake
+     - name: elfutils
      - name: extra-cmake-modules
      - name: gdb
      - name: help2man
