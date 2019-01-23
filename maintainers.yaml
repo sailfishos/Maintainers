@@ -106,6 +106,7 @@
      - name: libgsf
      - name: libgudev
      - name: libidn
+     - name: libiodata
      - name: libiptcdata
      - name: libksba
      - name: libmlocale
@@ -207,7 +208,7 @@
     name: Connectivity
     roles:
       - maintainer: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, tomin]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig]
 - package-group:
     team: Connectivity
     packages:
@@ -218,6 +219,7 @@
      - name: iproute
      - name: iptables
      - name: iw
+     - name: libasyncns
      - name: libconnman-qt
      - name: libdbusaccess
      - name: libgsupplicant
@@ -308,7 +310,7 @@
     name: Gecko based browser engine
     roles:
       - maintainer: [rozhkov, rainemak]
-      - developer: [jpetrell, chriadam, pvuorela, adenexter, kende]
+      - developer: [jpetrell, chriadam, pvuorela, adenexter, kende, tomin]
 - package-group:
     team: Gecko based browser engine
     packages:
