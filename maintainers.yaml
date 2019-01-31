@@ -399,7 +399,7 @@
     name: Media playback and playlist
     roles:
       - maintainer: [tanty]
-      - developer: [pvuorela, tomin]
+      - developer: [pvuorela, tomin, kende]
 - package-group:
     team: Media playback and playlist
     packages:
