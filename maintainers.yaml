@@ -621,7 +621,7 @@
     name: Script and Backup
     roles:
       - maintainer: [blam, deztructor, giucam]
-      - developer: [martinjones, tomin]
+      - developer: [martinjones, tomin, kende]
 - package-group:
     team: Script and Backup
     packages:
