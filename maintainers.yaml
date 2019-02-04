@@ -381,7 +381,7 @@
     name: Media indexing
     roles:
       - maintainer: [abranson]
-      - developer: [blam, martyone, mvogt, pvuorela, adenexter, abranson, tomin]
+      - developer: [blam, martyone, mvogt, pvuorela, adenexter, abranson, tomin, rainemak]
 - package-group:
     team: Media indexing
     packages:
