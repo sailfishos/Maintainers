@@ -29,7 +29,7 @@
     name: Audio resources
     roles:
       - maintainer: [jusa]
-      - developer: [pvuorela, tomin]
+      - developer: [pvuorela, tomin, kende]
 - package-group:
     team: Audio resources
     packages:
