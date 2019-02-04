@@ -775,7 +775,7 @@
     name: Timed
     roles:
       - maintainer: [slava]
-      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin]
+      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin, rainemak]
 - package-group:
     team: Timed
     packages:
