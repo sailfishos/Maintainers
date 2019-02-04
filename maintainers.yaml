@@ -196,7 +196,7 @@
     name: Calendar
     roles:
       - maintainer: [pvuorela, chriadam]
-      - developer: [martinjones, kende]
+      - developer: [martinjones, kende, rainemak]
 - package-group:
     team: Calendar
     packages:
