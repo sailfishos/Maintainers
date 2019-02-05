@@ -444,7 +444,7 @@
     annotation: "GStreamer and associated packages. Codec libraries should appear in here if they are detected and used during the configure phase of a build of Gstreamer or one of its plugins. Note that package here may overlap with pulseaudio's domain, so changes should be verified with that too."
     roles:
       - maintainer: [abranson]
-      - developer: [pvuorela, r0kk3rz, tomin]
+      - developer: [pvuorela, r0kk3rz, tomin, kende]
 - package-group:
     team: Multimedia
     packages:
@@ -455,6 +455,7 @@
      - name: gst-plugins-good
      - name: gstreamer
      - name: qtmultimedia
+     - name: nemo-gst-interfaces
      - name: nemo-qtmultimedia-plugins
      - name: opus
      - name: libjpeg-turbo
