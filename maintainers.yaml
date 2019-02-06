@@ -622,12 +622,13 @@
     name: Script and Backup
     roles:
       - maintainer: [blam, deztructor, giucam]
-      - developer: [martinjones, tomin, kende]
+      - developer: [martinjones, tomin, kende, pvuorela]
 - package-group:
     team: Script and Backup
     packages:
      - name: archivemount
      - name: cutes-js
+     - name: git
      - name: gittin
      - name: qtaround
      - name: the-vault
