@@ -8,7 +8,7 @@
     name: Application startup boosters
     roles:
       - maintainer: [jbrooks, thp, chriadam, rainemak]
-      - developer: [martinjones, slava, pvuorela, adenexter, jpetrell]
+      - developer: [martinjones, slava, pvuorela, adenexter, jpetrell, kende]
 - package-group:
     team: Application startup boosters
     packages:
@@ -406,6 +406,7 @@
      - name: grilo
      - name: grilo-plugins
      - name: qtgrilo
+     - name: qtmpris
      - name: rygel
      - name: taglib
      - name: totem-pl-parser
