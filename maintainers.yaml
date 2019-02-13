@@ -839,7 +839,7 @@
     name: Wayland Compositor
     roles:
       - maintainer: [w00t]
-      - developer: [sletta, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa, spiiroin, chriadam]
+      - developer: [blam, sletta, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa, spiiroin, chriadam]
 - package-group:
     team: Wayland Compositor
     packages:
