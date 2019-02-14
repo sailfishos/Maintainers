@@ -160,6 +160,7 @@
      - name: unzip
      - name: upower
      - name: util-linux
+     - name: vim
      - name: volume_key
      - name: xz
      - name: zip
