@@ -416,7 +416,7 @@
     name: Middleware QML bindings
     roles:
       - maintainer: [w00t]
-      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo]
+      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo, tomin]
 - package-group:
     team: Middleware QML bindings
     packages:
