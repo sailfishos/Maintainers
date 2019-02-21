@@ -705,7 +705,7 @@
     name: Synchronization framework (Buteo)
     roles:
       - maintainer: [VDVsx, chriadam, slava]
-      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter, tomin]
+      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter, tomin, kende]
 - package-group:
     team: Synchronization framework (Buteo)
     packages:
