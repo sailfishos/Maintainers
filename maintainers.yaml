@@ -209,7 +209,7 @@
     name: Connectivity
     roles:
       - maintainer: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz]
 - package-group:
     team: Connectivity
     packages:
@@ -416,7 +416,7 @@
     name: Middleware QML bindings
     roles:
       - maintainer: [w00t]
-      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo, tomin]
+      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo, tomin, inz]
 - package-group:
     team: Middleware QML bindings
     packages:
@@ -737,7 +737,7 @@
     name: Telepathy
     roles:
       - maintainer: [jbrooks, mvogt, slava]
-      - developer: [chriadam, jpoutiai, jusa, pvuorela, martinjones, tomin, rainemak]
+      - developer: [chriadam, jpoutiai, jusa, pvuorela, martinjones, tomin, rainemak, inz]
 - package-group:
     team: Telepathy
     packages:
@@ -757,7 +757,7 @@
     name: Telephony
     roles:
       - maintainer: [slava, lpotter, jpoutiai]
-      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz]
 - package-group:
     team: Telephony
     packages:
