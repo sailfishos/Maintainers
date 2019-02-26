@@ -95,6 +95,7 @@
      - name: harfbuzz
      - name: icu
      - name: kbd
+     - name: kernel-headers
      - name: lcms
      - name: libarchive
      - name: libblockdev
