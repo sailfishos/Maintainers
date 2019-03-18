@@ -170,7 +170,7 @@
 - team:
     name: Bluez
     roles:
-      - maintainer: [blam, jpoutiai]
+      - maintainer: [blam]
       - developer: [jusa, slava, chriadam]
 - package-group:
     team: Bluez
@@ -186,7 +186,7 @@
 - team:
     name: Bluez5
     roles:
-      - maintainer: [blam, jpoutiai]
+      - maintainer: [blam]
       - developer: [jusa, slava, chriadam, pvuorela]
 - package-group:
     team: Bluez5
@@ -246,7 +246,7 @@
     name: Contacts and communication middleware
     roles:
       - maintainer: [chriadam, mvogt, slava, jbrooks]
-      - developer: [rbraakman, jpetrell, martinjones, rainemak, jpoutiai, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende]
+      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende]
 - package-group:
     team: Contacts and communication middleware
     packages:
@@ -738,7 +738,7 @@
     name: Telepathy
     roles:
       - maintainer: [jbrooks, mvogt, slava]
-      - developer: [chriadam, jpoutiai, jusa, pvuorela, martinjones, tomin, rainemak, inz]
+      - developer: [chriadam, jusa, pvuorela, martinjones, tomin, rainemak, inz]
 - package-group:
     team: Telepathy
     packages:
@@ -757,7 +757,7 @@
 - team:
     name: Telephony
     roles:
-      - maintainer: [slava, lpotter, jpoutiai]
+      - maintainer: [slava, lpotter]
       - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz]
 - package-group:
     team: Telephony
@@ -815,7 +815,7 @@
 - team:
     name: usb
     roles:
-      - maintainer: [phdeswer, jpoutiai, mkosola]
+      - maintainer: [phdeswer, mkosola]
       - developer: [martinjones, spiiroin, adenexter, rainemak, pvuorela, tomin]
 - package-group:
     team: usb
