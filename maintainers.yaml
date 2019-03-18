@@ -49,7 +49,7 @@
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
       - maintainer: []
-      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin]
+      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal]
 - package-group:
     team: Base Packages
     packages:
@@ -641,7 +641,7 @@
     name: SDL 2
     roles:
       - maintainer: [thp]
-      - developer: [adenexter, pvuorela, tomin]
+      - developer: [adenexter, pvuorela, tomin, mal]
 - package-group:
     team: SDL 2
     packages:
@@ -853,7 +853,7 @@
     name: Wayland related updates
     roles:
       - maintainer: [w00t, sletta]
-      - developer: [pvuorela]
+      - developer: [pvuorela, mal]
 - package-group:
     team: Wayland related updates
     packages:
