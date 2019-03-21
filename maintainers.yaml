@@ -246,7 +246,7 @@
     name: Contacts and communication middleware
     roles:
       - maintainer: [chriadam, mvogt, slava, jbrooks]
-      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende]
+      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende, inz]
 - package-group:
     team: Contacts and communication middleware
     packages:
