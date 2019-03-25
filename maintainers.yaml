@@ -49,7 +49,7 @@
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
       - maintainer: []
-      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal]
+      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal, mord]
 - package-group:
     team: Base Packages
     packages:
@@ -328,7 +328,7 @@
     annotation: "GNOME shared dependencies: libraries, frameworks and build tools, primarily used by media components such as tracker, gstreamer etc"
     roles:
       - maintainer: [abranson, pvuorela]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, tomin]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, tomin, mord]
 - package-group:
     team: Gnome
     packages:
@@ -401,7 +401,7 @@
     name: Media playback and playlist
     roles:
       - maintainer: [tanty]
-      - developer: [pvuorela, tomin, kende]
+      - developer: [pvuorela, tomin, kende, mord]
 - package-group:
     team: Media playback and playlist
     packages:
@@ -758,7 +758,7 @@
     name: Telephony
     roles:
       - maintainer: [slava, lpotter]
-      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, mord]
 - package-group:
     team: Telephony
     packages:
