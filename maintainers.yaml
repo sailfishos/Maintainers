@@ -111,6 +111,7 @@
      - name: libiptcdata
      - name: libksba
      - name: libmlocale
+     - name: librest
      - name: libsndfile
      - name: libsoup
      - name: libtiff
