@@ -454,6 +454,7 @@
     packages:
      - name: cairo
      - name: flac
+     - name: ffmpeg
      - name: gst-plugins-bad
      - name: gst-plugins-base
      - name: gst-plugins-good
