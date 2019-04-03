@@ -793,7 +793,7 @@
     name: Toolchain
     roles:
       - maintainer: [abranson]
-      - developer: [IZh, kende, tomin]
+      - developer: [IZh, kende, tomin, mord]
 - package-group:
     team: Toolchain
     packages:
