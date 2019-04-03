@@ -101,6 +101,7 @@
      - name: libblockdev
      - name: libcap
      - name: libcontentaction
+     - name: libedit
      - name: libgcrypt
      - name: libgee
      - name: libgpg-error
