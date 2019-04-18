@@ -330,7 +330,7 @@
     annotation: "GNOME shared dependencies: libraries, frameworks and build tools, primarily used by media components such as tracker, gstreamer etc"
     roles:
       - maintainer: [abranson, pvuorela]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, tomin, mord]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, tomin, mord, mal]
 - package-group:
     team: Gnome
     packages:
@@ -566,7 +566,7 @@
     name: Python 3
     roles:
       - maintainer: [pvuorela]
-      - developer: [MartinK, kende, tomin]
+      - developer: [MartinK, kende, tomin, mal]
 - package-group:
     team: Python 3
     packages:
@@ -574,6 +574,8 @@
      - name: python3
      - name: python3-cairo
      - name: python3-gobject
+     - name: python-mako
+     - name: python-markupsafe
      - name: libzypp-bindings
      - name: swig
 
@@ -581,7 +583,7 @@
     name: Qt
     roles:
       - maintainer: [w00t, rainemak, pvuorela, jpetrell, chriadam]
-      - developer: [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam, jusa, slava, Kopo, kende, tomin]
+      - developer: [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam, jusa, slava, Kopo, kende, tomin, mal]
 - package-group:
     team: Qt
     packages:
@@ -684,7 +686,7 @@
     name: Sensors
     roles:
       - maintainer: [lpotter]
-      - developer: [slava, martinjones, spiiroin, kende]
+      - developer: [slava, martinjones, spiiroin, kende, mal]
 - package-group:
     team: Sensors
     packages:
