@@ -574,6 +574,8 @@
      - name: python3
      - name: python3-cairo
      - name: python3-gobject
+     - name: python-mako
+     - name: python-markupsafe
      - name: libzypp-bindings
      - name: swig
 
