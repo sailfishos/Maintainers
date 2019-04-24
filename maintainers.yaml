@@ -729,7 +729,7 @@
     name: systemd init system
     roles:
       - maintainer: [mkosola]
-      - developer: [IZh, slava, spiiroin, martyone, kende, tomin, rainemak]
+      - developer: [IZh, slava, spiiroin, martyone, kende, tomin, rainemak, mord]
 - package-group:
     team: systemd init system
     packages:
