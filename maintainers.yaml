@@ -212,7 +212,7 @@
     name: Connectivity
     roles:
       - maintainer: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz, jusa, mord]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz, jusa, mord, bolek]
 - package-group:
     team: Connectivity
     packages:
@@ -796,7 +796,7 @@
     name: Toolchain
     roles:
       - maintainer: [abranson]
-      - developer: [IZh, kende, tomin, mord]
+      - developer: [IZh, kende, tomin, mord, bolek]
 - package-group:
     team: Toolchain
     packages:
