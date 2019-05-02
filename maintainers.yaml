@@ -49,7 +49,7 @@
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
       - maintainer: []
-      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal, mord, vige]
+      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal, mord, vige, ballock]
 - package-group:
     team: Base Packages
     packages:
@@ -212,7 +212,7 @@
     name: Connectivity
     roles:
       - maintainer: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz, jusa, mord, bolek, vige]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz, jusa, mord, ballock, vige]
 - package-group:
     team: Connectivity
     packages:
@@ -796,7 +796,7 @@
     name: Toolchain
     roles:
       - maintainer: [abranson]
-      - developer: [IZh, kende, tomin, mord, bolek]
+      - developer: [IZh, kende, tomin, mord, ballock]
 - package-group:
     team: Toolchain
     packages:
