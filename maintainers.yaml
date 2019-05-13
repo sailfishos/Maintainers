@@ -248,7 +248,7 @@
     name: Contacts and communication middleware
     roles:
       - maintainer: [chriadam, mvogt, slava, jbrooks]
-      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende, inz, flypig]
+      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende, inz, flypig, Venemo]
 - package-group:
     team: Contacts and communication middleware
     packages:
@@ -419,7 +419,7 @@
     name: Middleware QML bindings
     roles:
       - maintainer: [w00t, chriadam]
-      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo, tomin, inz]
+      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo, tomin, inz, Venemo]
 - package-group:
     team: Middleware QML bindings
     packages:
@@ -711,7 +711,7 @@
     name: Synchronization framework (Buteo)
     roles:
       - maintainer: [VDVsx, chriadam, slava]
-      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter, tomin, kende]
+      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter, tomin, kende, Venemo]
 - package-group:
     team: Synchronization framework (Buteo)
     packages:
