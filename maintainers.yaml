@@ -821,7 +821,7 @@
     name: usb
     roles:
       - maintainer: [phdeswer, mkosola]
-      - developer: [martinjones, spiiroin, adenexter, rainemak, pvuorela, tomin]
+      - developer: [martinjones, spiiroin, adenexter, rainemak, pvuorela, tomin, MikeSalmela]
 - package-group:
     team: usb
     packages:
