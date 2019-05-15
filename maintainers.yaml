@@ -285,7 +285,7 @@
     name: Device state management
     roles:
       - maintainer: [spiiroin]
-      - developer: [kjokinie, mkosola, slava, pvuorela, tomin, kende]
+      - developer: [kjokinie, mkosola, slava, pvuorela, tomin, kende, MikeSalmela]
 - package-group:
     team: Device state management
     packages:
