@@ -314,7 +314,7 @@
     name: Gecko based browser engine
     roles:
       - maintainer: [rozhkov, rainemak]
-      - developer: [jpetrell, chriadam, pvuorela, adenexter, kende, tomin]
+      - developer: [jpetrell, chriadam, pvuorela, adenexter, kende, tomin, MikeSalmela]
 - package-group:
     team: Gecko based browser engine
     packages:
