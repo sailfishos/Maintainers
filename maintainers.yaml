@@ -706,6 +706,7 @@
      - name: libaccounts-qt5
      - name: libsocialcache
      - name: nemo-qml-plugin-signon
+     - name: signon-plugin-oauth2
 
 - team:
     name: Synchronization framework (Buteo)
