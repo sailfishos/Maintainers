@@ -449,7 +449,7 @@
     annotation: "GStreamer and associated packages. Codec libraries should appear in here if they are detected and used during the configure phase of a build of Gstreamer or one of its plugins. Note that package here may overlap with pulseaudio's domain, so changes should be verified with that too."
     roles:
       - maintainer: [abranson]
-      - developer: [pvuorela, r0kk3rz, tomin, kende]
+      - developer: [pvuorela, r0kk3rz, tomin, kende, MikeSalmela]
 - package-group:
     team: Multimedia
     packages:
@@ -516,7 +516,7 @@
     name: Package management
     roles:
       - maintainer: [thp, pycage]
-      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende]
+      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende, MikeSalmela]
 - package-group:
     team: Package management
     packages:
@@ -630,7 +630,7 @@
     name: Script and Backup
     roles:
       - maintainer: [blam, deztructor, giucam]
-      - developer: [martinjones, tomin, kende, pvuorela]
+      - developer: [martinjones, tomin, kende, pvuorela, MikeSalmela]
 - package-group:
     team: Script and Backup
     packages:
@@ -730,7 +730,7 @@
     name: systemd init system
     roles:
       - maintainer: [mkosola]
-      - developer: [IZh, slava, spiiroin, martyone, kende, tomin, rainemak, mord]
+      - developer: [IZh, slava, spiiroin, martyone, kende, tomin, rainemak, mord, MikeSalmela]
 - package-group:
     team: systemd init system
     packages:
