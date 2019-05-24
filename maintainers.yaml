@@ -516,7 +516,7 @@
     name: Package management
     roles:
       - maintainer: [thp, pycage]
-      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende, MikeSalmela]
+      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende, MikeSalmela, mord]
 - package-group:
     team: Package management
     packages:
