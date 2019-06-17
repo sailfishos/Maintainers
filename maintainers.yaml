@@ -129,6 +129,7 @@
      - name: ncurses
      - name: nspr
      - name: nss
+     - name: oneshot
      - name: pam
      - name: pango
      - name: passwd
