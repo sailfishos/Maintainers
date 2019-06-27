@@ -213,7 +213,7 @@
     name: Connectivity
     roles:
       - maintainer: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz, jusa, mord, ballock, vige]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz, jusa, mord, ballock, vige, MikeSalmela]
 - package-group:
     team: Connectivity
     packages:
