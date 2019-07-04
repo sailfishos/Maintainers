@@ -662,7 +662,7 @@
     name: SELinux
     annotation: "SELinux tools and required package management"
     roles:
-      - maintainer: [jusa, jlaakkonen]
+      - maintainer: [jusa, jlaakkonen, ballock]
       - developer: [frajo, tomin]
 - package-group:
     team: SELinux
