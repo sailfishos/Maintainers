@@ -545,7 +545,7 @@
     annotation: "Pulseaudio and related packages, including codecs it uses directly. Note that package here may overlap with Gstreamer's domain, so changes should be verified with other Multimedia packages too."
     roles:
       - maintainer: [jusa]
-      - developer: [tomin]
+      - developer: [tomin, kende]
 - package-group:
     team: Pulseaudio
     packages:
