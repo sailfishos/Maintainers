@@ -174,7 +174,7 @@
     name: Bluez
     roles:
       - maintainer: [blam]
-      - developer: [jusa, slava, chriadam]
+      - developer: [jusa, slava, chriadam, MikeSalmela]
 - package-group:
     team: Bluez
     packages:
@@ -190,7 +190,7 @@
     name: Bluez5
     roles:
       - maintainer: [blam]
-      - developer: [jusa, slava, chriadam, pvuorela]
+      - developer: [jusa, slava, chriadam, pvuorela, MikeSalmela]
 - package-group:
     team: Bluez5
     packages:
@@ -270,7 +270,7 @@
     name: Core-Statefs
     roles:
       - maintainer: [deztructor, martinjones]
-      - developer: [blam, jusa, mvogt, slava, pvuorela, spiiroin, tomin]
+      - developer: [blam, jusa, mvogt, slava, pvuorela, spiiroin, tomin, MikeSalmela]
 - package-group:
     team: Core-Statefs
     packages:
@@ -545,7 +545,7 @@
     annotation: "Pulseaudio and related packages, including codecs it uses directly. Note that package here may overlap with Gstreamer's domain, so changes should be verified with other Multimedia packages too."
     roles:
       - maintainer: [jusa]
-      - developer: [tomin, kende]
+      - developer: [tomin, kende, MikeSalmela]
 - package-group:
     team: Pulseaudio
     packages:
@@ -765,7 +765,7 @@
     name: Telephony
     roles:
       - maintainer: [slava, lpotter]
-      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, mord]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, mord, MikeSalmela]
 - package-group:
     team: Telephony
     packages:
