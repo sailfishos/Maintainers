@@ -8,7 +8,7 @@
     name: Application startup boosters
     roles:
       - maintainer: [jbrooks, thp, chriadam, rainemak]
-      - developer: [martinjones, slava, pvuorela, adenexter, jpetrell, kende]
+      - developer: [martinjones, slava, pvuorela, adenexter, jpetrell, kende, MikeSalmela]
 - package-group:
     team: Application startup boosters
     packages:
@@ -29,7 +29,7 @@
     name: Audio resources
     roles:
       - maintainer: [jusa]
-      - developer: [pvuorela, tomin, kende]
+      - developer: [pvuorela, tomin, kende, MikeSalmela]
 - package-group:
     team: Audio resources
     packages:
@@ -420,7 +420,7 @@
     name: Middleware QML bindings
     roles:
       - maintainer: [w00t, chriadam]
-      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo, tomin, inz, Venemo, flypig]
+      - developer: [jbrooks, phdeswer, mvogt, martinjones, blam, pvuorela, VDVsx, aseppala, spiiroin, adenexter, chriadam, deztructor, jpetrell, kananoja, slava, rainemak, abranson, Kopo, tomin, inz, Venemo, flypig, MikeSalmela]
 - package-group:
     team: Middleware QML bindings
     packages:
@@ -482,7 +482,7 @@
     name: NFC
     roles:
       - maintainer: [slava]
-      - developer: [pvuorela]
+      - developer: [pvuorela, MikeSalmela]
 - package-group:
     team: NFC
     packages:
@@ -834,7 +834,7 @@
     name: User management
     roles:
       - maintainer: [thp]
-      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin]
+      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin, MikeSalmela]
 - package-group:
     team: User management
     packages:
