@@ -49,7 +49,7 @@
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
       - maintainer: []
-      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal, mord, vige, ballock, MikeSalmela]
+      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal, mord, vige, ballock, MikeSalmela, Venemo]
 - package-group:
     team: Base Packages
     packages:
@@ -140,6 +140,7 @@
      - name: poppler
      - name: prelink
      - name: procps
+     - name: protobuf
      - name: psmisc
      - name: pygobject2
      - name: python
