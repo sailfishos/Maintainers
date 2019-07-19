@@ -260,6 +260,7 @@
      - name: libaccounts-glib
      - name: libcommhistory
      - name: libcontacts
+     - name: libphonenumber
      - name: messagingframework
      - name: qmf-notifications-plugin
      - name: qtcontacts-sqlite
