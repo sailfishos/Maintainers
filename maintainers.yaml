@@ -250,7 +250,7 @@
     name: Contacts and communication middleware
     roles:
       - maintainer: [chriadam, mvogt, slava, jbrooks]
-      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende, inz, flypig, Venemo]
+      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende, inz, flypig, Venemo, MikeSalmela]
 - package-group:
     team: Contacts and communication middleware
     packages:
@@ -494,7 +494,7 @@
     name: Non-graphical feedback
     roles:
       - maintainer: [jusa]
-      - developer: [adenexter, pvuorela]
+      - developer: [adenexter, pvuorela, MikeSalmela]
 - package-group:
     team: Non-graphical feedback
     packages:
@@ -623,7 +623,7 @@
     name: Resource framework
     roles:
       - maintainer: [jusa]
-      - developer: [blam, pvuorela, tomin]
+      - developer: [blam, pvuorela, tomin, MikeSalmela]
 - package-group:
     team: Resource framework
     packages:
@@ -700,7 +700,7 @@
     name: Social media
     roles:
       - maintainer: [chriadam, rainemak, pvuorela, jpetrell]
-      - developer: [blam, sfietkonstantin, martinjones, kende, mord]
+      - developer: [blam, sfietkonstantin, martinjones, kende, mord, MikeSalmela]
 - package-group:
     team: Social media
     packages:
@@ -716,7 +716,7 @@
     name: Synchronization framework (Buteo)
     roles:
       - maintainer: [VDVsx, chriadam, slava]
-      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter, tomin, kende, Venemo]
+      - developer: [aseppala, rbraakman, blam, sfietkonstantin, martyone, spiiroin, pvuorela, rainemak, martinjones, mvogt, Kopo, adenexter, tomin, kende, Venemo, MikeSalmela]
 - package-group:
     team: Synchronization framework (Buteo)
     packages:
