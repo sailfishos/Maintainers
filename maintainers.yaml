@@ -812,6 +812,7 @@
      - name: cmake
      - name: elfutils
      - name: extra-cmake-modules
+     - name: gcc
      - name: gdb
      - name: help2man
      - name: libtool
