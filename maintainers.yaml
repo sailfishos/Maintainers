@@ -633,7 +633,7 @@
 - team:
     name: Script and Backup
     roles:
-      - maintainer: [blam, deztructor, giucam]
+      - maintainer: [blam, deztructor, giucam, rainemak]
       - developer: [martinjones, tomin, kende, pvuorela, MikeSalmela]
 - package-group:
     team: Script and Backup
