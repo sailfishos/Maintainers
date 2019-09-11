@@ -339,14 +339,17 @@
     team: Gnome
     packages:
      - name: dconf
+     - name: gdk-pixbuf
      - name: glib2
      - name: glib-networking
      - name: gnome-common
      - name: gobject-introspection
+     - name: libcroco
      - name: libgdata
      - name: libgee
      - name: libgsf
      - name: libmediaart
+     - name: librsvg
      - name: libsoup
      - name: libxslt
      - name: meson
