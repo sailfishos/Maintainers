@@ -49,7 +49,7 @@
     annotation: "These should be standard tools and libraries that we don't really modify (so there's no sane maintainer) and which form part of the core OS. Ideally this group will be kept as small as possible so packages can be managed by a Maintainer who understands the context."
     roles:
       - maintainer: []
-      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal, mord, vige, ballock, MikeSalmela, Venemo]
+      - developer: [adenexter, blam, kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, martyone, jusa, chriadam, kende, tomin, mal, vige, ballock, MikeSalmela, Venemo]
 - package-group:
     team: Base Packages
     packages:
@@ -215,7 +215,7 @@
     name: Connectivity
     roles:
       - maintainer: [lpotter, tigeli, slava]
-      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz, jusa, mord, ballock, vige, MikeSalmela]
+      - developer: [hmallat, amccarthy, martinjones, mvogt, rainemak, pvuorela, chriadam, adenexter, jlaakkonen, abranson, tomin, kende, flypig, inz, jusa, ballock, vige, MikeSalmela]
 - package-group:
     team: Connectivity
     packages:
@@ -334,7 +334,7 @@
     annotation: "GNOME shared dependencies: libraries, frameworks and build tools, primarily used by media components such as tracker, gstreamer etc"
     roles:
       - maintainer: [abranson, pvuorela]
-      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, tomin, mord, mal]
+      - developer: [kjokinie, pvuorela, rainemak, slava, IZh, jpetrell, abranson, tomin, mal]
 - package-group:
     team: Gnome
     packages:
@@ -410,7 +410,7 @@
     name: Media playback and playlist
     roles:
       - maintainer: [tanty]
-      - developer: [pvuorela, tomin, kende, mord]
+      - developer: [pvuorela, tomin, kende]
 - package-group:
     team: Media playback and playlist
     packages:
@@ -523,7 +523,7 @@
     name: Package management
     roles:
       - maintainer: [thp, pycage]
-      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende, MikeSalmela, mord]
+      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende, MikeSalmela]
 - package-group:
     team: Package management
     packages:
@@ -574,7 +574,7 @@
     name: Python 3
     roles:
       - maintainer: [pvuorela]
-      - developer: [MartinK, kende, tomin, mal, mord]
+      - developer: [MartinK, kende, tomin, mal]
 - package-group:
     team: Python 3
     packages:
@@ -704,7 +704,7 @@
     name: Social media
     roles:
       - maintainer: [chriadam, rainemak, pvuorela, jpetrell]
-      - developer: [blam, sfietkonstantin, martinjones, kende, mord, MikeSalmela]
+      - developer: [blam, sfietkonstantin, martinjones, kende, MikeSalmela]
 - package-group:
     team: Social media
     packages:
@@ -738,7 +738,7 @@
     name: systemd init system
     roles:
       - maintainer: [mkosola]
-      - developer: [IZh, slava, spiiroin, martyone, kende, tomin, rainemak, mord, MikeSalmela]
+      - developer: [IZh, slava, spiiroin, martyone, kende, tomin, rainemak, MikeSalmela]
 - package-group:
     team: systemd init system
     packages:
@@ -772,7 +772,7 @@
     name: Telephony
     roles:
       - maintainer: [slava, lpotter]
-      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, mord, MikeSalmela]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, MikeSalmela]
 - package-group:
     team: Telephony
     packages:
@@ -794,7 +794,7 @@
     name: Timed
     roles:
       - maintainer: [slava]
-      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin, rainemak, mord]
+      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin, rainemak]
 - package-group:
     team: Timed
     packages:
@@ -805,7 +805,7 @@
     name: Toolchain
     roles:
       - maintainer: [abranson]
-      - developer: [IZh, kende, tomin, mord, ballock, martyone]
+      - developer: [IZh, kende, tomin, ballock, martyone]
 - package-group:
     team: Toolchain
     packages:
