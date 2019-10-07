@@ -856,7 +856,7 @@
     name: Wayland Compositor
     roles:
       - maintainer: [w00t]
-      - developer: [blam, sletta, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa, spiiroin, chriadam, flypig, slava]
+      - developer: [blam, sletta, Venemo, adenexter, giucam, jbrooks, thp, jpetrell, martinjones, mvogt, mikkoh, kananoja, rainemak, pvuorela, jusa, spiiroin, chriadam, flypig, slava, frajo]
 - package-group:
     team: Wayland Compositor
     packages:
