@@ -566,6 +566,7 @@
      - name: pulseaudio
      - name: pulseaudio-modules-nemo
      - name: pulseaudio-policy-enforcement
+     - name: pulseaudio-module-keepalive
      - name: sbc
      - name: speex
      - name: speexdsp
