@@ -129,7 +129,6 @@
      - name: mpc
      - name: mpfr
      - name: ncurses
-     - name: nettle 
      - name: nspr
      - name: nss
      - name: oneshot
