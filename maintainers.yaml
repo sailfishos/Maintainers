@@ -113,6 +113,7 @@
      - name: libiptcdata
      - name: libksba
      - name: libmlocale
+     - name: libpsl
      - name: librest
      - name: libsndfile
      - name: libsoup
@@ -128,7 +129,6 @@
      - name: mpc
      - name: mpfr
      - name: ncurses
-     - name: nettle 
      - name: nspr
      - name: nss
      - name: oneshot
