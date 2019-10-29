@@ -843,13 +843,14 @@
 - team:
     name: User management
     roles:
-      - maintainer: [thp]
+      - maintainer: [thp, rainemak]
       - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin, MikeSalmela]
 - package-group:
     team: User management
     packages:
      - name: libshadowutils
      - name: password-manager
+     - name: sailfish-access-control
      - name: shadow-utils
      - name: ssu
      - name: ssu-sysinfo
