@@ -252,7 +252,7 @@
     name: Contacts and communication middleware
     roles:
       - maintainer: [chriadam, mvogt, slava, jbrooks]
-      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende, inz, flypig, Venemo, MikeSalmela]
+      - developer: [rbraakman, jpetrell, martinjones, rainemak, jusa, pvuorela, blam, adenexter, abranson, Kopo, kende, inz, flypig, Venemo, MikeSalmela, tomin]
 - package-group:
     team: Contacts and communication middleware
     packages:
