@@ -740,7 +740,7 @@
     name: systemd init system
     roles:
       - maintainer: [mkosola]
-      - developer: [IZh, slava, spiiroin, martyone, kende, tomin, rainemak, MikeSalmela]
+      - developer: [IZh, slava, spiiroin, martyone, kende, tomin, rainemak, MikeSalmela, jusa]
 - package-group:
     team: systemd init system
     packages:
