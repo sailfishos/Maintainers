@@ -72,6 +72,7 @@
      - name: desktop-file-utils
      - name: diffutils
      - name: e2fsprogs
+     - name: expat
      - name: file
      - name: findutils
      - name: fontconfig
