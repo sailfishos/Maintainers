@@ -389,6 +389,7 @@
     team: Location
     packages:
      - name: geoclue
+     - name: gpsd
 
 - team:
     name: Media indexing
