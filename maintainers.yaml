@@ -776,7 +776,7 @@
     name: Telephony
     roles:
       - maintainer: [slava, lpotter]
-      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, MikeSalmela]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, MikeSalmela, kende]
 - package-group:
     team: Telephony
     packages:
