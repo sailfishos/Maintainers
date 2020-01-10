@@ -65,7 +65,6 @@
      - name: cpio
      - name: cryptsetup
      - name: curl
-     - name: cutes
      - name: dbus-glib
      - name: db4
      - name: dconf
@@ -98,7 +97,6 @@
      - name: icu
      - name: kbd
      - name: kernel-headers
-     - name: lcms
      - name: libarchive
      - name: libblockdev
      - name: libcap
@@ -153,7 +151,6 @@
      - name: ragel
      - name: readline
      - name: screen
-     - name: sd-utils
      - name: sed
      - name: setup
      - name: sgml-common
@@ -162,7 +159,6 @@
      - name: swig
      - name: tar
      - name: texinfo
-     - name: time
      - name: tzdata
      - name: udisks2
      - name: unzip
@@ -241,7 +237,6 @@
      - name: openvpn
      - name: p11-kit
      - name: pacrunner
-     - name: pacrunner-cutes
      - name: ppp
      - name: pptp
      - name: vpnc
@@ -539,7 +534,6 @@
      - name: libzypp-bindings
      - name: lua
      - name: meego-rpm-config
-     - name: nemo-osupdate
      - name: pkgconfig
      - name: polkit-qt-1
      - name: qml-rpm-macros
@@ -584,8 +578,6 @@
     packages:
      - name: pyotherside
      - name: python3
-     - name: python3-cairo
-     - name: python3-gobject
      - name: python-mako
      - name: python-markupsafe
      - name: libzypp-bindings
@@ -647,9 +639,7 @@
     team: Script and Backup
     packages:
      - name: archivemount
-     - name: cutes-js
      - name: git
-     - name: gittin
      - name: qtaround
      - name: the-vault
      - name: vault
@@ -714,7 +704,6 @@
     packages:
      - name: libsailfishkeyprovider
      - name: libsignon
-     - name: libsignon-qt5
      - name: libaccounts-qt5
      - name: libsocialcache
      - name: nemo-qml-plugin-signon
@@ -865,7 +854,6 @@
 - package-group:
     team: Wayland Compositor
     packages:
-     - name: eventfeed
      - name: lipstick
      - name: xdg-utils
 
