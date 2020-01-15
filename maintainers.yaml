@@ -379,7 +379,7 @@
 - team:
     name: Location
     roles:
-      - maintainer: [pvuorela, chriadam]
+      - maintainer: [pvuorela, chriadam, blam]
 - package-group:
     team: Location
     packages:
@@ -787,7 +787,7 @@
     name: Timed
     roles:
       - maintainer: [slava]
-      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin, rainemak]
+      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin, rainemak, blam]
 - package-group:
     team: Timed
     packages:
