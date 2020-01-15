@@ -130,6 +130,7 @@
      - name: ncurses
      - name: nspr
      - name: nss
+     - name: nss-pem
      - name: oneshot
      - name: pam
      - name: pango
