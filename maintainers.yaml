@@ -436,6 +436,7 @@
      - name: nemo-qml-plugin-configuration
      - name: nemo-qml-plugin-connectivity
      - name: nemo-qml-plugin-contacts
+     - name: nemo-qml-plugin-contextkit
      - name: nemo-qml-plugin-dbus
      - name: nemo-qml-plugin-devicelock
      - name: nemo-qml-plugin-email
