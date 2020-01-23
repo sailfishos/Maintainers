@@ -456,7 +456,7 @@
     annotation: "GStreamer and associated packages. Codec libraries should appear in here if they are detected and used during the configure phase of a build of Gstreamer or one of its plugins. Note that package here may overlap with pulseaudio's domain, so changes should be verified with that too."
     roles:
       - maintainer: [abranson]
-      - developer: [pvuorela, r0kk3rz, tomin, kende, MikeSalmela, mal, rainemak]
+      - developer: [pvuorela, r0kk3rz, tomin, kende, MikeSalmela, mal, rainemak, jusa]
 - package-group:
     team: Multimedia
     packages:
@@ -523,7 +523,7 @@
     name: Package management
     roles:
       - maintainer: [thp, pycage]
-      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende, MikeSalmela]
+      - developer: [martinjones, pvuorela, abranson, rainemak, chriadam, adenexter, blam, jpetrell, martyone, tomin, kende, MikeSalmela, jusa]
 - package-group:
     team: Package management
     packages:
@@ -574,7 +574,7 @@
     name: Python 3
     roles:
       - maintainer: [pvuorela]
-      - developer: [MartinK, kende, tomin, mal]
+      - developer: [MartinK, kende, tomin, mal, jusa]
 - package-group:
     team: Python 3
     packages:
@@ -800,7 +800,7 @@
     name: Toolchain
     roles:
       - maintainer: [abranson]
-      - developer: [IZh, kende, tomin, ballock, martyone]
+      - developer: [IZh, kende, tomin, ballock, martyone, jusa]
 - package-group:
     team: Toolchain
     packages:
@@ -837,7 +837,7 @@
     name: User management
     roles:
       - maintainer: [thp, rainemak]
-      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin, MikeSalmela]
+      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin, MikeSalmela, jusa]
 - package-group:
     team: User management
     packages:
