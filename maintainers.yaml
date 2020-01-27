@@ -393,7 +393,7 @@
     name: Media indexing
     roles:
       - maintainer: [abranson]
-      - developer: [blam, martyone, mvogt, pvuorela, adenexter, abranson, tomin, rainemak]
+      - developer: [blam, martyone, mvogt, pvuorela, adenexter, abranson, tomin, rainemak, mal]
 - package-group:
     team: Media indexing
     packages:
@@ -411,7 +411,7 @@
     name: Media playback and playlist
     roles:
       - maintainer: [tanty]
-      - developer: [pvuorela, tomin, kende, abranson]
+      - developer: [pvuorela, tomin, kende, abranson, mal]
 - package-group:
     team: Media playback and playlist
     packages:
