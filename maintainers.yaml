@@ -114,6 +114,7 @@
      - name: libmlocale
      - name: libpsl
      - name: librest
+     - name: libseccomp
      - name: libsndfile
      - name: libsoup
      - name: libtiff
@@ -342,6 +343,7 @@
      - name: glib-networking
      - name: gnome-common
      - name: gobject-introspection
+     - name: json-glib
      - name: libcroco
      - name: libgdata
      - name: libgee
@@ -463,6 +465,7 @@
      - name: cairo
      - name: flac
      - name: ffmpeg
+     - name: gst-libav
      - name: gst-plugins-bad
      - name: gst-plugins-base
      - name: gst-plugins-good
