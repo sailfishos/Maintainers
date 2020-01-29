@@ -803,7 +803,7 @@
     name: Toolchain
     roles:
       - maintainer: [abranson]
-      - developer: [IZh, kende, tomin, ballock, martyone, jusa]
+      - developer: [IZh, kende, tomin, ballock, martyone, jusa, mal]
 - package-group:
     team: Toolchain
     packages:
