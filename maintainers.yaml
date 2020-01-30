@@ -639,7 +639,7 @@
     name: Script and Backup
     roles:
       - maintainer: [blam, deztructor, giucam, rainemak]
-      - developer: [martinjones, tomin, kende, pvuorela, MikeSalmela]
+      - developer: [martinjones, tomin, kende, pvuorela, MikeSalmela, markolem]
 - package-group:
     team: Script and Backup
     packages:
