@@ -112,6 +112,7 @@
      - name: libiptcdata
      - name: libksba
      - name: libmlocale
+     - name: libpciaccess
      - name: libpsl
      - name: librest
      - name: libseccomp
