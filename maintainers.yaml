@@ -645,7 +645,6 @@
     team: Script and Backup
     packages:
      - name: archivemount
-     - name: git
      - name: qtaround
      - name: the-vault
      - name: vault
