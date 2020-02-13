@@ -770,7 +770,7 @@
     name: Telephony
     roles:
       - maintainer: [slava, lpotter]
-      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, MikeSalmela, kende]
+      - developer: [martinjones, martyone, jpetrell, tigeli, jusa, chriadam, tomin, inz, MikeSalmela, kende, flypig]
 - package-group:
     team: Telephony
     packages:
