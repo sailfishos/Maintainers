@@ -584,6 +584,8 @@
     packages:
      - name: pyotherside
      - name: python3
+     - name: python3-lxml
+     - name: python3-yaml
      - name: python-mako
      - name: python-markupsafe
      - name: libzypp-bindings
