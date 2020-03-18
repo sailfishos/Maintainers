@@ -516,7 +516,7 @@
     name: Office
     roles:
       - maintainer: [pvuorela, chriadam, rainemak]
-      - developer: [abranson, adenexter, blam, jpetrell]
+      - developer: [abranson, adenexter, blam, jpetrell, flypig]
 - package-group:
     team: Office
     packages:
