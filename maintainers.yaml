@@ -78,6 +78,7 @@
      - name: freetype
      - name: fribidi
      - name: fuse
+     - name: fuse3
      - name: gawk
      - name: gdbm
      - name: giflib
