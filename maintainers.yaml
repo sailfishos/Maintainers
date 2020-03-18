@@ -147,6 +147,7 @@
      - name: procps
      - name: protobuf
      - name: psmisc
+     - name: pyfuse3
      - name: pygobject2
      - name: python
      - name: python-cairo
