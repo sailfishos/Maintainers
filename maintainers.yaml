@@ -147,7 +147,6 @@
      - name: procps
      - name: protobuf
      - name: psmisc
-     - name: pyfuse3
      - name: pygobject2
      - name: python
      - name: python-cairo
@@ -586,7 +585,14 @@
     packages:
      - name: pyotherside
      - name: python3
+     - name: python3-async-generator
+     - name: python3-attrs
+     - name: python3-fuse3
+     - name: python3-idna
      - name: python3-lxml
+     - name: python3-outcome
+     - name: python3-sniffio
+     - name: python3-sortedcontainers
      - name: python3-yaml
      - name: python-mako
      - name: python-markupsafe
