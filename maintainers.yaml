@@ -593,6 +593,7 @@
      - name: python3-outcome
      - name: python3-sniffio
      - name: python3-sortedcontainers
+     - name: python3-trio
      - name: python3-yaml
      - name: python-mako
      - name: python-markupsafe
