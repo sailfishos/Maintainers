@@ -604,7 +604,7 @@
     name: Qt
     roles:
       - maintainer: [w00t, rainemak, pvuorela, jpetrell, chriadam]
-      - developer: [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam, jusa, slava, Kopo, kende, tomin, mal, flypig, spiiroin, Venemo]
+      - developer: [sletta, martinjones, mikkoh, giucam, lpotter, jpetrell, adenexter, rainemak, mvogt, pvuorela, blam, chriadam, jusa, slava, Kopo, kende, tomin, mal, flypig, spiiroin, Venemo, vige]
 - package-group:
     team: Qt
     packages:
