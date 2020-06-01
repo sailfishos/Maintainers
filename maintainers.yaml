@@ -407,6 +407,7 @@
      - name: quillmetadata
      - name: thumbnaild
      - name: tracker
+     - name: tracker-miners
      - name: tumbler
 
 - team:
