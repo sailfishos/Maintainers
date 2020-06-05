@@ -403,12 +403,10 @@
      - name: libexif
      - name: libmediaart
      - name: libqtsparql
-     - name: quillimagefilters
      - name: quillmetadata
      - name: thumbnaild
      - name: tracker
      - name: tracker-miners
-     - name: tumbler
 
 - team:
     name: Media playback and playlist
@@ -798,7 +796,6 @@
      - name: mobile-broadband-provider-info
      - name: ofono
      - name: provisioning-service
-     - name: tone-generator
 
 - team:
     name: Timed
