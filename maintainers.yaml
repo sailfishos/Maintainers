@@ -875,7 +875,7 @@
     name: Wayland related updates
     roles:
       - maintainer: [w00t, sletta]
-      - developer: [pvuorela, mal]
+      - developer: [pvuorela, mal, rainemak]
 - package-group:
     team: Wayland related updates
     packages:
