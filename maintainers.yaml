@@ -839,7 +839,7 @@
     name: usb
     roles:
       - maintainer: [phdeswer, mkosola]
-      - developer: [martinjones, spiiroin, adenexter, rainemak, pvuorela, tomin, MikeSalmela]
+      - developer: [martinjones, spiiroin, adenexter, rainemak, pvuorela, tomin, MikeSalmela, kende]
 - package-group:
     team: usb
     packages:
