@@ -93,6 +93,7 @@
      - name: gnutls
      - name: gobject-introspection
      - name: gpgme
+     - name: graphite2
      - name: grep
      - name: gzip
      - name: harfbuzz
