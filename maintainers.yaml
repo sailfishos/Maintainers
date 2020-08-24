@@ -599,6 +599,8 @@
      - name: python3-yaml
      - name: python-mako
      - name: python-markupsafe
+     - name: python-twisted
+     - name: python-zope-interface
      - name: libzypp-bindings
      - name: swig
 
