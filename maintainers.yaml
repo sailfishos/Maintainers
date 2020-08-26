@@ -854,7 +854,7 @@
     name: User management
     roles:
       - maintainer: [thp, rainemak]
-      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin, MikeSalmela, jusa]
+      - developer: [jpetrell, pvuorela, rainemak, spiiroin, IZh, martyone, slava, kende, tomin, MikeSalmela, jusa, ballock]
 - package-group:
     team: User management
     packages:
