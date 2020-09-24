@@ -765,7 +765,7 @@
     name: Telepathy
     roles:
       - maintainer: [jbrooks, mvogt, slava]
-      - developer: [chriadam, jusa, pvuorela, martinjones, tomin, rainemak, inz]
+      - developer: [chriadam, jusa, pvuorela, martinjones, tomin, rainemak, inz, markolem]
 - package-group:
     team: Telepathy
     packages:
