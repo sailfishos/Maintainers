@@ -121,6 +121,7 @@
      - name: libseccomp
      - name: libsndfile
      - name: libsoup
+     - name: libsystrace
      - name: libtiff
      - name: libusb
      - name: libuser
@@ -880,7 +881,7 @@
     name: Wayland related updates
     roles:
       - maintainer: [w00t, sletta]
-      - developer: [pvuorela, mal, rainemak]
+      - developer: [pvuorela, mal, rainemak, tomin]
 - package-group:
     team: Wayland related updates
     packages:
