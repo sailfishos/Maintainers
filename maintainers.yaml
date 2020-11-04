@@ -656,7 +656,7 @@
     name: Script and Backup
     roles:
       - maintainer: [blam, deztructor, giucam, rainemak]
-      - developer: [martinjones, tomin, kende, pvuorela, MikeSalmela, markolem]
+      - developer: [martinjones, tomin, kende, pvuorela, MikeSalmela, markolem, flypig]
 - package-group:
     team: Script and Backup
     packages:
