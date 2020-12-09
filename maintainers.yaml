@@ -209,7 +209,7 @@
     name: Calendar
     roles:
       - maintainer: [pvuorela, chriadam]
-      - developer: [martinjones, kende, rainemak, adenexter, flypig]
+      - developer: [martinjones, kende, rainemak, adenexter, flypig, blam]
 - package-group:
     team: Calendar
     packages:
