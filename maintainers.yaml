@@ -741,6 +741,7 @@
      - name: buteo-mtp
      - name: buteo-sync-plugin-caldav
      - name: buteo-sync-plugin-carddav
+     - name: buteo-sync-plugin-webcal
      - name: buteo-sync-plugins
      - name: buteo-sync-plugins-email
      - name: buteo-sync-plugins-social
