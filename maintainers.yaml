@@ -809,7 +809,7 @@
     name: Timed
     roles:
       - maintainer: [slava]
-      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin, rainemak, blam]
+      - developer: [slava, giucam, chriadam, spiiroin, pvuorela, tomin, rainemak, blam, adenexter]
 - package-group:
     team: Timed
     packages:
