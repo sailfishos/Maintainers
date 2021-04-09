@@ -380,7 +380,7 @@
     name: Keyboard input (Maliit)
     roles:
       - maintainer: [pvuorela]
-      - developer: [martinjones, adenexter]
+      - developer: [martinjones, adenexter, spiiroin]
 - package-group:
     team: Keyboard input (Maliit)
     packages:
