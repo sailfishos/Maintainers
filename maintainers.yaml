@@ -332,9 +332,10 @@
      - name: embedlite-components
      - name: embedlite-components-search-engines
      - name: gecko-dev
+     - name: hunspell
+     - name: nasm
      - name: qtmozembed
      - name: yasm
-     - name: hunspell
 
 - team:
     name: Gnome
