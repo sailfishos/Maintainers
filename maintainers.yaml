@@ -722,7 +722,7 @@
     name: Social media
     roles:
       - maintainer: [chriadam, rainemak, pvuorela, jpetrell]
-      - developer: [blam, sfietkonstantin, martinjones, kende, MikeSalmela]
+      - developer: [blam, sfietkonstantin, martinjones, kende, MikeSalmela, tomin]
 - package-group:
     team: Social media
     packages:
