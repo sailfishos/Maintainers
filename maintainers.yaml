@@ -8,7 +8,7 @@
     name: Application startup boosters
     roles:
       - maintainer: [jbrooks, thp, chriadam, rainemak]
-      - developer: [martinjones, slava, pvuorela, adenexter, jpetrell, kende, MikeSalmela, abranson, tomin]
+      - developer: [martinjones, slava, pvuorela, adenexter, jpetrell, kende, MikeSalmela, abranson, tomin, spiiroin]
 - package-group:
     team: Application startup boosters
     packages:
